@@ -1,0 +1,1188 @@
+﻿Record,OAR or Target,Fractions,Intent,Primary Site,Volume,Volume Deviation,PRV,Dose,Dose Deviation,Conversion,α/β,Protocol,Landmark Pub,Importance,Paper #1 Title,Paper #1 Link,Paper #2 Title,Paper #2 Link,Notes
+1,Brain,Conventional,General,,Whole,,,50 Gy,,,3,,QUANTEC,,,,,,
+2,Brain,Conventional,General,,Partial,,,60 Gy,72 Gy,,3,,QUANTEC,,,,,,Symptomatic necrosis for 60 / 72 / 90 Gy Dmax of < 3→ 5→ 10% (TD 5/5 = 72 Gy)
+3,Brain,3,General,,30.2 cc,,,18 Gy,,,3,,HyTEC,,,,Intact Minniti IJROBP '16,http://www.redjournal.org/article/S0360-3016(16)00325-4/fulltext,
+4,Brain,5,General,,16 cc,,,25 Gy,,,3,,,,Andruska RTO '20,https://pubmed.ncbi.nlm.nih.gov/33310010/,,,
+5,Brain,1,Intact,,10 cc,,,12 Gy,,,3,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,QUANTEC",,,,,,V12 < 5-10 cc with < 20% symptomatic necrosis.
+6,Brain,3,Postop,,16.8 cc,,,24 Gy,,,3,,,,Post-op,https://www.ncbi.nlm.nih.gov/pubmed/23683828,,,
+7,Brain,1,General,,8.0 cc,8.5 cc,,12 Gy,,,3,,,,Blonigen IJROBP '10,https://www.sciencedirect.com/science/article/pii/S0360301609008566?via%3Dihub,Minniti Rad Onc '11,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3108308/pdf/1748-717X-6-48.pdf,"Limit V12 to 8-8.5 cc, otherwise consider hypofractionated treatment"
+8,Brain,5,Postop,,0.05 cc,,,33.5 Gy,,,3,,,,Tanenbaum PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/23683828,,,Hot spots within the surgical cavity do not appear to matter.
+9,Brain,3,General,,7 cc,,,23 Gy,,,3,,HyTEC,,,,,,
+10,Brain,5,General,,10 cc,10.5 cc,,30 Gy,,,3,,,,Faruqi IJROBP '20,https://www.sciencedirect.com/science/article/pii/S0360301619344761?via%3Dihub,Andruska RTO '20,https://pubmed.ncbi.nlm.nih.gov/33310010/,
+11,Brain,Conventional,General,,1 cc,,,58 Gy,,,3,,DAHANCA,Should,,,,,
+12,Brain,Conventional,General,,Max,,,68 Gy,,,3,,DAHANCA,Should,,,,,
+13,Brain,1,General,,50%,,,5 Gy,,,3,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,QUANTEC",,,,,,
+14,Brainstem,Conventional,General,,0.03 cc,,,54 Gy,,,2,,QUANTEC,,,,,,Permanent cranial neuropathy or necrosis for < 5% for 59 Gy to 1-10 cc. The risk increases markedly at doses > 64 Gy.
+15,Brainstem,Conventional,General,,0.03 cc,,0.3 cm,60 Gy,,,2,RTOG 0825,DAHANCA,Absolute,,,,,
+16,Brainstem,Conventional,General,,1 cc,10 cc,,59 Gy,,,2,,QUANTEC,,,,,,
+17,Brainstem,1,General,,Max,,,15 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+18,Brainstem,1,General,,1 cc,,,12 Gy,,,2,,QUANTEC,,,,,,12.5 Gy with < 5% permanent cranial neuropathy or necrosis.
+19,Brainstem,1,General,,0.1 cc,0.5 cc,,10 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+20,Brainstem,3,General,,Max,,,23.1 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+21,Brainstem,3,General,,0.1 cc,0.5 cc,,18 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+22,Brainstem,5,General,,Max,,,31 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+23,Brainstem,5,General,,0.1 cc,0.5 cc,,23 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+24,Brainstem,10,General,,Max,,,40.5 Gy,,,2,,,,Needs source,,,,
+25,Brainstem,10,General,,0.5 cc,,,29.4 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+26,Brainstem,Conventional,General,,Max,,,55 Gy,60 Gy,,2,RTOG 0539,,,,,,,Permanent cranial neuropathy or necrosis for < 5% for 59 Gy to 1-10 cc. The risk increases markedly at doses > 64 Gy.
+27,Brainstem,Conventional,General,H&N,0.03 cc,,0.3 cm,52 Gy,,,2,RTOG 1016,,,,,,,
+28,Cord,Conventional,General,,Max,,,44.6 Gy,,EQD2,2,,HyTEC,,,,,,Note: Initial SRS/SBRT constraints were based off of 45 Gy conventional fractionation to the cord. This is despite Quantec data that demonstrates ≤ 1% RM for cord Dmax ≤ 54 Gy with conventional fractionation.
+29,Cord,Conventional,General,"H&N,NSCLC,Pediatrics",Max,,,45 Gy,,,2,"RTOG 0617,RTOG 1308,ARST 1431",DAHANCA,Absolute,,,,,
+30,Cord,BID,Intact,,Max,,,36 Gy,,,2,,,,Turrisi NEJM '99,https://www.nejm.org/doi/10.1056/NEJM199901283400403?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov,,,
+31,Cord,BID,Intact,,Max,,,41 Gy,,,2,,,,CALGB 30610/RTOG 0538,,,,
+32,Cord,1,General,,Max,,,22.7 Gy,,,2,,HyTEC,,Daly IJROBP '11,https://pubmed.ncbi.nlm.nih.gov/21481724/,,,
+33,Cord,Conventional,General,,Max,,0.5 cm,50 Gy,,,2,,DAHANCA,Absolute,,,,,
+34,Cord,1,General,,Max,,,12.4 Gy,14 Gy,,2,"RTOG 0915,RTOG 0631","HyTEC,TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,Timmerman,QUANTEC",,,,,,13 Gy with < 1% incidence of myelopathy.
+35,Cord,1,General,,0.1 cc,0.35 cc,,10 Gy,,,2,"RTOG 0915,BR002,RTOG 0631","UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,Timmerman",,,,,,
+36,Cord,1,General,,10%,,,10 Gy,,,2,RTOG 0631,,,,,,,Percentage applies to subvolume of cord (e.g. 5-6 mm above and below lesion).
+37,Cord,1,General,,1.2 cc,,,7 Gy,8 Gy,,2,RTOG 0915,"TG-101,Timmerman",,,,,,
+38,Cord,1,General,,1 cc,5 cc,,7 Gy,,,2,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,HyTEC",,,,,,
+39,Cord,3,General,,0.1 cc,0.35 cc,,18 Gy,,,2,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,
+40,Cord,3,General,,1.2 cc,,,12.3 Gy,13 Gy,,2,BR002,"Timmerman,TG-101",,,,,,
+41,Cord,3,General,,10%,,,18 Gy,,,2,,TG-101,,,,,,
+42,Cord,3,General,,1 cc,,,12.3 Gy,,,2,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+43,Cord,3,General,,Max,,,22.5 Gy,,,2,BR002,Timmerman,,,,,,
+44,Cord,3,General,,Max,,,21.9 Gy,,,2,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+45,Cord,3,General,,Max,,,20.3 Gy,,,2,,HyTEC,,,,,,Note: Initial SRS/SBRT constraints were based off of 45 Gy conventional fractionation to the cord. This is despite Quantec data that demonstrates ≤ 1% RM for cord Dmax ≤ 54 Gy with conventional fractionation.
+46,Cord,5,General,,Max,,0.3 cm,32 Gy,,,2,SUNSET,,,,,,,
+47,Cord,5,General,,1.2 cc,,,14.5 Gy,15.6 Gy,,2,BR002,"Timmerman,TG-101",,,,,,
+48,Cord,5,General,,0.1 cc,0.35 cc,,22 Gy,23 Gy,,2,BR002,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,Timmerman,TG-101",,,,,,
+49,Cord,5,General,,Max,,,25.3 Gy,,,2,,HyTEC,,,,,,Note: Initial SRS/SBRT constraints were based off of 45 Gy conventional fractionation to the cord. This is despite Quantec data that demonstrates ≤ 1% RM for cord Dmax ≤ 54 Gy with conventional fractionation.
+50,Cord,5,General,,Max,,,28 Gy,,,2,BR002,,,,,,,
+51,Cord,5,General,,10%,,,23 Gy,,,2,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,Percentages apply to subvolume of cord (e.g. 5-6 mm above and below lesion).
+52,Cord,5,General,,1 cc,,,14.5 Gy,,,2,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+53,Cord,5,General,,Max,,,30 Gy,,,2,"SUNSET,RTOG 0813","TG-101,Timmerman",,,,,,
+54,Cord,5,General,,0.5 cc,,,13.5 Gy,,,2,RTOG 0813,,,,,,,
+55,Cord,8,General,,Max,,,36.5 Gy,,Extrapolation,2,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+56,Cord,8,General,,0.5 cc,,,32 Gy,,,2,LungTECH,HyTEC,,,,,,
+57,Cord,8,General,,Max,,,28 Gy,,,2,,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+58,Cord,8,General,,0.5 cc,,,15.5 Gy,,Extrapolation,2,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+59,Cord,8,General,,Max,,0.3 cm,34 Gy,,,2,SUNSET,,,,,,,
+60,Cord,8,General,,0.25 cc,,,27 Gy,,Extrapolation,2,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+61,Cord,8,General,,0.1 cc,,,32 Gy,,,2,SUNSET,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+62,Cord,10,General,,Max,,,40 Gy,,,2,RTOG 0813,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+63,Cord,10,General,,Max,,,34 Gy,,,2,RTOG 0438,,,,,,,
+64,Cord,10,General,,0.35 cc,,,29.4 Gy,,,2,,,,,,,,
+65,Cord,10,General,,0.1 cc,,,32 Gy,,,2,SUNSET,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+66,Cord,10,General,,1.0 cc,,,35 Gy,,,2,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+67,Cord,10,General,,Max,,0.3 cm,34 Gy,,,2,SUNSET,,,,,,,
+68,Cord,10,General,,1.2 cc,,,17.9 Gy,,,2,,,,,,,,
+69,Cord,15-16,General,,Max,,0.3 cm,42 Gy,,,2,SUNSET,,,,,,,
+70,Cord,15-16,General,Pancreas,Max,,,30 Gy,,,2,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+71,Cord,15-16,General,,Max,,,39.5 Gy,,,2,SUNSET,,,,,,,
+72,Cord,15-16,General,,Max,,,33 Gy,35 Gy,,2,,,,NCIC CTV BR.25,https://academic.oup.com/jnci/article/106/8/dju164/910382,,,
+73,Cord,15-16,General,,Max,,0.3 cm,40.2 Gy,43.9 Gy,,2,NRG LU004,,,,,,,
+74,Cord,15-16,General,,Max,,,36.5 Gy,40.2 Gy,,2,NRG LU004,,,,,,,
+75,Cord,Conventional,General,,Max,,,54 Gy,,,2,,QUANTEC,,,,,,"Spinal cord myelopathy rates at 5y for 50 / 54 / 60 / 69 Gy Dmax of 0.2→ 1→ 6→ 50% (TD 5/5 50 Gy for 10 cm length, 55 Gy for 5 cm length; TD 50/5 70 Gy)."
+76,Cord,5,General,,0.25 cc,,,22.5 Gy,,,2,RTOG 0813,,,,,,,
+77,Cord,2,General,,Max,,0.2 cm,17 Gy,,,2,SC.24,,,,,,,
+1167,Cord,Conventional,General,Pediatrics,Max,,,50.4 Gy,,,,AEWS 1031,,,,,,,
+78,Optic Chiasm,Conventional,General,,Max,,,54 Gy,55 Gy,,,,"DAHANCA,QUANTEC",Must,,,,,Optic neuropathy rates for 55 / 60 / 60+ Gy Dmax of 3→ 7→ 7-20%.
+79,Optic Chiasm,Conventional,General,,Max,,0.3 cm,60 Gy,,,,,"DAHANCA,QUANTEC",Must,,,,,Optic neuropathy rates for 55 / 60 / 60+ Gy Dmax of 3→ 7→ 7-20%.
+80,Optic Chiasm,1,General,,Max,,,10 Gy,12 Gy,,,,"TG-101,QUANTEC",,Pollock NS '14,https://academic.oup.com/neurosurgery/article-abstract/75/4/456/2447765?redirectedFrom=fulltext,Mayo IJROBP '10,https://www.sciencedirect.com/science/article/abs/pii/S0360301609032842?via%3Dihub,12 Gy with 10% incidence of optic neuropathy. 12 Gy is considered ballsy.
+81,Optic Chiasm,1,General,,0.1 cc,0.2 cc,,8 Gy,,,,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,"Very low < 8 Gy, 12 Gy < 10%, >10% for 12-15 Gy "
+82,Optic Chiasm,3,General,,Max,,,17.4 Gy,,,,,TG-101,,,,,,
+83,Optic Chiasm,3,General,,0.1 cc,,,15 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+84,Optic Chiasm,3,General,,0.2 cc,,,15.3 Gy,,,,,TG-101,,,,,,
+85,Optic Chiasm,5,General,,Max,,,25 Gy,,,,,TG-101,,,,,,
+86,Optic Chiasm,5,General,,0.2 cc,,,23 Gy,,,,,TG-101,,,,,,
+87,Optic Chiasm,5,General,,0.1 cc,,,22.5 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+88,Optic Chiasm,10,General,,Max,,,32.2 Gy,,,,,,,,,,,
+89,Optic Chiasm,10,General,,0.2 cc,,,29.4 Gy,,,,,,,,,,,
+90,Optic Chiasm,Conventional,General,Meningioma,0.03 cc,,,54 Gy,56 Gy,,,RTOG 0539,,,,,,,Optic neuropathy rates for 55 / 60 / 60+ Gy Dmax of 3→ 7→ 7-20%.
+91,Optic Chiasm,Conventional,General,"Pediatrics,Meningioma",0.03 cc,,,46.8 Gy,54 Gy,,,"RTOG 0539,ARST 1431",,,,,,,Optic neuropathy rates for 55 / 60 / 60+ Gy Dmax of 3→ 7→ 7-20%.
+1165,Optic Chiasm,Conventional,General,Pediatrics,100%,,,54 Gy,,,,AEWS 1031,,,,,,,
+92,Optic Nerve,Conventional,General,Meningioma,0.03 cc,,,50 Gy,55 Gy,,,RTOG 0539,,,,,,,Optic neuropathy rates for 55 / 60 / 60+ Gy Dmax of 3→ 7→ 7-20%.
+1172,Optic Nerve,Conventional,General,Pediatrics,100%,,,54 Gy,,,,AEWS 1031,,,,,,,
+93,Cochlea,1,General,,Max,,,9 Gy,,,,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101,QUANTEC",,Mendenhall JNS '96,https://thejns.org/view/journals/j-neurosurg/85/6/article-p1013.xml,Combs IJROBP '10,https://www.redjournal.org/article/S0360-3016(09)00208-9/fulltext,14 Gy with < 25% incidence of SNHL (similar to 45/25). Limit prescription dose to 12-14 Gy to preserve hearing.
+94,Cochlea,5,General,,Max,,,25 Gy,,,,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,
+95,Cochlea,3,General,,Max,,,17.1 Gy,,,,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,
+96,Cochlea,1,General,,Mean,,,4 Gy,,,,,,,,,,,
+97,Cochlea,10,General,,Max,,,32.2 Gy,,,,,,,,,,,
+98,Cochlea,Conventional,General,,5%,,,55 Gy,60 Gy,,,,DAHANCA,Should,,,,,
+99,Cochlea,Conventional,General,,Mean,,,45 Gy,50 Gy,,,,DAHANCA,Should,,,,,
+100,Cochlea,Conventional,General,,Max,,,45 Gy,55 Gy,,,,QUANTEC,,,,,,Risk of SNHL for mean cochlear dose of 45 Gy < 30% (similar to 14/1). 
+101,Cochlea,5,Re-irradiation,,Mean,,,15 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+102,Cochlea,Conventional,General,Pediatrics,Mean,,,35 Gy,,,,,,,Yock ASTRO '19,https://www.eventscribe.com/2019/ASTRO/fsPopup.asp?Mode=presInfo&PresentationID=559439,,,Risk of SNHL for mean cochlear dose of 45 Gy < 30% (similar to 14/1). 
+103,Cochlea,Conventional,General,Pediatrics,50%,,,30 Gy,,,,,,,Yock ASTRO '19,https://www.eventscribe.com/2019/ASTRO/fsPopup.asp?Mode=presInfo&PresentationID=559439,,,Risk of SNHL for mean cochlear dose of 45 Gy < 30% (similar to 14/1). 
+1141,Cochlea,Conventional,General,Pediatrics,Min,,,20 Gy,,,,,,,Cohen-Cutler IJROBP '21,https://pubmed.ncbi.nlm.nih.gov/33677052/,,,Risk of SNHL for mean cochlear dose of 45 Gy < 30% (similar to 14/1). 
+1175,Cochlea,Conventional,General,Pediatrics,100%,,,40 Gy,,,,AEWS 1031,,,,,,,
+104,Pituitary,Conventional,General,,Max,,,45 Gy,,,,,,,Needs source,,,,"Hypopituitarism TD 5/5 40-45 Gy. GH decreases first, then LH/FSH followed by TSH/ACTH. "
+105,Pituitary,1,General,,Max,,,13 Gy,19 Gy,,,,,,Needs source,,,,
+106,Pituitary,5,General,,40%,,,7.3 Gy,,,,,,,,,,,
+107,Pituitary,Conventional,General,,Mean,,,40 Gy,,,,,,,,,,,
+108,Pituitary,Conventional,General,,Mean,,,20 Gy,,,,,DAHANCA,Should,,,,,
+109,Pituitary,Conventional,General,,Mean,,,20 Gy,,,,,DAHANCA,Should,,,,,
+110,Pituitary,Conventional,General,Pediatrics,Mean,,,18 Gy,,,,,,,,,,,
+111,Hippocampus,Conventional,General,,Max,,,16 Gy,17 Gy,,,"NRG CC001,RTOG 0933",,,,,,,
+112,Hippocampus,Conventional,General,,Max,,,14 Gy,,,,,,,Redmond ASTRO '20,https://www.redjournal.org/article/S0360-3016(20)32375-0/fulltext,,,
+113,Hippocampus,Conventional,General,,D100,,,9 Gy,10 Gy,,,"NRG CC001,RTOG 0933",,,,,,,10 Gy leads to neural stem cell reduction
+114,Hippocampus,Conventional,General,,D40,,,7.2 Gy,,EQD2,,,DAHANCA,Can,Gondi IJROBP '13,https://pubmed.ncbi.nlm.nih.gov/22209148/,,,Risk for poor memory for D40% ± 7.2 Gy of 11→ 66% 
+115,Circle_of_Willis,Conventional,General,Pediatrics,Max,,,10 Gy,,,,,,,El-Fayech IJROBP '17,https://www.ncbi.nlm.nih.gov/pubmed/28068236,,,
+116,Lens,Conventional,General,,Max,,,6 Gy,15 Gy,,,,,,,,,,"After 2.5-6.5 Gy, 33% develop cataracts after 8y latent period. After 6.5-11.5 Gy, 66% develop cataracts after 4y latent period. Lens opacification at > 13-16 Gy."
+117,Lens,1,General,,0.1 cc,,,1.5 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+118,Lens,3,General,,ALARA,,,,,,,,,,,,,,
+119,Lens,5,Re-irradiation,,Max,,,5 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+120,Lens,Conventional,General,,Max,,,7 Gy,,,,RTOG 0825,,,,,,,"After 2.5-6.5 Gy, 33% develop cataracts after 8y latent period. After 6.5-11.5 Gy, 66% develop cataracts after 4y latent period. Lens opacification at > 13-16 Gy."
+121,Lens,15-16,General,,Max,,,4 Gy,,,,,,,Perry NEJM '17,https://pubmed.ncbi.nlm.nih.gov/28296618/,,,
+122,Lens,Conventional,General,Meningioma,0.03 cc,,,5 Gy,7 Gy,,,RTOG 0539,,,,,,,"After 2.5-6.5 Gy, 33% develop cataracts after 8y latent period. After 6.5-11.5 Gy, 66% develop cataracts after 4y latent period. Lens opacification at > 13-16 Gy."
+123,Lens,Conventional,General,Nasopharynx,Max,,,25 Gy,,,,RTOG 0615,,,,,,,"After 2.5-6.5 Gy, 33% develop cataracts after 8y latent period. After 6.5-11.5 Gy, 66% develop cataracts after 4y latent period. Lens opacification at > 13-16 Gy."
+124,Lens,Conventional,General,Pediatrics,Max,,,14.4 Gy,,,,ARST 1431,,,,,,,"After 2.5-6.5 Gy, 33% develop cataracts after 8y latent period. After 6.5-11.5 Gy, 66% develop cataracts after 4y latent period. Lens opacification at > 13-16 Gy."
+1174,Lens,Conventional,General,Pediatrics,100%,,,6 Gy,,,,AEWS 1031,,,,,,,
+125,Orbit,Conventional,General,,Max,,,55 Gy,,,,,,,,,,,
+126,Orbit,Conventional,General,,Mean,,,35 Gy,,,,,,,,,,,
+127,Orbit,5,General,,Max,,,32 Gy,,,,"BR002,RTOG 0813,SUNSET",,,,,,,
+128,Orbit,3,General,,Max,,,26 Gy,,,,BR002,"Timmerman,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+129,Orbit,1,General,,0.1 cc,,,8 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+130,Orbit,3,General,,Max,,,24 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+131,Orbit,3,General,,3 cc,,,20.4 Gy,22 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+132,Orbit,3,General,,0.5 cc,,,24 Gy,26 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+133,Orbit,5,General,,0.5 cc,,,27 Gy,29 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+134,Orbit,5,General,,3 cc,,,27 Gy,30 Gy,,,"BR002,RTOG 0813",TG-101,,,,,,
+135,Orbit,5,General,,Max,,,30.5 Gy,,,,,"TG-101,Timmerman",,,,,,
+136,Orbit,Conventional,General,Pediatrics,Mean,,,30 Gy,,,,,,,Tinkle IJROBP ‘20,https://www.ncbi.nlm.nih.gov/pubmed/31987969,,,Orbital hypoplasia with mean bony dose >= 30 Gy.
+1173,Orbit,Conventional,General,Pediatrics,100%,,,45 Gy,,,,AEWS 1031,,,,,,,
+137,EyeBack (Retina),Conventional,General,,0.03 cc,,,45 Gy,,,,,DAHANCA,Must,,,,,5y retinopathy for < 24 / 45-50 / 55 / 70-80 Gy of 0→ 5→ 50→ 85%. There is a sharp increase above 50 Gy.
+138,EyeBack (Retina),3,General,,Max,,,25.5 Gy,,,,BR002,Timmerman,,,,,,
+139,EyeBack (Retina),3,General,,Max,,,24 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+140,EyeBack (Retina),3,General,,5 cc,,,21.9 Gy,,,,BR002,"TG-101,Timmerman",,,,,,
+141,EyeBack (Retina),3,General,,0.5 cc,,,24 Gy,26 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+142,EyeBack (Retina),5,Re-irradiation,,Mean,,,15 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+143,EyeBack (Retina),5,General,,Max,,,32 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+144,EyeBack (Retina),5,General,,5 cc,,,30 Gy,,,,BR002,TG-101,,,,,,
+145,EyeBack (Retina),Conventional,General,,0.03 cc,,0.3 cm,50 Gy,,,,,DAHANCA,Must,,,,,5y retinopathy for < 24 / 45-50 / 55 / 70-80 Gy of 0→ 5→ 50→ 85%. There is a sharp increase above 50 Gy.
+146,EyeBack (Retina),Conventional,General,,0.03 cc,,,45 Gy,50 Gy,,,RTOG 0539,,,,,,,5y retinopathy for < 24 / 45-50 / 55 / 70-80 Gy of 0→ 5→ 50→ 85%. There is a sharp increase above 50 Gy.
+147,EyeFront,Conventional,General,,Max,,,30 Gy,,,,,DAHANCA,Must,,,,,"Eyelash: Loss at >20 Gy conventional fractionation (20/10 for Graves). Chronic skin/eyelid changes > 50 Gy. Conjunctivitis: Acute > 30 Gy, chronic >50 Gy, permanent conjunctival scarring > 60 Gy. Corneal ulceration: > 60 Gy, late conjunctival scarring > 50 Gy."
+148,EyeFront,Conventional,General,,Max,,0.3 cm,35 Gy,,,,,DAHANCA,Must,,,,,"Eyelash: Loss at >20 Gy conventional fractionation (20/10 for Graves). Chronic skin/eyelid changes > 50 Gy. Conjunctivitis: Acute > 30 Gy, chronic >50 Gy, permanent conjunctival scarring > 60 Gy. Corneal ulceration: > 60 Gy, late conjunctival scarring > 50 Gy."
+149,Brachial_Plexus,Conventional,General,,Mean,,,69 Gy,,,,,,,,,,,
+150,Brachial_Plexus,Conventional,General,,0.1 cc,0.5 cc,,75 Gy,,,,RTOG 1308,,,,,,,
+151,Brachial_Plexus,Conventional,General,,0.5 cc,1.0 cc,,74 Gy,,,,RTOG 1308,,,,,,,
+152,Brachial_Plexus,Conventional,General,,1.0 cc,1.5 cc,,70 Gy,,,,RTOG 1308,,,,,,,
+153,Brachial_Plexus,Conventional,General,,2.0 cc,2.5 cc,,66 Gy,,,,RTOG 1308,,,,,,,
+154,Brachial_Plexus,1,General,,Max,,,17.5 Gy,,,,"RTOG 0915,BR002,RTOG 0631","Timmerman,TG-101",,,,,,
+155,Brachial_Plexus,1,General,,3 cc,,,14 Gy,,,,"RTOG 0915,BR002,RTOG 0631","Timmerman,TG-101",,,,,,
+156,Brachial_Plexus,3,General,,Max,,,26 Gy,,,,BR002,"Timmerman,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+157,Brachial_Plexus,3,General,,Max,,,24 Gy,,,,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,
+158,Brachial_Plexus,3,General,,3 cc,,,20.4 Gy,22 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+159,Brachial_Plexus,3,General,,0.5 cc,,,24 Gy,26 Gy,,,RTOG 0618,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,
+160,Brachial_Plexus,5,General,,0.5 cc,,,27 Gy,29 Gy,,,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,
+161,Brachial_Plexus,5,General,,3 cc,,,27 Gy,30 Gy,,,"BR002,RTOG 0813",TG-101,,,,,,
+162,Brachial_Plexus,5,General,,Max,,,30.5 Gy,,,,,"TG-101,Timmerman",,,,,,
+163,Brachial_Plexus,5,General,,Max,,,32 Gy,,,,"BR002,RTOG 0813,SUNSET",,,,,,,
+164,Brachial_Plexus,5,General,,Max,,,35 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+165,Brachial_Plexus,8,General,NSCLC,0.5 cc,,,38 Gy,41.36 Gy,,,LungTECH,,,,,,,
+166,Brachial_Plexus,8,General,,Max,,,39 Gy,,,,SUNSET,,,,,,,
+167,Brachial_Plexus,8,General,,0.5 cc,,,27 Gy,38 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+168,Brachial_Plexus,10,General,,Max,,,55 Gy,,Extrapolation,,RTOG 0813,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+169,Brachial_Plexus,10,General,,0.2 cc,,,50 Gy,,,,,,,,,,,
+170,Brachial_Plexus,10,General,,Max,,,39 Gy,,,,SUNSET,,,,,,,
+171,Brachial_Plexus,10,General,,3 cc,,,34.9 Gy,,,,,,,,,,,
+172,Brachial_Plexus,15-16,General,,Max,,,50 Gy,,,,SUNSET,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+173,Brachial_Plexus,15-16,General,,Max,,,49.8 Gy,52 Gy,,,NRG LU004,,,,,,,
+174,Brachial_Plexus,Conventional,General,,Max,,,66 Gy,,,,RTOG 0617,,,,,,,
+175,Cauda_Equina,Conventional,General,,,,,66 Gy,70 Gy,,,,,,,,,,
+176,Cauda_Equina,1,General,,Max,,,16 Gy,,,,"RTOG 0631,BR002","Timmerman,TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+177,Cauda_Equina,1,General,,5 cc,,,14 Gy,,,,"RTOG 0631,BR002","Timmerman,TG-101",,,,,,
+178,Cauda_Equina,3,General,,5 cc,,,21.9 Gy,,,,BR002,TG-101,,,,,,
+179,Cauda_Equina,3,General,,Max,,,25.5 Gy,,,,BR002,Timmerman,,,,,,
+180,Cauda_Equina,3,General,,Max,,,24 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+181,Cauda_Equina,5,General,,5 cc,,,30 Gy,,,,BR002,TG-101,,,,,,
+182,Cauda_Equina,5,General,,Max,,,32 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+183,Cauda_Equina,10,General,,Max,,,41.9 Gy,,,,,,,,,,,
+184,Cauda_Equina,10,General,,5 cc,,,39.1 Gy,,,,,,,,,,,
+185,Sacral_Plexus,Conventional,General,,Max,,,66 Gy,70 Gy,,,,,,,,,,
+186,Sacral_Plexus,3,General,,Max,,,24 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+187,Sacral_Plexus,3,General,,5 cc,,,22.5 Gy,,,,BR002,TG-101,,,,,,
+188,Sacral_Plexus,5,General,,5 cc,,,30 Gy,,,,BR002,TG-101,,,,,,
+189,Sacral_Plexus,5,General,,Max,,,32 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+190,Sacral_Plexus,10,General,,5 cc,,,39.1 Gy,,,,,,,,,,,
+191,Sacral_Plexus,10,General,,Max,,,41.9 Gy,,,,,,,,,,,
+192,Sacral_Plexus,1,General,,5 cc,,,14.4 Gy,,,,"RTOG 0631,BR002","Timmerman,TG-101",,,,,,
+193,Sacral_Plexus,1,General,,Max,,,16 Gy,18 Gy,,,"RTOG 0631,BR002","TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+194,Sacral_Plexus,2,General,,Max,,,26 Gy,,,,SC.24,,,,,,,
+195,Skin,Conventional,General,,Max,,,20 Gy,30 Gy,,,,,,,,,,
+196,Skin,1,General,,Max,,,26 Gy,27.5 Gy,,,"BR002,RTOG 0631","Timmerman,TG-101",,,,,,
+197,Skin,1,General,,10 cc,,,23 Gy,25.5 Gy,,,"BR002,RTOG 0631","Timmerman,TG-101",,,,,,
+198,Skin,3,General,,10 cc,,,30 Gy,31 Gy,,,BR002,"Timmerman,TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+199,Skin,3,General,,Max,,,33 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+200,Skin,5,General,,Max,,,38.5 Gy,39.5 Gy,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,Timmerman",,,,,,
+201,Skin,5,Re-irradiation,,10 cc,,,39.5 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+202,Skin,5,General,,10 cc,,,36.5 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,Timmerman",,,,,,
+203,Skin,5,General,,10 cc,,,30 Gy,,,,RTOG 0813,,,,,,,
+204,Skin,5,General,,Max,,,32 Gy,,,,RTOG 0813,,,,,,,
+205,Skin,10,General,,Max,,,82 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+206,Skin,10,General,,Max,,,52.3 Gy,,,,,,,Needs source,,,,
+207,Skin,10,General,,60 cc,,,50 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+208,Skin,10,General,,10 cc,,,48.1 Gy,,,,,,,Needs source,,,,
+209,Skin,10,General,,120 cc,,,40 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+210,Skin,10,General,,250 cc,,,30 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+211,Skin,Conventional,General,Sarcoma,50%,,,20 Gy,,,,RTOG 0631,,,,,,,Spare 1 cm strip
+212,Carotid Artery,Conventional,Re-irradiation,,Max,,,120 Gy,,EQD2,,,,,,,,,
+213,Carotid Artery,Conventional,General,,Max,,,40 Gy,,,,,DAHANCA,Can,,,,,
+214,Carotid Artery,5,Re-irradiation,,Max,,,32.5 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+215,Temporal Lobe,Conventional,General,,Max,,,65 Gy,72 Gy,,,,,,Lee IJROBP '19,https://www.redjournal.org/article/S0360-3016(19)33428-5/pdf,,,Early stage NPC
+216,Temporal Lobe,Conventional,General,,Max,,,70 Gy,72 Gy,,,,,,Lee IJROBP '19,https://www.redjournal.org/article/S0360-3016(19)33428-5/pdf,,,Late stage NPC
+217,Temporal Lobe,5,Re-irradiation,,Mean,,,5 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+218,Lips,Conventional,General,,Mean,,,20 Gy,,,,RTOG 1016,DAHANCA,Can,,,,,
+219,Lips,Conventional,General,,Max,,,35 Gy,50 Gy,,,,,,Needs source,,,,50 Gy if oral cavity
+220,BuccalMuc,Conventional,General,,Mean,,,30 Gy,,,,,DAHANCA,Can,,,,,
+221,Oral_Cavity,Conventional,General,,Mean,,,40 Gy,50 Gy,,,,,,Little IJROBP '12,https://www.ncbi.nlm.nih.gov/pubmed/22056067,Narayan IJROBP '08,https://www.ncbi.nlm.nih.gov/pubmed/18417299,Oral cavity mean dose < 40 Gy is associated with low patient reported xerostomia 
+222,Oral_Cavity,Conventional,General,,Mean,,,30 Gy,60 Gy,,,RTOG 1016,DAHANCA,Should,,,,,Uninvolved
+223,Oral_Cavity,Conventional,General,H&N: Oral Cavity,Mean,,,55 Gy,65 Gy,,,,,,Sapir IJROBP '16,https://www.ncbi.nlm.nih.gov/pubmed/27473816,,,Mean oral cavity dose of 53 Gy is associated with severe dysgeusia at 3 months 
+224,Gland_Lacrimal,Conventional,General,,Mean,,,25 Gy,,,,,DAHANCA,Must,,,,,
+225,Gland_Lacrimal,Conventional,General,,Max,,,60 Gy,,,,,,,Bhandare IJROBP '21,https://www.sciencedirect.com/science/article/pii/S0360301611007498,,,Severe DES with visual compromise for 35-40 / 45-50 / 60-65 Gy of 6→ 50→ 90%. Latency to DES for 35 / 40 / 50+ Gy mean of 30→ 20→ 10 mo. Freedom from severe DES for < 45 / 45-59.9 / ≥ 60 Gy mean of 93→ 29→ 3%.
+226,Gland_Lacrimal,Conventional,General,,TD 5/5,,,35 Gy,,,,,,,,,,,"TD 5/5 35 Gy. TD 50/5 50 Gy, permanent > 60 Gy mean. There is a sharp increase above 50 Gy."
+227,Gland_Lacrimal,Conventional,General,,Mean,,0.3 cm,30 Gy,,,,,DAHANCA,Must,,,,,
+228,Gland_Lacrimal,Conventional,General,Pediatrics,Mean,,,30 Gy,41.4 Gy,,,ARST 1431,,,,,,,
+229,Parotid_Ipsi,Conventional,General,,Mean,,,26 Gy,33 Gy,,,RTOG 1016,,,,,,,
+230,Parotid_Ipsi,Conventional,General,,50%,,,30 Gy,,,,,,,,,,,1 gland V30 < 50%
+231,Parotid_Contra,Conventional,General,,Mean,,,20 Gy,24 Gy,,,,"DAHANCA,QUANTEC",Should,PARSPORT Nutting Lanc Onc '11,https://www.sciencedirect.com/science/article/pii/S1470204510702904?via%3Dihub,,,Mean unilateral parotid dose of 20 Gy with < 20% risk of parotid gland function < 25% of pre-RT level
+232,Parotid_Contra,Conventional,General,,50%,,,30 Gy,,,,,,,,,,,1 gland V30 < 50%
+233,Parotid_Contra,Conventional,General,,33%,,,40 Gy,,,,,,,,,,,If unilateral
+234,Parotids,Conventional,General,,Mean,,,24 Gy,26 Gy,,,,"DAHANCA,QUANTEC",Should,Dijkema IJROBP '10,https://www.ncbi.nlm.nih.gov/pubmed/20056347,,,Mean bilateral parotid dose of 25 / 39 Gy with < 20→ 50% risk of reduced parotid gland function to < 25% of pre-RT level
+235,Parotids,Conventional,General,,20 cc,,,20 Gy,,,,,,,,,,,
+236,Parotids,2,General,,Mean,,,5 Gy,,,,SC.24,,,,,,,
+237,Submandibular,Conventional,General,,Mean,,,30 Gy,35 Gy,,,,"DAHANCA,QUANTEC",Should,,,,,Complete loss of salivary gland function is possible after 35-39 Gy.
+238,Submandibular_Contra,Conventional,General,,Mean,,,39 Gy,,,,RTOG 1016,QUANTEC,,Murdoch-Kinch IJROBP '08,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3734803/,,,Complete loss of salivary gland function is possible after 35-39 Gy.
+239,Thyroid,Conventional,General,,Max,,,45 Gy,,,,,,,,,,,
+240,Thyroid,Conventional,General,,Mean,,,37 Gy,40 Gy,,,,DAHANCA,Should,Kamal ARO '19,https://www.ncbi.nlm.nih.gov/pubmed/32051897,,,
+241,Thyroid,5,Re-irradiation,,Max,,,30 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+242,Thyroid,Conventional,General,,25%,,,50 Gy,,,,,,,Zhou Rad Onc '20,https://www.ncbi.nlm.nih.gov/pubmed/32293496,,,Thyroid V50 ± 25% with hypothyroidism of 34→ 55%
+243,Thyroid,Conventional,General,Pediatrics,62.5%,,,25 Gy,,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,,,Thyroid abnormalities are more common > 26 Gy
+244,Thyroid,Conventional,General,Pediatrics,93%,,,5 Gy,,,,,,,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,,,
+245,Thyroid,Conventional,General,Pediatrics,82%,,,20 Gy,,,,,,,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,,,
+246,Thyroid,Conventional,General,Pediatrics,63%,70%,,25 Gy,,,,,,,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,,,Thyroid abnormalities are more common > 26 Gy
+247,Thyroid,Conventional,General,Pediatrics,62%,,,30 Gy,,,,,,,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,,,Thyroid abnormalities are more common > 26 Gy
+248,Thyroid,Conventional,General,Pediatrics,2.2 cc,,,25 Gy,,,,,,,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,,,Thyroid abnormalities are more common > 26 Gy
+249,Thyroid,Conventional,General,Pediatrics,20%,,,26 Gy,,,,,,,Needs source,,,,Thyroid > 15 Gy is associated with a 30% risk of thyroid insufficiency
+250,Thyroid,Conventional,General,Pediatrics,Max,,,30.6 Gy,,,,,,,Needs source,,,,Thyroid > 15 Gy is associated with a 30% risk of thyroid insufficiency
+251,Pterygoid_Lat,Conventional,General,,Mean,,,61 Gy,,,,,,,Kamal RTO '20,https://www.ncbi.nlm.nih.gov/pubmed/32387489,,,
+252,Pterygoid_Lat,Conventional,General,,98.6%,,,27 Gy,,,,,,,Kamal RTO '20,https://www.ncbi.nlm.nih.gov/pubmed/32387489,,,
+253,Constrictor_L,Conventional,General,,Mean,,,30 Gy,55 Gy,,,,DAHANCA,Should,Eisbruch IJROBP '11,https://www.ncbi.nlm.nih.gov/pubmed/21592678,,,"Sup constrictor < 50 Gy most important, or for OP/NPX, limit the larynx and inf constrictors to ≤ 20-30 Gy"
+254,Constrictor_M,Conventional,General,,Mean,,,,55 Gy,,,,DAHANCA,Should,,,,,
+255,Constrictor_S,Conventional,General,,Mean,,,50 Gy,55 Gy,,,,DAHANCA,Should,Eisbruch IJROBP '11,https://www.ncbi.nlm.nih.gov/pubmed/21592678,,,"Sup constrictor < 50 Gy most important, or for OP/NPX, limit the larynx and inf constrictors to ≤ 20-30 Gy"
+256,Constrictors,Conventional,General,,Mean,,,50 Gy,,,,,QUANTEC,,,,,,Mean < 50 Gy with ~20% symptomatic dysphagia and aspiration. 
+1142,Constrictors,Conventional,General,,Mean,,,50 Gy,,,,,QUANTEC,,DARS Nutting ASCO '20,https://pubmed.ncbi.nlm.nih.gov/27716125/,"The superior and middle constrictors will be contoured as one structure, while IPCM as a separate structure. The S/MPC or IPC lying outside high-dose CTV was set a mandatory mean dose constraint < 50 Gy.",,Mean < 50 Gy with ~20% symptomatic dysphagia and aspiration. 
+257,Larynx,Conventional,General,,Max,,,63 Gy,66 Gy,,,,QUANTEC,,,,,,70 Gy to larynx carries 5% risk of cartilage necrosis. 66 Gy to larynx carries < 20% risk of vocal dysfunction with chemotherapy. 
+258,Larynx,Conventional,General,,Mean,,,45 Gy,,,,RTOG 1016,QUANTEC,,Sanguineti IJROBP '07,https://www.redjournal.org/article/S0360-3016(07)00113-7/fulltext,,,Risk of aspiration with mean laryngeal dose 50 Gy < 30%. Mean laryngeal dose of 44 Gy (RT alone) with < 20% edema. Keep MLD < 43.5 Gy to minimize risk of G2+ edema.
+259,Larynx,Conventional,General,,15%,,,60 Gy,,,,RTOG 1016,QUANTEC,,,,,,
+260,Larynx,Conventional,General,,33%,,,50 Gy,,,,RTOG 1016,QUANTEC,,,,,,V50 < 27% with < 20% edema.
+261,Larynx,Conventional,General,,66%,,,50 Gy,,,,,QUANTEC,,,,,,V50 < 27% with < 20% edema.
+262,Larynx,5,Re-irradiation,,Mean,,,15 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+263,Larynx,1,General,,Max,,,20.2 Gy,,,,RTOG 0631,,,,,,,
+264,Larynx,1,General,,4 cc,,,10.5 Gy,,,,RTOG 0631,,,,,,,
+265,Larynx,2,General,,Max,,,20 Gy,,,,SC.24,,,,,,,
+266,Larynx,2,General,,Mean,,,8 Gy,,,,SC.24,,,,,,,
+267,Larynx,Conventional,General,Pediatrics,Mean,,,19.8 Gy,,,,,,,,,,,Block at 19.8 Gy when necessary for HL
+268,Larynx_Glottic,Conventional,General,,Mean,,,35 Gy,40 Gy,,,,"QUANTEC,DAHANCA",Should,,,,,
+269,Larynx_Glottic,Conventional,General,,D2%,,,50 Gy,,,,,QUANTEC,,,,,,
+270,Larynx_Glottic,Conventional,General,,Mean,,,20 Gy,,,,RTOG 1016,,,,,,,
+271,Larynx_SGL,Conventional,General,,Mean,,,40 Gy,,,,,"QUANTEC,DAHANCA",Should,,,,,
+272,Pharynx_post_wall,Conventional,General,,33%,,,50 Gy,,,,RTOG 1016,,,,,,,
+273,Pharynx_post_wall,Conventional,General,,15%,,,60 Gy,,,,RTOG 1016,,,,,,,
+274,Pharynx_post_wall,Conventional,General,,Mean,,,45 Gy,,,,RTOG 1016,,,,,,,
+275,Pharynx_post_wall,2,General,,Max,,,20 Gy,,,,SC.24,,,,,,,
+276,Pharynx_post_wall,2,General,,Mean,,,8 Gy,,,,SC.24,,,,,,,
+277,Mandible,Conventional,General,,1%,2%,,70 Gy,75 Gy,,,RTOG 0225,,,,,,,
+278,Mandible,Conventional,General,,Max,,,66 Gy,,,,RTOG 1016,,,,,,,
+279,Mandible,Conventional,General,,14%,,,60 Gy,,,,,,,Kubota Rad Onc '21,https://pubmed.ncbi.nlm.nih.gov/33402192/,,,3y cumulative ORN for V60 ± 14% of 3→ 9% 
+280,Mandible,Conventional,General,,Max,,,72 Gy,,,,,DAHANCA,Should,,,,,
+281,Mandible,5,Re-irradiation,,Max,,,20 Gy,,,,,,,Iqbal BJR '20,https://pubmed.ncbi.nlm.nih.gov/32960652/,,,
+282,Mandible,Conventional,General,,42%,,,44 Gy,,,,,,,MDACC RTO '17,https://pubmed.ncbi.nlm.nih.gov/28733053/,,,
+283,Mandible,Conventional,General,,25%,,,52 Gy,,,,,,,MDACC RTO '17,https://pubmed.ncbi.nlm.nih.gov/28733053/,,,
+284,Mandible,Conventional,General,Nasopharynx,1 cc,,,75 Gy,,,,RTOG 0615,,,,,,,
+285,Esophagus_Cervical,Conventional,General,,Mean,,,30 Gy,,,,RTOG 1016,DAHANCA,Should,,,,,
+286,Esophagus_Cervical,Conventional,General,,Max,,,50 Gy,,,,,,,,,,,
+287,Esophagus,Conventional,General,,1 cc,1.5 cc,,74 Gy,,,,RTOG 1308,QUANTEC,,,,,,Point doses of 74 Gy appear to be safe even with concurrent carboplatin and paclitaxel. 
+288,Esophagus,Conventional,General,NSCLC,Mean,,,34 Gy,37 Gy,,,RTOG 0617,QUANTEC,,,,,,MED < 34 Gy is not mandated on RTOG 06-17! G3+ acute esophagitis is 5-20% with MED < 34 Gy. 
+289,Esophagus,Conventional,General,,17%,,,60 Gy,,,,,,,Needs source,,,,
+290,Esophagus,Conventional,General,,7%,,,60 Gy,,,,,,,Voong PRO '20,https://pubmed.ncbi.nlm.nih.gov/33137465/,,,
+291,Esophagus,Conventional,General,,33%,,,55 Gy,,,,,,,Needs source,,,,
+292,Esophagus,1,General,,Max,,,15.4 Gy,,,,"RTOG 0631,BR002","TG-101,Timmerman",,,,,,
+293,Esophagus,1,General,,5 cc,,,11.9 Gy,,,,"RTOG 0631,RTOG 0915,BR002",,,,,,,
+294,Esophagus,3,General,,Max,,,27 Gy,,,,"RTOG 0618,BR002",Timmerman,,,,,,
+295,Esophagus,3,General,,5 cc,,,17.7 Gy,,,,BR002,TG-101,,,,,,
+296,Esophagus,3,General,,Max,,,25.2 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+297,Esophagus,5,General,NSCLC,0.05 cc,,,52.5 Gy,63 Gy,,,RTOG 0813,,,,,,,
+298,Esophagus,5,General,,Max,,,40 Gy,,,,SUNSET,,,,,,,
+299,Esophagus,5,General,,5 cc,,,35 Gy,,,,SUNSET,,,,,,,
+300,Esophagus,5,General,,0.5 cc,,,32 Gy,34 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+301,Esophagus,5,General,,5 cc,,,19.5 Gy,27.5 Gy,,,"BR002,RTOG 0813",TG-101,,,,,,
+302,Esophagus,5,General,,Max,,,35 Gy,,,,BR002,"Timmerman,TG-101",,,,,,
+303,Esophagus,8,General,,Max,,,63 Gy,,Extrapolation,,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+304,Esophagus,8,General,,0.5 cc,,,40 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+305,Esophagus,8,General,,Max,,,40 Gy,43.52 Gy,,,LungTECH,,,,,,,
+306,Esophagus,8,General,,5 cc,,,32.8 Gy,,Extrapolation,,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+307,Esophagus,8,General,,5 cc,,,40 Gy,,,,SUNSET,,,,,,,
+308,Esophagus,8,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+309,Esophagus,10,General,,Max,,,50 Gy,,Extrapolation,,RTOG 0813,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+310,Esophagus,10,General,,5 cc,,,24.6 Gy,,,,,,,Needs source,,,,
+311,Esophagus,10,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+312,Esophagus,10,General,,1 cc,,,40 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+313,Esophagus,10,General,,5 cc,,,40 Gy,,,,SUNSET,,,,,,,
+314,Esophagus,Conventional,General,,20%,,,70 Gy,,,,,QUANTEC,,,,,,G2+ esophagitis < 30%
+315,Esophagus,Conventional,General,,40%,,,50 Gy,,,,,QUANTEC,,,,,,G2+ esophagitis < 30%
+316,Esophagus,Conventional,General,,50%,,,35 Gy,,,,,QUANTEC,,,,,,G2+ esophagitis < 30%
+317,Esophagus,Conventional,General,,Partial Circumference,Full Circumference,,50 Gy,60 Gy,,,,,,Han PRO '20,https://www.practicalradonc.org/article/S1879-8500(20)30062-X/fulltext,,,The length of partial and near-full circumference esophagus receiving 50-60 Gy appears to contribute to weight loss
+318,Esophagus,15-16,General,,Max,,,58.9 Gy,61.3 Gy,,,NRG LU004,,,,,,,
+319,Esophagus,15-16,General,,Circumference: Full,,,53.1 Gy,,,,NRG LU004,,,,,,,
+320,Esophagus,15-16,General,,Max,,,50.5 Gy,,,,SUNSET,,,,,,,
+321,Esophagus,15-16,General,,5 cc,,,48 Gy,,,,SUNSET,,,,,,,
+322,Esophagus,15-16,General,,4 cc,,,50 Gy,,,,,,,Kong IJROBP '20,https://doi.org/10.1016/j.ijrobp.2020.03.038,,,
+323,Esophagus,15-16,General,,Max,,,40 Gy,50 Gy,,,,,,NCIC CTV BR.25,https://academic.oup.com/jnci/article/106/8/dju164/910382,,,
+324,Esophagus,15-16,General,,Mean,,,31 Gy,32 Gy,,,NRG LU004,,,NCIC CTV BR.25,https://academic.oup.com/jnci/article/106/8/dju164/910382,,,
+325,Esophagus,2,General,,Max,,,20 Gy,,,,SC.24,,,,,,,
+1160,Esophagus,Conventional,General,Pediatrics,50%,,,40 Gy,,,,AEWS 1031,,,,,,,
+326,Heart,Conventional,General,,Mean,,,26 Gy,35 Gy,,,QUANTEC,,,Wang JTO '20,https://www.sciencedirect.com/science/article/abs/pii/S1556086420304998,,,2y cardiac events for Mean Heart Dose < 10 / 10-20 / >20 Gy of 4→ 7→ 21%. Mean heart dose < 26 Gy is associated with < 15% pericarditis.
+327,Heart,Conventional,General,Esophageal,Mean,,,15 Gy,20 Gy,,,,,,Wang JTO '20,https://www.sciencedirect.com/science/article/abs/pii/S1556086420304998,,,2y cardiac events for Mean Heart Dose < 10 / 10-20 / >20 Gy of 4→ 7→ 21%
+328,Heart,Conventional,General,,Max,,,70 Gy,,,,,,,Needs source,,,,
+329,Heart,Conventional,General,NSCLC,33%,,,60 Gy,,,,RTOG 0617,,,,,,,
+330,Heart,Conventional,General,NSCLC,67%,,,45 Gy,,,,RTOG 0617,,,,,,,
+331,Heart,Conventional,General,NSCLC,80%,100%,,40 Gy,,,,RTOG 0617,,,,,,,
+332,Heart,Conventional,General,NSCLC,25%,33%,,50 Gy,,,,RTOG 0617,,,Speirs JTO '16,https://www.jto.org/article/S1556-0864(16)31144-3/fulltext,,,V50 < 25% is independently associated with overall survival 
+333,Heart,Conventional,General,Esophageal,35%,,,45 Gy,,,,RTOG 1308,,,,,,,
+334,Heart,1,General,,Max,,,22 Gy,,,,RTOG 0631,"TG-101,Timmerman",,,,,,
+335,Heart,1,General,,15 cc,,,16 Gy,,,,RTOG 0631,"TG-101,Timmerman",,,,,,
+336,Heart,3,General,,Max,,,36 Gy,,,,,,,Needs source,,,,
+337,Heart,3,General,,Max,,,30 Gy,,,,BR002,TG-101,,,,,,
+338,Heart,3,General,,0.5 cc,,,24 Gy,26 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+339,Heart,3,General,,15 cc,,,24 Gy,,,,BR002,TG-101,,,,,,
+340,Heart,5,General,NSCLC,Max,,,62 Gy,,,,SUNSET,,,,,,,
+341,Heart,5,General,NSCLC,0.05 cc,,,52.5 Gy,63 Gy,,,RTOG 0813,,,,,,,"105% Rx (e.g., 50-60/5)"
+342,Heart,5,General,NSCLC,10 cc,,,50 Gy,,,,SUNSET,,,,,,,
+343,Heart,5,General,,Max,,,38 Gy,,,,BR002,"TG-101,Timmerman",,,,,,
+344,Heart,5,General,Pancreas,Max,,,30 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+345,Heart,5,General,,15 cc,,,32 Gy,,,,"BR002,RTOG 0813",TG-101,,,,,,
+346,Heart,5,General,,0.5 cc,,,27 Gy,29 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+347,Heart,8,General,,Max,,,64 Gy,,Extrapolation,,"SUNSET,RTOG 0813",,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+348,Heart,8,General,,0.5 cc,,,50 Gy,60 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+349,Heart,8,General,,10 cc,,,60 Gy,,,,SUNSET,,,,,,,
+350,Heart,8,General,,Max,,,44 Gy,,,,,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+351,Heart,8,General,,15 cc,,,38.4 Gy,,,,,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+352,Heart,10,General,,Max,,,64 Gy,,,,SUNSET,,,,,,,
+353,Heart,10,General,,Max,,,60 Gy,,Extrapolation,,RTOG 0813,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+354,Heart,10,General,,10 cc,,,60 Gy,,,,SUNSET,,,,,,,
+355,Heart,10,General,,1 cc,,,45 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+356,Heart,10,General,,15 cc,,,41.9 Gy,,,,,,,Needs source,,,,
+357,Heart,Conventional,General,Esophageal,50%,,,40 Gy,45 Gy,,,RTOG 1010,,,,,,,
+358,Heart,Conventional,General,Gastric,30%,,,40 Gy,45 Gy,,,TOPGEAR,,,,,,,
+359,Heart,Conventional,General,Esophageal,50%,,,30 Gy,,,,RTOG 1308,,,,,,,
+360,Heart,Conventional,General,Esophageal,100%,,,30 Gy,,,,RTOG 1010,,,,,,,
+361,Heart,Conventional,General,Esophageal,77%,,,20 Gy,,,,,,,Pao Rad Onc '20,https://pubmed.ncbi.nlm.nih.gov/32962730/,,,
+362,Heart,Conventional,General,Esophageal,86%,,,10 Gy,,,,,,,Pao Rad Onc '20,https://pubmed.ncbi.nlm.nih.gov/32962730/,,,
+363,Heart,Conventional,General,Esophageal,94%,,,5 Gy,,,,,,,Pao Rad Onc '20,https://pubmed.ncbi.nlm.nih.gov/32962730/,,,
+364,Heart,8,General,,n/a,,,n/a,,,,LungTECH,,,,,,,
+365,Heart,15-16,General,,Max,,,66 Gy,,,,SUNSET,,,,,,,
+366,Heart,15-16,General,,10 cc,,,62 Gy,,,,SUNSET,,,,,,,
+367,Heart,15-16,General,,Max,,,55 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+368,Heart,15-16,General,,1 cc,,,50 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+369,Heart,15-16,General,,Max,,,49.8 Gy,52 Gy,,,NRG LU004,,,,,,,
+370,Heart,15-16,General,,10%,,,40 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+371,Heart,15-16,General,,Max,,,40 Gy,50 Gy,,,,,,NCIC CTV BR.25,https://academic.oup.com/jnci/article/106/8/dju164/910382,,,
+372,Heart,15-16,General,,Mean,,,16.5 Gy,18.5 Gy,,,NRG LU004,,,,,,,
+373,Heart,Conventional,General,Breast,Mean,,,4 Gy,5 Gy,,,"RTOG 1005,NSABP B-51",,,,,,,
+374,Heart,Conventional,General,Breast,Max,,,35 Gy,40 Gy,,,,,,Needs source,,,,
+375,Heart,Conventional,General,Breast,5%,,,40 Gy,,,,DBCG SKAGEN,,,,,,,
+376,Heart,Conventional,General,Breast,10%,,,20 Gy,,,,DBCG SKAGEN,,,,,,,
+377,Heart,15-16,General,Breast,5%,,,16 Gy,20 Gy,,,RTOG 1005,,,,,,,Left sided
+378,Heart,15-16,General,Breast,30%,35%,,8 Gy,,,,RTOG 1005,,,,,,,Left sided
+379,Heart,15-16,General,Breast,0%,,,16 Gy,20 Gy,,,RTOG 1005,,,,,,,Right sided
+380,Heart,15-16,General,Breast,10%,15%,,8 Gy,,,,RTOG 1005,,,,,,,Right sided
+381,Heart,15-16,General,Breast,Mean,,,3.2 Gy,4 Gy,,,RTOG 1005,,,,,,,
+382,Heart,Conventional,General,Breast,5%,,,20 Gy,25 Gy,,,"RTOG 1005,NSABP B-51",,,,,,,Left sided; 25 Gy if RNI
+383,Heart,Conventional,General,Breast,30%,35%,,10 Gy,15 Gy,,,"RTOG 1005,NSABP B-51",,,,,,,Left sided; 15 Gy if RNI
+384,Heart,Conventional,General,Breast,0%,,,20 Gy,25 Gy,,,"RTOG 1005,NSABP B-51",,,,,,,Right sided; 25 Gy if RNI
+385,Heart,Conventional,General,Breast,10%,15%,,10 Gy,15 Gy,,,"RTOG 1005,NSABP B-51",,,,,,,Right sided; 15 Gy if RNI
+386,Heart,5,General,Breast,5%,,,7 Gy,,,,UK FAST-Forward,,,,,,,
+387,Heart,5,General,Breast,30%,,,1.5 Gy,,,,UK FAST-Forward,,,,,,,
+388,Heart,5,General,Breast,10%,,,3 Gy,,,,Florence,,,,,,,
+389,Heart,10,General,Breast,Max,,,36 Gy,,,,,,,MSKCC Braunstein IJROBP '19,https://www.sciencedirect.com/science/article/pii/S0360301619303062?via%3Dihub,,,
+390,Heart,Conventional,General,"Gastric,Esophageal",Mean,,,30 Gy,,,,RTOG 1010,,,Gastric NCCN 1.2021,,Esophageal and GEJ NCCN 1.2021,,
+391,Heart,Conventional,General,"Gastric,Esophageal",20%,30%,,30 Gy,,,,,,,Gastric NCCN 1.2021,,Esophageal and GEJ NCCN 1.2021,,
+392,Heart,Conventional,General,Pediatrics,Mean,,,5 Gy,15 Gy,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,
+393,Heart,Conventional,General,Pediatrics,10%,35%,,15 Gy,,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Wirth IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/32272184,Note: 25-35% is in the relapsed/refractory setting
+394,Heart,Conventional,General,Pediatrics,15%,20%,,30 Gy,,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Wirth IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/32272184,Note: 20% is in the relapsed/refractory setting
+1161,Heart,Conventional,General,Pediatrics,100%,,,30 Gy,,,,AEWS 1031,,,,,,,
+1184,Heart,Conventional,General,Breast,Mean,,,4 Gy,5 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+1191,Heart,Conventional,General,Breast,0%,,,25 Gy,30 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT; Right sided
+1192,Heart,Conventional,General,Breast,5%,,,25 Gy,30 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT; Left sided
+395,Pericardium,Conventional,General,NSCLC,MOH55%,,,41 Gy,51 Gy,,,,,,Thor Clin Ca Res '10,https://pubmed.ncbi.nlm.nih.gov/32398326/,,,No CHD
+396,Great_Vessels,1,General,,Max,,,37 Gy,,,,"RTOG 0631,RTOG 0915,BR002","Timmerman,TG-101",,,,,,
+397,Great_Vessels,1,General,,10 cc,,,31 Gy,,,,"RTOG 0631,RTOG 0915,BR002",TG-101,,,,,,
+398,Great_Vessels,3,General,,Max,,,45 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+399,Great_Vessels,3,General,,10 cc,,,39 Gy,,,,BR002,TG-101,,,,,,
+400,Great_Vessels,3,General,,0.5 cc,,,45 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+401,Great_Vessels,5,General,NSCLC,Max,,,62 Gy,,,,SUNSET,,,,,,,
+402,Great_Vessels,5,General,NSCLC,0.05 cc,,,52.5 Gy,63 Gy,,,RTOG 0813,,,,,,,
+403,Great_Vessels,5,General,NSCLC,10 cc,,,50 Gy,,,,SUNSET,,,,,,,
+404,Great_Vessels,5,General,,10 cc,,,47 Gy,,,,"BR002,RTOG 0813",TG-101,,,,,,
+405,Great_Vessels,5,General,,0.5 cc,,,53 Gy,,,,BR002,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101,Timmerman",,,,,,
+406,Great_Vessels,8,General,,Max,,,63 Gy,,Extrapolation,,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+407,Great_Vessels,8,General,,10 cc,,,56.8 Gy,,Extrapolation,,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+408,Great_Vessels,10,General,,Max,,,75 Gy,,Extrapolation,,RTOG 0813,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+409,Great_Vessels,10,General,,1 cc,,,50 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+410,Great_Vessels,10,General,,10 cc,,,63.5 Gy,,,,,,,Needs source,,,,
+411,Great_Vessels,10,General,,Max,,,64 Gy,,,,SUNSET,,,,,,,
+412,Great_Vessels,10,General,,10 cc,,,60 Gy,,,,SUNSET,,,,,,,
+413,Great_Vessels,8,General,,n/a,,,n/a,,,,LungTECH,,,,,,,
+414,Great_Vessels,15-16,General,,Max,,,64 Gy,,,,SUNSET,,,,,,,
+415,Great_Vessels,15-16,General,,10 cc,,,60 Gy,,,,SUNSET,,,,,,,
+416,Great_Vessels,15-16,General,,Max,,,53.5 Gy,55 Gy,,,NRG LU004,,,,,,,
+417,L_Circumflex,Conventional,General,NSCLC,14%,,,15 Gy,,,,,,,Atkins JAMA Onc '20,https://pubmed.ncbi.nlm.nih.gov/33331883/,,,No CHD
+418,LAD,Conventional,General,NSCLC,10%,,,15 Gy,,,,,,,Atkins JAMA Onc '20,https://pubmed.ncbi.nlm.nih.gov/33331883/,,,
+419,Heart_Atria,Conventional,General,NSCLC,D45,,,30 Gy,44 Gy,,,,,,Thor Clin Ca Res '10,https://pubmed.ncbi.nlm.nih.gov/32398326/,,,No CHD
+420,L_Ventricle,Conventional,General,NSCLC,1%,,,15 Gy,,,,,,,Atkins JAMA Onc '20,https://pubmed.ncbi.nlm.nih.gov/33331883/,,,
+421,L_Ventricle,Conventional,General,NSCLC,MOH5%,,,41 Gy,56 Gy,,,,,,Thor Clin Ca Res '10,https://pubmed.ncbi.nlm.nih.gov/32398326/,,,
+422,L_Ventricle,Conventional,General,Breast,10%,,,5 Gy,,,,,,,Needs source,,,,LV and combined bilateral ventricles
+423,L_Ventricle,Conventional,General,Breast,5%,,,25 Gy,,,,,,,Needs source,,,,LV and combined bilateral ventricles
+424,L_Ventricle,Conventional,General,Pediatrics,Mean,,,2 Gy,10 Gy,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,
+425,Trachea,1,General,,Max,,,20.2 Gy,,,,"RTOG 0915,BR002,RTOG 0631","TG-101,Timmerman",,,,,,
+426,Trachea,1,General,,4 cc,,,10.5 Gy,,,,,TG-101,,,,,,
+427,Trachea,1,General,,4 cc,,,17.4 Gy,,,,BR002,Timmerman,,,,,,
+428,Trachea,3,General,,Max,,,30 Gy,,,,BR002,TG-101,,,,,,
+429,Trachea,3,General,,4 cc,,,15 Gy,,,,,TG-101,,,,,,
+430,Trachea,3,General,,5 cc,,,25.8 Gy,,,,BR002,Timmerman,,,,,,
+431,Trachea,3,General,,0.5 cc,,,30 Gy,32 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+432,Trachea,5,General,NSCLC,Max,,,60 Gy,,,,SUNSET,,,,,,,
+433,Trachea,5,General,NSCLC,10 cc,,,50 Gy,,,,SUNSET,,,,,,,
+434,Trachea,5,General,,5 cc,,,32 Gy,,,,BR002,,,,,,,
+435,Trachea,5,General,,4 cc,,,16.5 Gy,18 Gy,,,RTOG 0813,TG-101,,,,,,
+436,Trachea,5,General,NSCLC,0.05 cc,,,52.5 Gy,63 Gy,,,RTOG 0813,,,,,,,Limit to 105% of Rx (50-60 Gy)
+437,Trachea,5,General,NSCLC,0.03 cc,,,50 Gy,,,,,,,Manyam IJROBP '20,https://pubmed.ncbi.nlm.nih.gov/31987965/,,,
+438,Trachea,5,General,NSCLC,0.33 cc,,,47.1 Gy,,,,,,,Manyam IJROBP '20,https://pubmed.ncbi.nlm.nih.gov/31987965/,,,
+439,Trachea,5,General,,Max,,,40 Gy,,,,BR002,"Timmerman,TG-101",,,,,,
+440,Trachea,5,General,,0.5 cc,,,32 Gy,35 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+441,Trachea,8,General,NSCLC,Max,,,64 Gy,,,,SUNSET,,,,,,,
+442,Trachea,8,General,,0.5 cc,,,32 Gy,44 Gy,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+443,Trachea,8,General,,Max,,,44 Gy,46.68 Gy,,,LungTECH,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+444,Trachea,8,General,NSCLC,10 cc,,,60 Gy,,,,SUNSET,,,,,,,
+445,Trachea,8,General,,4 cc,,,20.8 Gy,,Extrapolation,,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+446,Trachea,8,General,NSCLC,Max,,,63 Gy,,Extrapolation,,RTOG 0813,,,VUMC Tekatli RTO '15,https://www.sciencedirect.com/science/article/abs/pii/S0167814015005101?via%3Dihub,,,
+447,Trachea,10,General,NSCLC,Max,,,64 Gy,,,,SUNSET,,,,,,,
+448,Trachea,10,General,NSCLC,10 cc,,,60 Gy,,,,SUNSET,,,,,,,
+449,Trachea,10,General,,1.0 cc,,,40  Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+450,Trachea,10,General,,4 cc,,,20.6 Gy,,,,,,,Needs source,,,,
+451,Trachea,10,General,NSCLC,Max,,,60 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+452,Trachea,15-16,General,,Max,,,66 Gy,,,,SUNSET,,,Needs source,,,,
+453,Trachea,15-16,General,,10 cc,,,62 Gy,,,,SUNSET,,,Needs source,,,,
+454,Trachea,15-16,General,NSCLC,Max,,,52 Gy,53.5 Gy,,,NRG LU004,,,Needs source,,,,
+455,Trachea,15-16,General,NSCLC,Max,,,40 Gy,50 Gy,,,,,,NCIC CTV BR.25,https://academic.oup.com/jnci/article/106/8/dju164/910382,,,
+456,Trachea,2,General,,Max,,,20 Gy,,,,SC.24,,,,,,,
+457,Bronchial_Tree,Conventional,General,,Max,,,80 Gy,,,,,QUANTEC,,,,,,
+458,Bronchial_Tree,1,General,,Max,,,13.3 Gy,,,,,TG-101,,,,,,
+459,Bronchial_Tree,1,General,,0.5 cc,,,12.4 Gy,,,,,TG-101,,,,,,
+460,Bronchial_Tree,3,General,,Max,,,23.1 Gy,,,,,TG-101,,,,,,
+461,Bronchial_Tree,3,General,,0.5 cc,,,18.9 Gy,,,,,TG-101,,,,,,
+462,Bronchial_Tree,5,General,,Max,,,33 Gy,,,,,TG-101,,,,,,
+463,Bronchial_Tree,5,General,,0.5 cc,,,21 Gy,,,,,TG-101,,,,,,
+464,Bronchial_Tree,10,General,,Max,,,60 Gy,,,,,,,,,,,
+465,Bronchial_Tree,10,General,,1 cc,,,50 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+466,Bronchial_Tree,Conventional,General,,12%,,,75 Gy,,,,,,,Wang IJROBP '20,https://pubmed.ncbi.nlm.nih.gov/32470501/,,,
+467,Bronchial_Tree,5,General,,Max,,,38 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+468,Bronchial_Tree,15-16,General,,Max,,,40 Gy,50 Gy,,,,,,NCIC CTV BR.25,https://academic.oup.com/jnci/article/106/8/dju164/910382,,,
+469,Bronchial_Tree,2,General,,Max,,,20 Gy,,,,SC.24,,,,,,,
+470,Lungs,Conventional,General,"Esophageal,NSCLC,Gastric",Mean,,,20 Gy,,,,"RTOG 0617,RTOG 1308,RTOG 1010",QUANTEC,,Gastric NCCN 1.2021,,Esophageal and GEJ NCCN 1.2021,,V20 < 30-35% and MLD < 20 Gy has a 20% risk of symptomatic RP. 
+471,Lungs,Conventional,General,,Mean,,,15 Gy,17 Gy,,,,QUANTEC,,Thor Clin Ca Res '20,https://pubmed.ncbi.nlm.nih.gov/32398326/,,,
+472,Lungs,Conventional,General,Esophageal,Mean,,,12.7 Gy,,,,,QUANTEC,,Pao Rad Onc '20,https://pubmed.ncbi.nlm.nih.gov/32962730/,,,
+473,Lungs,Conventional,General,NSCLC,Mean,,,10 Gy,,,,,,,STRIPE,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3448004/,,,If > 65y and receiving CCRT with CarboP
+474,Lungs,Conventional,General,"NSCLC,Pediatrics",37%,40%,,20 Gy,,,,"RTOG 0617,RTOG 1308",QUANTEC,,,,,,V20 < 30-35% and MLD < 20 Gy has a 20% risk of symptomatic RP. 
+475,Lungs,Conventional,General,"Esophageal,Pediatrics",25%,30%,,20 Gy,,,,"RTOG 1010,TOPGEAR,ANBL 1531",,,,,,,
+476,Lungs,Conventional,General,"Esophageal,Gastric",40%,,,10 Gy,,,,RTOG 1010,,,Esophageal and GEJ NCCN 1.2021,,,,
+477,Lungs,Conventional,General,,60%,65%,,5 Gy,,,,RTOG 1308,QUANTEC,,,,,,
+478,Lungs,Conventional,General,,50%,,,5 Gy,,,,RTOG 1010,QUANTEC,,Esophageal and GEJ NCCN 1.2021,,,,
+479,Lungs,Conventional,Postop,NSCLC,36%,,,5 Gy,,,,,,,Shepherd PRO '21,https://www.sciencedirect.com/science/article/pii/S1879850020302514?via%3Dihub,,,If > 65y and receiving PORT
+480,Lungs,1,General,,37%,,,8 Gy,,,,BR002,Timmerman,,,,,,
+481,Lungs,1,General,,*1500 cc,,,7 Gy,,,,BR002,TG-101,,,,,,
+482,Lungs,1,General,,*1000 cc,,,7.4 Gy,,,,,TG-101,,,,,,
+483,Lungs,1,General,,*1000 cc,,,7.6 Gy,,,,BR002,Timmerman,,,,,,
+484,Lungs,3,General,,15%,,,20 Gy,,,,"BR002,RTOG 0618",,,,,,,
+485,Lungs,3,General,,10%,,,20 Gy,,,,RTOG 0618,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+486,Lungs,3,General,,*1000 cc,,,12.4 Gy,,,,,TG-101,,,,,,
+487,Lungs,3,General,,*1000 cc,,,11.4 Gy,,,,BR002,Timmerman,,,,,,
+488,Lungs,3,General,,*37%,,,11 Gy,,,,BR002,Timmerman,,,,,,
+489,Lungs,3,General,,*1500 cc,,,10.5 Gy,,,,BR002,Timmerman,,,,,,
+490,Lungs,3,General,,*1500 cc,,,11.6 Gy,,,,,TG-101,,,,,,
+491,Lungs,5,General,,Mean,,,6 Gy,,,,,,,Chang IJROBP '14,https://www.sciencedirect.com/science/article/pii/S0360301614000960?via%3Dihub,Ryckman Rad Onc '20,https://link.springer.com/epdf/10.1186/s13014-020-1479-6?author_access_token=8AacO02cYyFS78dlLFS8sW_BpE1tBhCbnbw3BuzI2RNZbLjtOl82FTiwcevk63KDECG2Dx0f70_Gz3so3wg-NOyj7IMssPDFsiPw7q3-THnX15EpcXcSsF3GqGFvDmKzyvrBqcsgilIPjMC9aF5O1Q%3D%3D,
+492,Lungs,5,General,,Mean,,,12 Gy,,,,SUNSET,,,,,,,
+493,Lungs,5,General,,10%,,,20 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+494,Lungs,5,General,,*1500 cc,,,12.5 Gy,,,,"RTOG 0813,BR002",TG-101,,,,,,
+495,Lungs,5,General,,*1000 cc,,,13.5 Gy,,,,"RTOG 0813,BR002",TG-101,,,,,,
+496,Lungs,5,General,,*37%,,,13.5 Gy,,,,BR002,Timmerman,,,,,,
+497,Lungs,8,General,,Mean,,,12 Gy,,,,,,,Needs source,,,,
+498,Lungs,8,General,,10%,,,20 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+499,Lungs,10,General,,Mean,,,9 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+500,Lungs,10,General,,*1000 cc,,,16.5 Gy,,,,,,,Needs source,,,,
+501,Lungs,10,General,,Mean,,,12 Gy,,,,,,,Needs source,,,,
+502,Lungs,10,General,,*1500 cc,,,15.2 Gy,,,,,,,Needs source,,,,
+503,Lungs,10,General,,7%,,,40 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+504,Lungs,Conventional,General,Gastric,Mean,,,18 Gy,,,,TOPGEAR,QUANTEC,,,,,,
+505,Lungs,15-16,General,,Mean,,,16.5 Gy,18.5 Gy,,,NRG LU004,,,,,,,
+506,Lungs,15-16,General,,37%,40%,,16.5 Gy,,,,NRG LU004,,,,,,,
+507,Lungs,15-16,General,,Mean,,,12 Gy,,,,,,,Kong IJROBP '20,https://doi.org/10.1016/j.ijrobp.2020.03.038,,,
+508,Lungs,15-16,General,,Mean,,,14 Gy,,,,SUNSET,,,,,,,
+509,Lungs,15-16,General,,65%,70%,,5 Gy,,,,NRG LU004,,,,,,,
+510,Lungs,15-16,General,,40%,50%,,5 Gy,,,,,,,Kong IJROBP '20,https://doi.org/10.1016/j.ijrobp.2020.03.038,,,
+511,Lungs,Conventional,General,Mesothelioma,Mean,,,8.5 Gy,,,,,,,MDACC Rice IJROBP '07,https://www.sciencedirect.com/science/article/pii/S0360301607005056?via%3Dihub,,,Mesothelioma after EPP
+512,Lungs,Conventional,General,"Gastric,Esophageal",10%,,,40 Gy,,,,,,,Esophageal and GEJ NCCN 1.2021,,,,
+513,Lungs,Conventional,General,"Gastric,Esophageal",15%,,,30 Gy,,,,,,,Esophageal and GEJ NCCN 1.2021,,,,
+514,Lungs,Conventional,General,"Gastric,Esophageal,Pediatrics",20%,,,20 Gy,,,,"RTOG 0630,AEWS 1031",,,Esophageal and GEJ NCCN 1.2021,,,,
+515,Lungs,Conventional,General,Pediatrics,20%,35%,,20 Gy,,,,AEWS 1031,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,
+516,Lungs,Conventional,General,Pediatrics,35%,60%,,5 Gy,,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,
+517,Lungs,Conventional,General,Pediatrics,Mean,,,8 Gy,13.5 Gy,,,,,,Wirth IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/32272184,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,
+518,Lungs,2,General,,Mean,,,5 Gy,,,,SC.24,,,,,,,
+519,Lungs,2,General,,10%,,,10 Gy,,,,SC.24,,,,,,,
+520,Lungs,2,General,,35%,,,5 Gy,,,,SC.24,,,,,,,
+521,Lungs,2,General,,3%,,,20 Gy,,,,SC.24,,,,,,,
+1171,Lungs,Conventional,General,Pediatrics,100%,,,15 Gy,,,,AEWS 1031,,,,,,,
+1176,Lungs,Conventional,General,"Gastric,Esophageal",50%,,,5 Gy,,,,,,,Esophageal and GEJ NCCN 1.2021,,,,
+522,Lung_Ipsi,Conventional,General,Breast,15%,20%,,20 Gy,,,,"RTOG 1005,NSABP B-51,DBCG SKAGEN",,,,,,,No RNI
+523,Lung_Ipsi,Conventional,General,Breast,35%,40%,,20 Gy,,,,"RTOG 1005,NSABP B-51,DBCG SKAGEN",,,,,,,Includes RNI
+524,Lung_Ipsi,Conventional,General,Breast,35%,40%,,10 Gy,,,,"RTOG 1005,NSABP B-51",,,,,,,No RNI
+525,Lung_Ipsi,Conventional,General,Breast,50%,60%,,10 Gy,,,,"RTOG 1005,NSABP B-51",,,,,,,Includes RNI
+526,Lung_Ipsi,Conventional,General,Breast,50%,55%,,5 Gy,,,,"RTOG 1005,NSABP B-51",,,,,,,No RNI
+527,Lung_Ipsi,Conventional,General,Breast,65%,70%,,5 Gy,,,,"RTOG 1005,NSABP B-51",,,,,,,Includes RNI
+528,Lung_Ipsi,15-16,General,Breast,15%,20%,,16 Gy,,,,RTOG 1005,,,,,,,
+529,Lung_Ipsi,15-16,General,Breast,35%,40%,,8 Gy,,,,RTOG 1005,,,,,,,
+530,Lung_Ipsi,15-16,General,Breast,50%,55%,,4 Gy,,,,RTOG 1005,,,,,,,
+531,Lung_Ipsi,5,General,Breast,15%,17%,,8 Gy,,,,UK FAST-Forward,,,,,,,
+532,Lung_Ipsi,5,General,Breast,20%,,,10 Gy,,,,Florence,,,,,,,
+533,Lung_Ipsi,10,General,Breast,3%,,,20 Gy,,,,,,,MSKCC Braunstein IJROBP '19,https://www.sciencedirect.com/science/article/pii/S0360301619303062?via%3Dihub,,,
+534,Lung_Ipsi,Conventional,General,Pediatrics,30%,,,20 Gy,,,,ANBL 1531,,,,,,,No RNI
+1185,Lung_Ipsi,Conventional,General,Breast,30%,35%,,20 Gy,,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+1186,Lung_Ipsi,Conventional,General,Breast,50%,60%,,10 Gy,,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+1187,Lung_Ipsi,Conventional,General,Breast,65%,75%,,5 Gy,,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+535,Lung_Contra,Conventional,General,,Mean,,,8 Gy,,,,,,,Needs source,,,,
+536,Lung_Contra,Conventional,General,,7%,10%,,20 Gy,,,,,,,Needs source,,,,
+537,Lung_Contra,Conventional,General,,13%,,,10 Gy,,,,,,,Needs source,,,,
+538,Lung_Contra,Conventional,General,,60%,75%,,5 Gy,,,,,,,Needs source,,,,
+539,Lung_Contra,Conventional,General,Breast,10%,15%,,5 Gy,,,,RTOG 1005,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Applies regardless of VMAT
+540,Lung_Contra,Conventional,General,Breast,5%,,,20 Gy,,,,,,,Needs source,,,,VMAT
+541,Lung_Contra,15-16,General,Breast,10%,15%,,4 Gy,,,,RTOG 1005,,,,,,,
+542,Lung_Contra,5,General,Breast,10%,,,5 Gy,,,,Florence,,,,,,,
+543,Lung_Contra,Conventional,General,Mesothelioma,7%,,,20 Gy,,,,,,,MDACC Rice IJROBP '07,https://www.sciencedirect.com/science/article/pii/S0360301607005056?via%3Dihub,,,Mesothelioma after EPP
+544,Lung_Contra,Conventional,General,Pediatrics,10%,,,20 Gy,,,,ANBL 1531,,,,,,,No RNI
+545,Rib,1,General,,Max,,,33 Gy,,,,BR002,Timmerman,,,,,,
+546,Rib,1,General,,Max,,,30 Gy,,,,,TG-101,,,,,,
+547,Rib,1,General,,5 cc,,,28 Gy,,,,BR002,Timmerman,,,,,,
+548,Rib,1,General,,1 cc,,,22 Gy,,,,,TG-101,,,,,,
+549,Rib,3,General,,Max,,,50 Gy,,,,BR002,Timmerman,,,,,,
+550,Rib,3,General,,30 cc,,,30 Gy,,,,,TG-101,,,,,,
+551,Rib,3,General,,Max,,,36.9 Gy,,,,,TG-101,,,,,,
+552,Rib,3,General,,5 cc,,,40 Gy,,,,BR002,Timmerman,,,,,,
+553,Rib,5,General,,Max,,,57 Gy,,,,BR002,Timmerman,,,,,,
+554,Rib,5,General,,5 cc,,,45 Gy,,,,BR002,Timmerman,,,,,,
+555,Rib,5,General,,30 cc,,,35 Gy,,,,,TG-101,,,,,,
+556,Rib,5,General,,Max,,,43 Gy,,,,,TG-101,,,,,,
+557,Rib,10,General,,Max,,,57.6 Gy,,,,BR002,Timmerman,,,,,,
+558,Rib,10,General,,1 cc,,,46 Gy,,,,,TG-101,,,,,,
+559,Rib,3,General,,1 cc,,,28.8 Gy,,,,,TG-101,,,,,,
+560,Chest_Wall,1,General,,Max,,,30 Gy,,,,,Timmerman,,,,,,
+561,Chest_Wall,3,General,,0.5 cc,,,37 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+562,Chest_Wall,3,General,,30 cc,70 cc,,30 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+563,Chest_Wall,5,General,,Max,,,43 Gy,,,,,Timmerman,,,,,,
+564,Chest_Wall,5,General,,0.5 cc,,,39 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+565,Chest_Wall,5,General,,30 cc,70 cc,,32 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+566,Chest_Wall,8,General,,0.5 cc,,,39 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+567,Chest_Wall,8,General,,30 cc,,,35 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+568,Chest_Wall,10,General,,Max,,,82 Gy,,Extrapolation,,RTOG 0813,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+569,Chest_Wall,10,General,,120 cc,,,40 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+570,Chest_Wall,10,General,,60 cc,,,50 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+571,Chest_Wall,10,General,,250 cc,,,30 Gy,,,,,,,MDACC Chang JTO '15,https://pubmed.ncbi.nlm.nih.gov/25514807/,,,
+572,Chest_Wall,8,General,,n/a,,,n/a,,,,LungTECH,,,,,,,
+573,Breast,5,General,,Max,,,48 Gy,,,,,,,Rahimi IJROBP ‘20,https://pubmed.ncbi.nlm.nih.gov/32464155/,,,
+574,Breast,5,General,,1 cc,,,47.5 Gy,,,,,,,Rahimi IJROBP ‘20,https://pubmed.ncbi.nlm.nih.gov/32464155/,,,
+575,Breast,5,General,,20 cc,,,45 Gy,,,,,,,Rahimi IJROBP ‘20,https://pubmed.ncbi.nlm.nih.gov/32464155/,,,
+576,Breast,5,General,,50 cc,,,42.5 Gy,,,,,,,Rahimi IJROBP ‘20,https://pubmed.ncbi.nlm.nih.gov/32464155/,,,PTV < 100 cc
+577,Breast,Conventional,General,Pediatrics,Max,,,4 Gy,15 Gy,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,Breast tissue growth and development affected at 5-10 Gy
+578,Breast,Conventional,General,Pediatrics,10%,20%,,4 Gy,,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,Breast tissue growth and development affected at 5-10 Gy
+579,Breast,Conventional,General,Pediatrics,10%,,,10 Gy,,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,Breast tissue growth and development affected at 5-10 Gy
+580,Breast,Conventional,General,Pediatrics,55%,60%,,5 Gy,,,,,,Must,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,Italian Expert Consensus,https://www.ncbi.nlm.nih.gov/pubmed/32164700,Breast tissue growth and development affected at 5-10 Gy
+581,Breast_Ipsi,Conventional,General,Breast,10%,,,105%,,,,,,,Patel IJROBP '19,https://pubmed.ncbi.nlm.nih.gov/30145393/,,,
+582,Breast_Ipsi,5,General,Breast,5%,,,105%,,,,Florence,,,,,,,
+583,Breast_Ipsi,5,General,Breast,50%,,,15 Gy,,,,Florence,,,,,,,Ipsi breast - PTV
+584,Breast_Ipsi,10,General,Breast,45%,50%,,20 Gy,,,,,,,MSKCC Braunstein IJROBP '19,https://www.sciencedirect.com/science/article/pii/S0360301619303062?via%3Dihub,,,Ipsi breast - PTV
+585,Breast_Contra,Conventional,General,Breast,Max,,,3.1 Gy,4.96 Gy,,,,,,Needs source,,,,
+586,Breast_Contra,Conventional,General,Breast,5%,,,1.86 Gy,3.1 Gy,,,"RTOG 1005,NSABP B-51",,,,,,,
+587,Breast_Contra,Conventional,General,Breast,Mean,,,6 Gy,,,,,,,,,,,VMAT
+588,Breast_Contra,15-16,General,Breast,Max,,,2.4 Gy,3.84 Gy,,,RTOG 1005,,,,,,,
+589,Breast_Contra,15-16,General,Breast,5%,,,1.44 Gy,2.40 Gy,,,RTOG 1005,,,,,,,
+590,Breast_Contra,5,General,Breast,Max,,,1 Gy,,,,Florence,,,,,,,VMAT
+1189,Breast_Contra,Conventional,General,Breast,5%,10%,,4.1 Gy,,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+591,Stomach,Conventional,General,"Pancreas,Gastric",Max,,,54 Gy,55 Gy,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,Esophageal and GEJ NCCN 1.2021,,
+592,Stomach,Conventional,General,,Max,,,45 Gy,50 Gy,,,,QUANTEC,,,,,,Stomach D100 to 45 Gy with < 7% gastric ulceration.
+593,Stomach,Conventional,General,,10%,,,54 Gy,,,,,,,Needs source,,,,
+594,Stomach,Conventional,General,,10%,15%,,50 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+595,Stomach,Conventional,General,,1 cc,,,50 Gy,,,,,,,Needs source,,,,
+596,Stomach,Conventional,General,,15%,,,45 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+597,Stomach,Conventional,General,,50%,,,20 Gy,,,,,,,Needs source,,,,
+598,Stomach,1,General,,Max,,,22 Gy,,,,BR002,Timmerman,,,,,,
+599,Stomach,1,General,,Max,,,12.4 Gy,,,,,TG-101,,,,,,
+600,Stomach,1,General,,5 cc,,,15.4 Gy,17.4 Gy,,,"BR002,IROCK: Solitary Kidney",Timmerman,,,,,,Stomach V22.5 < 5 cc (4%) - QUANTEC
+601,Stomach,1,General,,10 cc,,,11.2 Gy,,,,RTOG 0631,TG-101,,,,,,
+602,Stomach,3,General,,Max,,,30 Gy,,,,"BR002,IROCK: Solitary Kidney",Timmerman,,,,,,
+603,Stomach,3,General,,Max,,,22.2 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+604,Stomach,3,General,,10 cc,,,22.5 Gy,,,,BR002,TG-101,,,,,,
+605,Stomach,3,General,,10 cc,,,16.5 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+606,Stomach,5,General,,10 cc,,,35 Gy,,,,SUNSET,,,,,,,
+607,Stomach,5,General,,5 cc,,,26.5 Gy,,,,BR002,Timmerman,,,,,,
+608,Stomach,5,General,,Max,,,32 Gy,,,,,TG-101,,,,,,
+609,Stomach,5,General,,10 cc,,,18 Gy,,,,,TG-101,,,,,,
+610,Stomach,5,General,,0.5 cc,,,33 Gy,35 Gy,,,BR002,"Timmerman,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+611,Stomach,5,General,,5 cc,10 cc,,25 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+612,Stomach,5,General,,50 cc,,,12 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+613,Stomach,8,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+614,Stomach,8,General,,10 cc,,,40 Gy,,,,SUNSET,,,,,,,
+615,Stomach,10,General,,Max,,,41.9 Gy,,,,,,,Needs source,,,,
+616,Stomach,10,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+617,Stomach,10,General,,10 cc,,,40 Gy,,,,SUNSET,,,,,,,
+618,Stomach,10,General,,1 cc,,,37 Gy,,,,RTOG 0438,,,,,,,
+619,Stomach,10,General,,10 cc,,,22.6 Gy,,,,,,,Needs source,,,,
+620,Stomach,Conventional,General,Gastric,Max,,,48.2 Gy,,,,TOPGEAR,,,,,,,Stomach D100 to 45 Gy with < 7% gastric ulceration.
+621,Stomach,Conventional,General,,75 cc,,,45 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+622,Stomach,5,General,Pancreas,0.5 cc,,0.5 cm,40 Gy,,,,SUNSET,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+623,Stomach,5,General,Pancreas,1 cc,,0.5 cm,35 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+624,Stomach,5,General,Pancreas,2 cc,,0.5 cm,30 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+625,Stomach,5,General,Pancreas,1 cc,,,33 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,,,
+626,Stomach,5,General,Pancreas,3 cc,,,20 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,,,
+627,Stomach,5,General,Pancreas,9 cc,,,15 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,,,
+628,Stomach,15-16,General,,Max,,,50 Gy,,,,SUNSET,,,,,,,
+629,Stomach,15-16,General,,10 cc,,,48 Gy,,,,SUNSET,,,,,,,
+630,Stomach,15-16,General,,Max,,,45 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+631,Stomach,Conventional,General,Gastric,Min,,,40.5 Gy,,,,TOPGEAR,,,,,,,Stomach D100 to 45 Gy with < 7% gastric ulceration.
+632,Stomach,Conventional,General,Gastric,Mean,,,30 Gy,,,,,,,Esophageal and GEJ NCCN 1.2021,,,,Stomach - PTV
+633,Stomach,5,General,Pancreas,20 cc,,0.5 cm,20 Gy,,,,,,,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,,,
+634,Stomach,Conventional,General,Sarcoma,33%,,,60 Gy,,,,,,,Needs source,,,,
+635,Stomach,Conventional,General,Sarcoma,67%,,,55 Gy,,,,,,,Needs source,,,,
+636,Stomach,Conventional,General,Sarcoma,100%,,,50 Gy,,,,,,,Needs source,,,,
+637,Stomach,2,General,,Max,,,20 Gy,,,,SC.24,,,,,,,
+638,Duodenum,Conventional,General,,Max,,,50 Gy,,,,,,,Needs source,,,,
+639,Duodenum,Conventional,General,Gynecological,2 cc,,,60 Gy,,,,,,,Verma IJROBP '14,https://www.sciencedirect.com/science/article/pii/S0360301613032793?via%3Dihub,,,3y G2+ for D2cc ± 60 Gy of 4→ 19%
+640,Duodenum,Conventional,General,Gynecological,15 cc,,,55 Gy,,,,EMBRACE II,,Must,Verma IJROBP '14,https://www.sciencedirect.com/science/article/pii/S0360301613032793?via%3Dihub,,,3y G2+ for V55 ± 15 cc of 7→ 49% 
+641,Duodenum,Conventional,General,Gynecological,1 cc,,,55 Gy,,,,,,,George Clin Onc '20,https://www.ncbi.nlm.nih.gov/pubmed/31495648,,,G2+ for V55 1 / 10cc of 10→ 20%
+642,Duodenum,Conventional,General,Gynecological,4 cc,,,50 Gy,,,,,,,George Clin Onc '20,https://www.ncbi.nlm.nih.gov/pubmed/31495648,,,G2+ for V50 4 / 10cc of 10→ 14%
+643,Duodenum,1,General,,10 cc,,,9 Gy,,,,BR002,"TG-101,Timmerman",,,,,,
+644,Duodenum,1,General,,5 cc,,,11.2 Gy,,,,"BR002,RTOG 0631",TG-101,,,,,,
+645,Duodenum,1,General,,Max,,,12.4 Gy,,,,,"TG-101,QUANTEC",,,,,,Small bowel receiving 12.5 Gy should be < 30 cc with avoidance of circumferential coverage above that dose.
+646,Duodenum,1,General,,Max,,,16 Gy,17 Gy,,,"BR002,RTOG 0631",Timmerman,,,,,,
+647,Duodenum,3,General,,10 cc,,,15 Gy,,,,BR002,Timmerman,,,,,,
+648,Duodenum,3,General,,5 cc,,,16.5 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+649,Duodenum,3,General,,Max,,,24 Gy,,,,BR002,Timmerman,,,,,,
+650,Duodenum,3,General,,Max,,,30 Gy,,,,IROCK: Solitary Kidney,,,,,,,
+651,Duodenum,3,General,,Max,,,22.2 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+652,Duodenum,3,General,,10 cc,,,11.4 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+653,Duodenum,5,General,,5 cc,,,18 Gy,18.3 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+654,Duodenum,5,General,,10 cc,,,12.5 Gy,,,,,TG-101,,,,,,
+655,Duodenum,5,General,,0.5 cc,,,30 Gy,,,,"RTOG 1112,BR002",,,,,,,
+656,Duodenum,5,General,,0.5 cc,,,35 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+657,Duodenum,5,General,,10 cc,,,35 Gy,,,,SUNSET,,,,,,,
+658,Duodenum,5,General,,Max,,,32 Gy,,,,,TG-101,,,,,,
+659,Duodenum,5,General,,5 cc,10 cc,,25 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+660,Duodenum,8,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+661,Duodenum,8,General,,10 cc,,,40 Gy,,,,SUNSET,,,,,,,
+662,Duodenum,10,General,,Max,,,41.9 Gy,,,,,,,Needs source,,,,
+663,Duodenum,10,General,,10 cc,,,15.2 Gy,,,,,,,Needs source,,,,
+664,Duodenum,10,General,,5 cc,,,22.6 Gy,,,,,,,Needs source,,,,
+665,Duodenum,10,General,,1 cc,,,37 Gy,,,,RTOG 0438,,,,,,,
+666,Duodenum,10,General,,10 cc,,,40 Gy,,,,SUNSET,,,,,,,
+667,Duodenum,10,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+668,Duodenum,Conventional,General,Pancreas,Max,,,55 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+669,Duodenum,Conventional,General,Pancreas,Full Circumference,,,50 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+670,Duodenum,Conventional,General,Pancreas,10%,,,50 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+671,Duodenum,Conventional,General,Pancreas,10 cc,,,50 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+672,Duodenum,Conventional,General,Pancreas,15%,,,45 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,
+673,Duodenum,1,General,Pancreas,Max,,,23 Gy,,,,,,,Murphy IJROBP '09,https://www.sciencedirect.com/science/article/pii/S0360301609035226?via%3Dihub,,,G2+ duodenal toxicity for V15 ± 9.1 cc of 11→ 52%. Similar results for V20 ± 3.3 cc and Dmax ± 23 Gy.
+674,Duodenum,1,General,Pancreas,3 cc,,,20 Gy,,,,,,,Murphy IJROBP '09,https://www.sciencedirect.com/science/article/pii/S0360301609035226?via%3Dihub,,,G2+ duodenal toxicity for V15 ± 9.1 cc of 11→ 52%. Similar results for V20 ± 3.3 cc and Dmax ± 23 Gy.
+675,Duodenum,1,General,Pancreas,9 cc,,,15 Gy,,,,,,,Murphy IJROBP '09,https://www.sciencedirect.com/science/article/pii/S0360301609035226?via%3Dihub,,,G2+ duodenal toxicity for V15 ± 9.1 cc of 11→ 52%. Similar results for V20 ± 3.3 cc and Dmax ± 23 Gy.
+676,Duodenum,5,General,Pancreas,0.5 cc,,0.5 cm,40 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+677,Duodenum,5,General,Pancreas,1 cc,,0.5 cm,35 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+678,Duodenum,5,General,Pancreas,3 cc,,0.5 cm,30 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+679,Duodenum,5,General,Pancreas,1 cc,,,33 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,,,
+680,Duodenum,5,General,Pancreas,3 cc,,,20 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,,,
+681,Duodenum,5,General,Pancreas,9 cc,,,15 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,,,
+682,Duodenum,15-16,General,,Max,,,45 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+683,Duodenum,15-16,General,,Max,,,50 Gy,,,,SUNSET,,,,,,,
+684,Duodenum,15-16,General,,10 cc,,,48 Gy,,,,SUNSET,,,,,,,
+685,Duodenum,5,General,Pancreas,30 cc,,0.5 cm,20 Gy,,,,,,,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,,,
+686,Spleen,Conventional,General,Pancreas,Mean,,,9 Gy,,,,,,,MDACC Chadha IJROBP '17,https://www.redjournal.org/article/S0360-3016(16)33422-8/abstract,,,
+687,Spleen,Conventional,General,Pediatrics,Mean,,,10 Gy,,,,,,,SIOP Arunagiri EJC '21,https://pubmed.ncbi.nlm.nih.gov/33271483/,,,
+688,Spleen,5,General,,Mean,,,2 Gy,,,,,,,Needs source,,,,
+689,Spleen,Conventional,General,,20%,,,15 Gy,,,,,,,MDACC Chadha IJROBP '17,https://www.redjournal.org/article/S0360-3016(16)33422-8/abstract,,,
+690,Spleen,15-16,General,Pancreas,Mean,,,6 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+691,Liver,Conventional,General,,Mean,,,25 Gy,32 Gy,,,RTOG 1010,QUANTEC,,Esophageal and GEJ NCCN 1.2021,,,,MLD of 30-32 Gy with < 5% RILD (excludes cirrhosis). MLD of 28 Gy with < 5% RILD in Child-Pugh A / HCC.
+692,Liver,Conventional,General,,30%,,,36 Gy,40 Gy,,,,,,Needs source,,,,
+693,Liver,Conventional,General,,66%,,,48 Gy,,,,,,,Needs source,,,,
+694,Liver,Conventional,General,,60%,,,30 Gy,,,,RTOG 1010,,,,,,,
+695,Liver,Conventional,General,,TD 5/5,,,30 Gy,,,,,QUANTEC,,,,,,
+696,Liver,1,General,,*700 cc,,,9.1 Gy,,,,,TG-101,,,,,,
+697,Liver,1,General,,*700 cc,,,11 Gy,,,,BR002,Timmerman,,,,,,
+698,Liver,3,General,,*700 cc,,,19.2 Gy,,,,,TG-101,,,,,,
+699,Liver,3,General,,*700 cc,,,17.1 Gy,,,,BR002,Timmerman,,,,,,
+700,Liver,3,General,,*700 cc,,,15 Gy,19.2 Gy,,,IROCK: Solitary Kidney,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+701,Liver,3,General,,Mean,,,13 Gy,15 Gy,,,,,,Needs source,,,,
+702,Liver,5,General,,Mean,,,13 Gy,17 Gy,,,RTOG 1112,,,,,,,
+703,Liver,5,General,,*700 cc,,,21 Gy,,,,BR002,"TG-101,Timmerman",,,,,,
+704,Liver,5,General,,70%,,,10 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+705,Liver,5,General,,60%,,,5 Gy,,,,,,,Pursley IJROBP '20,https://pubmed.ncbi.nlm.nih.gov/32353390/,,,
+706,Liver,5,General,,Mean,,,15.2 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+707,Liver,10,General,,*700 cc,,,26.7 Gy,,,,,,,Needs source,,,,
+708,Liver,10,General,,30%,,,27 Gy,,,,RTOG 0438,,,,,,,
+709,Liver,10,General,,50%,,,24 Gy,,,,RTOG 0438,,,,,,,
+710,Liver,Conventional,General,,33%,,,50 Gy,,,,TOPGEAR,,,,,,,
+711,Liver,Conventional,General,,67%,,,35 Gy,,,,TOPGEAR,,,,,,,
+712,Liver,Conventional,General,,30%,33%,,30 Gy,,,,,,,Gastric NCCN 1.2021,,,,
+713,Liver,3,General,,*15%,,,15 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+714,Liver,15-16,General,Pancreas,700 cc,,,24 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+715,Liver,15-16,General,Pancreas,Mean,,,24 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+716,Liver,15-16,General,,60%,,,5 Gy,,,,,,,Pursley IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/32353390,,,
+717,Liver,Conventional,General,"Gastric,Esophageal",20%,,,30 Gy,,,,,,,Esophageal and GEJ NCCN 1.2021,,,,
+718,Liver,Conventional,General,"Gastric,Esophageal",30%,,,20 Gy,,,,,,,Esophageal and GEJ NCCN 1.2021,,,,
+719,Liver,5,General,,50%,,,12 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+720,Liver,Conventional,General,Sarcoma,33%,,,60 Gy,,,,,,,Needs source,,,,
+721,Liver,Conventional,General,Sarcoma,67%,,,47 Gy,,,,,,,Needs source,,,,
+722,Liver,Conventional,General,Sarcoma,100%,,,31 Gy,,,,,,,Needs source,,,,
+723,Liver,2,General,,Mean,,,8 Gy,,,,SC.24,,,,,,,
+724,Liver,2,General,,Max,,,24 Gy,,,,SC.24,,,,,,,
+725,Liver,2,General,,Max,,,24 Gy,,,,SC.24,,,,,,,
+726,Liver,Conventional,General,Pediatrics,Max,,,23.4 Gy,,,,ARST 1431,,,,,,,
+727,Liver,Conventional,General,Pediatrics,50%,,,30 Gy,,,,ARST 1431,,,,,,,
+728,Liver,Conventional,General,Pediatrics,Mean,,,15 Gy,,,,ANBL 1531,,,,,,,
+729,Liver,Conventional,General,Pediatrics,15%,,,30 Gy,,,,ANBL 1531,,,,,,,
+1162,Liver,Conventional,General,Pediatrics,100%,,,23.4 Gy,,,,AEWS 1031,,,,,,,
+1163,Liver,Conventional,General,Pediatrics,50%,,,30 Gy,,,,AEWS 1031,,,,,,,
+730,Pancreas,Conventional,General,Pediatrics,Max,,,10 Gy,,,,ANBL 1531,,,,,,,Diabetes is seen with pancreas tail > 10 Gy.
+731,Biliary_Tree,Conventional,General,,Max,,,80 Gy,,,,,,,Needs source,,,,
+732,Biliary_Tree,1,General,,Max,,,30 Gy,,,,BR002,Timmerman,,,,,,
+733,Biliary_Tree,3,General,,Max,,,36 Gy,,,,BR002,Timmerman,,,,,,
+734,Biliary_Tree,3,General,,0.5 cc,,,50 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+735,Biliary_Tree,3,General,,21 cc,,,33.8 Gy,,,,,,,Osmundson IJROBP '15,https://www.ncbi.nlm.nih.gov/pubmed/25659885,,,
+736,Biliary_Tree,3,General,,24 cc,,,32 Gy,,,,,,,Osmundson IJROBP '15,https://www.ncbi.nlm.nih.gov/pubmed/25659885,,,
+737,Biliary_Tree,5,General,,24 cc,,,37.7 Gy,,,,,,,Osmundson IJROBP '15,https://www.ncbi.nlm.nih.gov/pubmed/25659885,,,
+738,Biliary_Tree,5,General,,Max,,,41 Gy,,,,BR002,Timmerman,,,,,,
+739,Biliary_Tree,5,General,,21 cc,,,40 Gy,,,,,,,Osmundson IJROBP '15,https://www.ncbi.nlm.nih.gov/pubmed/25659885,,,
+740,Biliary_Tree,5,General,,0.5 cc,,,50 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+741,Biliary_Tree,15-16,General,Pancreas,Max,,,70 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+742,Renal_Cortex,Conventional,General,,Mean,,,18 Gy,,,,,QUANTEC,,,,,,Combined mean kidney dose of 18 / 28 Gy with < 5 → < 50% clinically relevant kidney dysfunction. 
+743,Renal_Cortex,Conventional,General,,20%,,,30 Gy,,,,,QUANTEC,,,,,,Clinically relevant renal dysfunction < 5%
+744,Renal_Cortex,Conventional,General,,30%,,,20 Gy,,,,RTOG 1010,QUANTEC,,,,,,Clinically relevant renal dysfunction < 5%
+745,Renal_Cortex,Conventional,General,,33%,,,18 Gy,,,,,QUANTEC,,,,,,
+746,Renal_Cortex,Conventional,General,,50%,67%,,18 Gy,,,,"RTOG 0418,RTOG 0724",QUANTEC,,,,,,
+747,Renal_Cortex,1,General,,*200 cc,,,9.5 Gy,,,,BR002,Timmerman,,,,,,
+748,Renal_Cortex,1,General,,*200 cc,,,8.4 Gy,,,,RTOG 0631,TG-101,,,,,,
+749,Renal_Cortex,3,General,,*200 cc,,,15 Gy,16 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+750,Renal_Cortex,5,General,,*200 cc,,,17.5 Gy,18 Gy,,,BR002,TG-101,,,,,,
+751,Renal_Cortex,5,General,,*200 cc,,,16 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+752,Renal_Cortex,5,General,,Mean,,,10 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+753,Renal_Cortex,10,General,,*200 cc,,,21.9 Gy,,,,,,,Needs source,,,,
+754,Renal_Cortex,10,General,,10%,,,10 Gy,,,,RTOG 0438,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+755,Renal_Cortex,5,General,Pancreas,75%,,,12 Gy,,,,,,,Herman Ca '15,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368473/,,,
+756,Renal_Cortex,15-16,General,Pancreas,33%,,,20 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+757,Renal_Cortex,Conventional,General,"Esophageal,Gastric,Pediatrics",Mean,,,18 Gy,,,,,,,Gastric NCCN 1.2021,,Esophageal and GEJ NCCN 1.2021,,Each
+758,Renal_Cortex,Conventional,General,"Esophageal,Gastric",33%,,,18 Gy,20 Gy,,,,,,Gastric NCCN 1.2021,,Esophageal and GEJ NCCN 1.2021,,Each
+759,Renal_Cortex,Conventional,General,Gastric,33%,,,35 Gy,,,,TOPGEAR,,,,,,,Each
+760,Renal_Cortex,Conventional,General,Gastric,67%,,,20 Gy,,,,TOPGEAR,,,,,,,Each
+761,Renal_Cortex,Conventional,General,Gastric,Mean,,,23 Gy,,,,TOPGEAR,,,,,,,Each
+762,Renal_Cortex,5,General,Pancreas,25%,,,12 Gy,,,,,,,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,,,
+763,Renal_Cortex,Conventional,General,Cervix,Mean,,,10 Gy,15 Gy,,,EMBRACE II,,Must,,,,,Each
+764,Renal_Cortex,Conventional,General,Sarcoma,33%,,,50 Gy,,,,,,,Needs source,,,,
+765,Renal_Cortex,Conventional,General,Sarcoma,67%,,,30 Gy,,,,,,,Needs source,,,,
+766,Renal_Cortex,Conventional,General,Sarcoma,100%,,,23 Gy,,,,,,,Needs source,,,,
+767,Renal_Cortex,2,General,,Mean,,,5 Gy,,,,SC.24,,,,,,,
+1168,Renal_Cortex,Conventional,General,Pediatrics,50%,,,24 Gy,,,,AEWS 1031,,,,,,,
+1169,Renal_Cortex,Conventional,General,Pediatrics,100%,,,14.4 Gy,,,,AEWS 1031,,,,,,,
+768,Renal_Cortex_Contra,Conventional,General,,Mean,,,9 Gy,,,,,,,Needs source,,,,
+769,Renal_Cortex_Contra,Conventional,General,,15%,20%,,20 Gy,,,,RTOG 1010,,,,,,,
+770,Renal_Cortex_Contra,Conventional,General,,10%,15%,,18 Gy,,,,,,,Needs source,,,,
+771,Renal_Cortex_Contra,Conventional,General,Testicular,D50,,,8 Gy,,,,,,,,,,,
+772,Renal_Cortex_Contra,Conventional,General,,30%,,,6 Gy,,,,,QUANTEC,,,,,,Clinically relevant renal dysfunction < 5%
+773,Renal_Cortex_Contra,1,General,,33%,,,10 Gy,,,,IROCK: Solitary Kidney,,,,,,,
+774,Renal_Cortex_Contra,Conventional,General,Pediatrics,25%,,,18 Gy,,,,ANBL 1531,,,,,,,
+775,Renal_Cortex_Ipsi,5,General,,10%,45%,,10 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,If solitary kidney or one kidney mean dose > 10 Gy
+776,Renal_Cortex_Ipsi,Conventional,General,Gastric,33%,,,35 Gy,,,,TOPGEAR,,,,,,,Clinically relevant renal dysfunction < 5%
+777,Renal_Cortex_Ipsi,Conventional,General,Gastric,67%,,,20 Gy,,,,TOPGEAR,,,,,,,Clinically relevant renal dysfunction < 5%
+778,Renal_Cortex_Ipsi,Conventional,General,Gastric,Mean,,,23 Gy,,,,TOPGEAR,,,,,,,Clinically relevant renal dysfunction < 5%
+779,Renal_Cortex_Ipsi,Conventional,General,Pediatrics,D100,,,14.4 Gy,,,,"ARST 1431,ANBL 1531",,,,,,,
+780,Renal_Cortex_Ipsi,Conventional,General,Pediatrics,D50,,,24 Gy,,,,ARST 1431,,,,,,,
+781,Renal_Cortex_Ipsi,Conventional,General,Pediatrics,Mean,,,18 Gy,,,,ANBL 1531,,,,,,,
+782,Renal_Cortex_Ipsi,Conventional,General,Pediatrics,75%,,,18 Gy,,,,ANBL 1531,,,,,,,
+783,Renal_hilum,1,General,,Max,,,18.6 Gy,,,,,TG-101,,,,,,
+784,Renal_hilum,1,General,,67%,,,10.6 Gy,,,,RTOG 0631,TG-101,,,,,,
+785,Renal_hilum,1,General,,15 cc,,,14 Gy,,,,BR002,Timmerman,,,,,,
+786,Renal_hilum,5,General,,15 cc,,,23 Gy,,,,BR002,Timmerman,,,,,,
+787,Renal_hilum,3,General,,15 cc,,,19.5 Gy,,,,BR002,Timmerman,,,,,,
+788,Renal_hilum,5,General,,67%,,,23 Gy,,,,,TG-101,,,,,,
+789,Bowel_Bag,Conventional,General,,5 cc,10 cc,,50 Gy,,,,EMBRACE II,,Must,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,Bowel bag contour ends 2 cm above PTV
+790,Bowel_Bag,Conventional,General,"Rectal,Anal,Gastric",195 cc,,,45 Gy,,,,,QUANTEC,,Roeske RTO '03,https://pubmed.ncbi.nlm.nih.gov/14643959/,Gastric NCCN 1.2021,,G3+ acute toxicity < 10% for bowel bag V45 < 195 cc.
+791,Bowel_Bag,Conventional,General,Prostate,150 cc,200 cc,,45 Gy,,,,RTOG 0534 (SPPORT),,,,,,,Bowel bag contour ends 2 cm above PTV
+792,Bowel_Bag,Conventional,General,,Max,,,50 Gy,52 Gy,,,"RTOG 0822,RTOG 0529",NRG Prostate,,,,,,Bowel bag contour ends 2 cm above PTV
+793,Bowel_Bag,Conventional,General,,30%,70%,,40 Gy,,,,"RTOG 1203 (TIME-C),RTOG 0418,RTOG 0724,NRG GU001",,,,,,,Bowel bag contour ends 2 cm above PTV
+794,Bowel_Bag,Conventional,General,"Pancreas,Rectal,Anal",Max,,,55 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,Bowel bag contour ends 2 cm above PTV
+795,Bowel_Bag,Conventional,General,"Pancreas,Prostate",10%,,,50 Gy,,,,,NRG Prostate,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,Bowel bag contour ends 2 cm above PTV
+796,Bowel_Bag,Conventional,General,Pancreas,15%,,,45 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,Bowel bag contour ends 2 cm above PTV
+797,Bowel_Bag,Conventional,General,,2 cc,,,50 Gy,,,,,,,Jethwa ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673659/,,,Bowel bag contour ends 2 cm above PTV
+798,Bowel_Bag,Conventional,General,Rectal,100 cc,,,40 Gy,,,,RTOG 0822,,,,,,,
+799,Bowel_Bag,Conventional,General,Rectal,65 cc,,,45 Gy,,,,RTOG 0822,,,,,,,
+800,Bowel_Bag,Conventional,General,"Gastric,Esophageal",D05,,,45 Gy,,,,,,,Esophageal and GEJ NCCN 1.2021,,,,Bowel bag contour ends 2 cm above PTV
+801,Bowel_Bag,Conventional,General,Pancreas,10 cc,,,50 Gy,,,,,,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,,,Bowel bag contour ends 2 cm above PTV
+802,Bowel_Bag,Conventional,General,Testicular,70%,,,20 Gy,,,,,,,,,,,Bowel bag contour ends 2 cm above PTV
+803,Bowel_Bag,Conventional,General,Cervix,250 cc,300 cc,,40 Gy,,,,EMBRACE II,,Can,,,,,300 cc if pAO irradiation
+804,Bowel_Bag,Conventional,General,Cervix,500 cc,650 cc,,30 Gy,,,,EMBRACE II,,Can,,,,,650 cc if pAO irradiation
+805,Bowel_Bag,Conventional,General,Cervix,Max,,,105%,,,,EMBRACE II,,Must,,,,,"No 105% hot spot in bowel bag (e.g., 47.25 Gy for 45/25), or if node positive, Dmax < 105% in regions 1.0-1.5 cm from PTV-N"
+806,Bowel_Bag,Conventional,General,Sarcoma,830 cc,,,15 Gy,,,,,,,Baldini IJROBP '15,https://www.redjournal.org/article/S0360-3016(15)00180-7/abstract,,,
+1166,Bowel_Bag,Conventional,General,Pediatrics,75%,,,45 Gy,,,,AEWS 1031,,,,,,,
+807,Bowel_Loop_Sm,Conventional,General,,120 cc,,,15 Gy,,,,,QUANTEC,,ESTRO ACROP Pancreas '20,https://pubmed.ncbi.nlm.nih.gov/32861703/,Baldini IJROBP '15,https://www.redjournal.org/article/S0360-3016(15)00180-7/abstract,G3+ acute toxicity < 10% for individual loops V15 < 120 cc
+808,Bowel_Loop_Sm,1,General,,5 cc,,,11.9 Gy,,,,RTOG 0631,"TG-101,QUANTEC",,,,,,Small bowel receiving 12.5 Gy should be < 30 cc with avoidance of circumferential coverage above that dose. 
+809,Bowel_Loop_Sm,1,General,,Max,,,15.4 Gy,,,,RTOG 0631,TG-101,,,,,,
+810,Bowel_Loop_Sm,3,General,,0.5 cc,,,25.2 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+811,Bowel_Loop_Sm,3,General,,30 cc,,,12.5 Gy,,,,IROCK: Solitary Kidney,,,,,,,
+812,Bowel_Loop_Sm,3,General,,5 cc,,,17.7 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+813,Bowel_Loop_Sm,3,General,,Max,,,30 Gy,,,,IROCK: Solitary Kidney,,,,,,,
+814,Bowel_Loop_Sm,5,General,,5 cc,10 cc,,25 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+815,Bowel_Loop_Sm,5,General,,5 cc,,,19.5 Gy,,,,,TG-101,,,,,,
+816,Bowel_Loop_Sm,5,General,,0.5 cc,,,30 Gy,35 Gy,,,,"UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,TG-101",,,,,,
+817,Bowel_Loop_Sm,5,General,,10 cc,,,35 Gy,,,,SUNSET,,,,,,,
+818,Bowel_Loop_Sm,8,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+819,Bowel_Loop_Sm,8,General,,10 cc,,,40 Gy,,,,SUNSET,,,,,,,
+820,Bowel_Loop_Sm,10,General,,5 cc,,,24.6 Gy,,,,,,,Needs source,,,,
+821,Bowel_Loop_Sm,10,General,,1 cc,,,37 Gy,,,,RTOG 0438,,,,,,,
+822,Bowel_Loop_Sm,10,General,,10 cc,,,40 Gy,,,,SUNSET,,,,,,,
+823,Bowel_Loop_Sm,10,General,,Max,,,45 Gy,,,,SUNSET,,,,,,,
+824,Bowel_Loop_Sm,10,General,,Max,,,46 Gy,,,,,,,Needs source,,,,
+825,Bowel_Loop_Sm,5,General,Pancreas,0.5 cc,,0.5 cm,40 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+826,Bowel_Loop_Sm,5,General,Pancreas,0.1 cc,1 cc,0.5 cm,35 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+827,Bowel_Loop_Sm,5,General,Pancreas,1 cc,3 cc,0.5 cm,30 Gy,,,,,,,Koay PRO '20,https://www.ncbi.nlm.nih.gov/pubmed/32061993,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,
+828,Bowel_Loop_Sm,15-16,General,,Max,,,50 Gy,,,,SUNSET,,,,,,,
+829,Bowel_Loop_Sm,15-16,General,,10 cc,,,48 Gy,,,,SUNSET,,,,,,,
+830,Bowel_Loop_Sm,15-16,General,Pancreas,Max,,,45 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+831,Bowel_Loop_Sm,20,General,,Max,,,40 Gy,,,,,NRG Prostate,,,,,,
+832,Bowel_Loop_Sm,20,General,,90 cc,,,37 Gy,,,,,NRG Prostate,,,,,,
+833,Bowel_Loop_Sm,20,General,,130 cc,,,33 Gy,,,,,NRG Prostate,,,,,,
+834,Bowel_Loop_Sm,5,General,Pancreas,15 cc,,0.5 cm,20 Gy,,,,,,,MDACC Colbert ARO '18,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6200902/,,,
+835,Bowel_Loop_Sm,28,General,Prostate,Max,,,52 Gy,,,,,NRG Prostate,,,,,,
+836,Bowel_Loop_Sm,28,General,Prostate,2 cc,,,46 Gy,,,,,NRG Prostate,,,,,,
+837,Bowel_Loop_Sm,28,General,Prostate,1%,,,40 Gy,,,,,,,Needs source,,,,
+838,Bowel_Loop_Sm,5,General,Prostate,1 cc,,,30 Gy,,,,,,,Needs source,,,,
+839,Bowel_Loop_Sm,5,General,Prostate,5 cc,,,18.1 Gy,,,,,,,Needs source,,,,
+840,Bowel_Loop_Sm,Conventional,General,Sarcoma,33%,,,50 Gy,,,,,,,Needs source,,,,
+841,Bowel_Loop_Sm,Conventional,General,Sarcoma,100%,,,40 Gy,,,,,,,Needs source,,,,
+842,Bowel_Loop_Sm,Conventional,General,Sarcoma,20 cc,,,55 Gy,,,,,,,Baldini IJROBP '15,https://www.redjournal.org/article/S0360-3016(15)00180-7/abstract,,,
+843,Bowel_Loop_Sm,Conventional,General,Sarcoma,120 cc,,,15 Gy,,,,,,,Baldini IJROBP '15,https://www.redjournal.org/article/S0360-3016(15)00180-7/abstract,,,
+1143,Bowel_Loop_Sm,5,General,Rectal,180 cc,,,19.5 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1144,Bowel_Loop_Sm,5,General,Rectal,100 cc,,,22.2 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1145,Bowel_Loop_Sm,5,General,Rectal,65 cc,,,25 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1146,Bowel_Loop_Sm,5,General,Rectal,Max,,,27.8 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+844,Bowel_Loops,Conventional,General,"Anal,Rectal",200 cc,,,30 Gy,,,,RTOG 0529,,,Abraham PRO '20,https://pubmed.ncbi.nlm.nih.gov/32771626/,,,
+845,Bowel_Loops,Conventional,General,"Anal,Rectal",150 cc,180 cc,,35 Gy,,,,"RTOG 0529,RTOG 0822",,,,,,,
+846,Bowel_Loops,Conventional,General,Anal,20 cc,,,45 Gy,,,,RTOG 0529,,,,,,,
+847,Bowel_Loops,Conventional,General,Anal,186 cc,,,25 Gy,,,,,,,Olsen IJROBP '17,https://www.redjournal.org/article/S0360-3016(17)30332-2/fulltext,,,"Small bowel V25 ≤ 186 cc, V30 ≤ 155 cc, V35 ≤ 41 cc, V40 ≤ 30.4 cc correlate to G2+ acute GI."
+848,Bowel_Loops,Conventional,General,Anal,155 cc,,,30 Gy,,,,,,,Olsen IJROBP '17,https://www.redjournal.org/article/S0360-3016(17)30332-2/fulltext,,,"Small bowel V25 ≤ 186 cc, V30 ≤ 155 cc, V35 ≤ 41 cc, V40 ≤ 30.4 cc correlate to G2+ acute GI."
+849,Bowel_Loops,Conventional,General,Anal,30.4 cc,,,40 Gy,,,,,,,Olsen IJROBP '17,https://www.redjournal.org/article/S0360-3016(17)30332-2/fulltext,,,"Small bowel V25 ≤ 186 cc, V30 ≤ 155 cc, V35 ≤ 41 cc, V40 ≤ 30.4 cc correlate to G2+ acute GI."
+850,Bowel_Loops,Conventional,General,Rectal,100 cc,,,40 Gy,,,,RTOG 0822,,,,,,,
+851,Bowel_Loops,Conventional,General,Rectal,65 cc,,,45 Gy,,,,RTOG 0822,,,,,,,
+852,Bowel_Loops,Conventional,General,Bladder,116 cc,139 cc,,45 Gy,,,,RAIDER,,Must,,,,,
+853,Bowel_Loops,Conventional,General,Bladder,104 cc,127 cc,,50 Gy,,,,RAIDER,,Must,,,,,
+854,Bowel_Loops,Conventional,General,Bladder,91 cc,115 cc,,55 Gy,,,,RAIDER,,Must,,,,,
+855,Bowel_Loops,Conventional,General,Bladder,73 cc,98 cc,,60 Gy,,,,RAIDER,,Must,,,,,
+856,Bowel_Loops,Conventional,General,Bladder,23 cc,40 cc,,65 Gy,,,,RAIDER,,Must,,,,,
+857,Bowel_Loops,Conventional,General,Bladder,0 cc,10 cc,,70 Gy,,,,RAIDER,,Must,,,,,
+858,Bowel_Loops,Conventional,General,Bladder,0 cc,,,74 Gy,,,,RAIDER,,Must,,,,,
+859,Bowel_Loops,20,General,Bladder,116 cc,139 cc,,37.5 Gy,,,,RAIDER,,Must,,,,,
+860,Bowel_Loops,20,General,Bladder,104 cc,127 cc,,41.7 Gy,,,,RAIDER,,Must,,,,,
+861,Bowel_Loops,20,General,Bladder,91 cc,115 cc,,45.8 Gy,,,,RAIDER,,Must,,,,,
+862,Bowel_Loops,20,General,Bladder,73 cc,98 cc,,50 Gy,,,,RAIDER,,Must,,,,,
+863,Bowel_Loops,20,General,Bladder,23 cc,40 cc,,54.2 Gy,,,,RAIDER,,Must,,,,,
+864,Bowel_Loops,20,General,Bladder,0 cc,10 cc,,58.3 Gy,,,,RAIDER,,Must,,,,,
+865,Bowel_Loops,20,General,Bladder,0 cc,,,61.7 Gy,,,,RAIDER,,Must,,,,,
+866,Bowel_Loop_La,Conventional,General,,Max,,,60 Gy,,,,,,,Needs source,,,,
+867,Bowel_Loop_La,1,General,,Max,,,29.2 Gy,,,,BR002,Timmerman,,,,,,
+868,Bowel_Loop_La,1,General,,Max,,,18.4 Gy,,,,RTOG 0631,TG-101,,,,,,
+869,Bowel_Loop_La,1,General,,20 cc,,,14.3 Gy,,,,RTOG 0631,TG-101,,,,,,
+870,Bowel_Loop_La,1,General,,20 cc,,,18 Gy,,,,BR002,Timmerman,,,,,,
+871,Bowel_Loop_La,3,General,,20 cc,,,24 Gy,,,,BR002,"TG-101,Timmerman",,,,,,
+872,Bowel_Loop_La,3,General,,0.5 cc,,,28.2 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+873,Bowel_Loop_La,3,General,,Max,,,34.5 Gy,,,,BR002,Timmerman,,,,,,
+874,Bowel_Loop_La,3,General,,1.5 cc,,,42 Gy,,,,IROCK: Solitary Kidney,,,,,,,
+875,Bowel_Loop_La,5,General,,20 cc,,,25 Gy,,,,,TG-101,,,,,,
+876,Bowel_Loop_La,5,General,,20 cc,,,28.5 Gy,,,,BR002,Timmerman,,,,,,
+877,Bowel_Loop_La,5,General,,Max,,,40 Gy,,,,BR002,Timmerman,,,,,,
+878,Bowel_Loop_La,5,General,,Max,,,38 Gy,,,,,TG-101,,,,,,
+879,Bowel_Loop_La,5,General,,0.5 cc,,,32 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+880,Bowel_Loop_La,10,General,,Max,,,50.2 Gy,,,,,,,Needs source,,,,
+881,Bowel_Loop_La,10,General,,20 cc,,,32.2 Gy,,,,,,,Needs source,,,,
+882,Bowel_Loop_La,15-16,General,Pancreas,Max,,,50 Gy,,,,,,,Koay PRO '20,https://pubmed.ncbi.nlm.nih.gov/32061993/,,,
+883,Bowel_Loop_La,20,General,,Max,,,50 Gy,,,,,NRG Prostate,,,,,,
+884,Bowel_Loop_La,Conventional,General,"Anal,Rectal",200 cc,,,30 Gy,,,,RTOG 0529,,,Abraham PRO '20,https://pubmed.ncbi.nlm.nih.gov/32771626/,,,
+885,Bowel_Loop_La,Conventional,General,Sarcoma,33%,,,55 Gy,,,,,,,Needs source,,,,
+886,Bowel_Loop_La,Conventional,General,Sarcoma,100%,,,45 Gy,,,,,,,Needs source,,,,
+887,Bowel_Loop_La,Conventional,General,Sarcoma,20 cc,,,60 Gy,,,,,,,Baldini IJROBP '15,https://www.redjournal.org/article/S0360-3016(15)00180-7/abstract,,,
+888,Bowel_Loop_La,Conventional,General,"Anal,Rectal",150 cc,180 cc,,35 Gy,,,,"RTOG 0529,RTOG 0822",,,,,,,
+889,Bowel_Loop_La,Conventional,General,Anal,20 cc,,,45 Gy,,,,RTOG 0529,,,,,,,
+890,Bowel_Loop_La,2,General,,Max,,,20 Gy,,,,SC.24,,,,,,,
+891,Sigmoid,Conventional,General,Prostate,Max,,,62.5 Gy,,,,,NRG Prostate,,,,,,
+892,Sigmoid,Conventional,General,Prostate,2%,,,60 Gy,,,,,NRG Prostate,,,,,,
+893,Sigmoid,28,General,Prostate,Max,,,55 Gy,,,,,NRG Prostate,,,,,,
+894,Sigmoid,Conventional,General,Cervix,Max,,,105%,,,,EMBRACE II,,Must,,,,,"No 105% hot spot in bowel bag (e.g., 47.25 Gy for 45/25), or if node positive, Dmax < 105% in regions 1.0-1.5 cm outside PTV-N"
+895,Rectum,Conventional,General,,15%,20%,,75 Gy,,,,"RTOG 0415,PACE",QUANTEC,,,,,,Late G3+ and G2+ of < 10% and < 15% for V75 < 15%. V70 < 20%. V65 < 25%. V60 < 35%. V50 < 50%.
+896,Rectum,Conventional,General,,20%,30%,,70 Gy,,,,"RTOG 0415,PACE",QUANTEC,,Hamstra IJROBP '13,https://www.sciencedirect.com/science/article/pii/S0360301613001739?via%3Dihub,,,Late G3+ and G2+ of < 10% and < 15% for V75 < 15%. V70 < 20%. V65 < 25%. V60 < 35%. V50 < 50%.
+897,Rectum,Conventional,General,,25%,40%,,65 Gy,,,,"RTOG 0415,RTOG 0815,RTOG 0534 (SPPORT)",QUANTEC,,,,,,Late G3+ and G2+ of < 10% and < 15% for V75 < 15%. V70 < 20%. V65 < 25%. V60 < 35%. V50 < 50%.
+898,Rectum,Conventional,General,,50%,,,50 Gy,,,,PACE,QUANTEC,,,,,,Late G3+ and G2+ of < 10% and < 15% for V75 < 15%. V70 < 20%. V65 < 25%. V60 < 35%. V50 < 50%.
+899,Rectum,Conventional,General,Gynecological,2 cc,,,65 Gy,69.5 Gy,EQD2,,,,,Mazeron RTO '16,https://www.sciencedirect.com/science/article/pii/S0167814016311549?via%3Dihub,Kircheiner RTO '16,https://www.sciencedirect.com/science/article/pii/S0167814016000025?via%3Dihub,
+900,Rectum,Conventional,General,Gynecological,11 cc,,,55 Gy,,EQD2,,,,,Ujaimi BT '17,https://www.sciencedirect.com/science/article/pii/S1538472117303938?via%3Dihub,,,
+901,Rectum,Conventional,General,Prostate,55%,60%,,40 Gy,,,,RTOG 0534 (SPPORT),,,,,,,
+902,Rectum,1,General,,20 cc,,,14.3 Gy,22 Gy,,,"BR002,RTOG 0631","TG-101,Timmerman",,,,,,
+903,Rectum,1,General,,Max,,,18.4 Gy,,,,RTOG 0631,TG-101,,,,,,
+904,Rectum,1,General,,3.5 cc,,,39 Gy,,,,BR002,Timmerman,,,,,,
+905,Rectum,1,General,,Max,,,44.2 Gy,,,,BR002,Timmerman,,,,,,
+906,Rectum,3,General,,20 cc,,,24 Gy,27.5 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+907,Rectum,3,General,,3.5 cc,,,45 Gy,,,,BR002,Timmerman,,,,,,
+908,Rectum,3,General,,0.5 cc,,,28.2 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+909,Rectum,3,General,,Max,,,49.5 Gy,,,,BR002,Timmerman,,,,,,
+910,Rectum,5,General,,20 cc,,,25 Gy,32.5 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+911,Rectum,5,General,,0.5 cc,,,32 Gy,,,,,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,,,,,,
+912,Rectum,5,General,Prostate,3.5 cc,,,50 Gy,,,,BR002,Timmerman,,,,,,
+913,Rectum,5,General,Prostate,Max,,,55 Gy,,,,BR002,Timmerman,,,,,,
+914,Rectum,5,General,Prostate,Max,,,38 Gy,,,,,TG-101,,,,,,
+915,Rectum,5,General,Prostate,Max,,,38.06 Gy,40 Gy,,,NRG GU005,,,,,,,
+916,Rectum,5,General,Prostate,3 cc,,,34.4 Gy,36 Gy,,,NRG GU005,,,,,,,
+917,Rectum,10,General,,Max,,,50.2 Gy,,,,,,,Needs source,,,,
+918,Rectum,10,General,,20 cc,,,32.2 Gy,,,,,,,Needs source,,,,
+919,Rectum,Conventional,General,,25%,,,65 Gy,,,,,QUANTEC,,,,,,Late G3+ and G2+ of < 10% and < 15% for V75 < 15%. V70 < 20%. V65 < 25%. V60 < 35%. V50 < 50%.
+920,Rectum,Conventional,General,,35%,55%,,60 Gy,,,,"RTOG 0415,RTOG 0815,RTOG 0534 (SPPORT)",QUANTEC,,,,,,Late G3+ and G2+ of < 10% and < 15% for V75 < 15%. V70 < 20%. V65 < 25%. V60 < 35%. V50 < 50%.
+921,Rectum,Conventional,General,,60%,,,45 Gy,,,,RTOG 0724,,,,,,,Late G3+ and G2+ of < 10% and < 15% for V75 < 15%. V70 < 20%. V65 < 25%. V60 < 35%. V50 < 50%.
+922,Rectum,Conventional,General,,80%,100%,,40 Gy,,,,RTOG 0418,,,,,,,
+923,Rectum,Conventional,General,,60%,,,30 Gy,,,,RTOG 0418,,,,,,,
+924,Rectum,20,General,,0.01%,1%,,60 Gy,,,,CHHiP,NRG Prostate,,Wilkins IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/31987974,,,
+925,Rectum,20,General,,22%,,,50 Gy,,,,CHHiP,NRG Prostate,,Wilkins IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/31987974,,,
+926,Rectum,20,General,,38%,,,40 Gy,,,,CHHiP,NRG Prostate,,Wilkins IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/31987974,,,
+927,Rectum,20,General,,57%,,,30 Gy,,,,CHHiP,NRG Prostate,,Wilkins IJROBP '20,https://www.ncbi.nlm.nih.gov/pubmed/31987974,,,
+928,Rectum,20,General,,85%,,,20 Gy,,,,,NRG Prostate,,,,,,
+929,Rectum,20,General,,Circumference: Full,,,20 Gy,,,,,NRG Prostate,,,,,,
+930,Rectum,Conventional,General,Prostate,10 cc,,,72 Gy,,,,,NRG Prostate,,,,,,
+931,Rectum,Conventional,General,Prostate,15%,,,70 Gy,,,,,NRG Prostate,,,,,,
+932,Rectum,Conventional,General,Prostate,50%,,,45 Gy,,,,,NRG Prostate,,,,,,
+933,Rectum,28,General,Prostate,15%,,,74 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+934,Rectum,28,General,Prostate,25%,,,69 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+935,Rectum,28,General,Prostate,15%,,,65 Gy,,,,,NRG Prostate,,,,,,
+936,Rectum,28,General,Prostate,10 cc,,,65 Gy,,,,,NRG Prostate,,,,,,
+937,Rectum,28,General,Prostate,35%,,,64 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+938,Rectum,28,General,Prostate,50%,,,59 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+939,Rectum,28,General,Prostate,25%,,,55 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+940,Rectum,28,General,Prostate,45%,,,45 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+941,Rectum,28,General,Prostate,D5%,,,62 Gy,,,,"RTOG 0415,NRG GU005",,,Thor RTO '19,https://www.sciencedirect.com/science/article/pii/S0167814019300854,,,
+942,Rectum,28,General,Prostate,10 cc,,,70 Gy,,,,,,,Needs source,,,,
+943,Rectum,20,General,Prostate,30%,,,46 Gy,,,,PROFIT,,,,,,,
+944,Rectum,20,General,Prostate,50%,,,37 Gy,,,,PROFIT,,,,,,,
+945,Rectum,5,General,Prostate,Max,,,35 Gy,38 Gy,,,,HyTEC,,,,,,
+946,Rectum,5,General,Prostate,10%,,,32.63 Gy,34 Gy,,,NRG GU005,,,,,,,
+947,Rectum,5,General,Prostate,20%,,,29 Gy,30 Gy,,,"PACE,NRG GU005",,,,,,,
+948,Rectum,5,General,Prostate,50%,,,18.1 Gy,19 Gy,,,"PACE,NRG GU005",,,,,,,
+949,Rectum,Conventional,General,Cervix,Max,,,105%,,,,EMBRACE II,,Must,,,,,"No 105% hot spot in bowel bag (e.g., 47.25 Gy for 45/25), or if node positive, Dmax < 105% in regions 1.0-1.5 cm from PTV-N"
+950,Rectum,Conventional,General,Cervix,75%,,,40 Gy,,,,EMBRACE II,,Can,,,,,
+951,Rectum,Conventional,General,Cervix,95%,,,30 Gy,,,,EMBRACE II,,Can,,,,,
+952,Rectum,Conventional,General,Bladder,80%,,,30 Gy,,,,RAIDER,,Must,,,,,
+953,Rectum,Conventional,General,Bladder,60%,,,50 Gy,,,,RAIDER,,Must,,,,,
+954,Rectum,Conventional,General,Bladder,50%,,,60 Gy,,,,RAIDER,,Must,,,,,
+955,Rectum,Conventional,General,Bladder,30%,,,65 Gy,,,,RAIDER,,Must,,,,,
+956,Rectum,Conventional,General,Bladder,15%,,,70 Gy,,,,RAIDER,,Must,,,,,
+957,Rectum,20,General,Bladder,80%,,,25 Gy,,,,RAIDER,,Must,,,,,NRG prostate atlas advises to avoid full circumferential RT of rectum with 20 Gy
+958,Rectum,20,General,Bladder,60%,,,41.7 Gy,,,,RAIDER,,Must,,,,,
+959,Rectum,20,General,Bladder,50%,,,50 Gy,,,,RAIDER,,Must,,,,,
+960,Rectum,20,General,Bladder,30%,,,54.2 Gy,,,,RAIDER,,Must,,,,,
+961,Rectum,20,General,Bladder,15%,,,58.3 Gy,,,,RAIDER,,Must,,,,,
+1164,Rectum,Conventional,General,Pediatrics,100%,,,45 Gy,,,,AEWS 1031,,,,,,,
+962,Anus,Conventional,General,Sarcoma,50%,,,30 Gy,,,,RTOG 0630,,,,,,,
+963,Bladder,Conventional,General,,25%,30%,,75 Gy,,,,"RTOG 0415,RTOG 0815",QUANTEC,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+964,Bladder,Conventional,General,,35%,40%,,70 Gy,,,,"RTOG 0415,RTOG 0815",QUANTEC,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+965,Bladder,Conventional,General,Prostate,70%,77.5%,,40 Gy,,,,RTOG 0534 (SPPORT),,,,,,,RTOG 05-34 / SPPORT allows variation acceptable if no bladder constraints are met.
+966,Bladder,Conventional,General,Prostate,50%,,,50 Gy,,,,"PACE,CHHiP",,,,,,,
+967,Bladder,Conventional,General,,50%,55%,,65 Gy,,,,"RTOG 0415,RTOG 0815,RTOG 0534 (SPPORT)",QUANTEC,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+968,Bladder,1,General,,15 cc,,,11.4 Gy,12 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+969,Bladder,1,General,,Max,,,18.4 Gy,,,,,TG-101,,,,,,
+970,Bladder,1,General,,Max,,,25 Gy,,,,BR002,Timmerman,,,,,,
+971,Bladder,3,General,,15 cc,,,16.8 Gy,,,,BR002,"TG-101,Timmerman",,,,,,
+972,Bladder,3,General,,Max,,,28.2 Gy,,,,,TG-101,,,,,,
+973,Bladder,3,General,,Max,,,33 Gy,,,,BR002,Timmerman,,,,,,
+974,Bladder,5,General,,15 cc,,,18.3 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+975,Bladder,5,General,Prostate,10%,,,18.12 Gy,20 Gy,,,NRG GU005,,,,,,,
+976,Bladder,5,General,,15 cc,,,20 Gy,,,,BR002,Timmerman,,,,,,
+977,Bladder,5,General,,Max,,,38 Gy,,,,BR002,"TG-101,Timmerman",,,,,,
+978,Bladder,5,General,Prostate,Max,,,38.06 Gy,40 Gy,,,NRG GU005,,,,,,,
+979,Bladder,10,General,,Max,,,50.2 Gy,,,,,,,Needs source,,,,
+980,Bladder,10,General,,15 cc,,,23 Gy,,,,,,,Needs source,,,,
+981,Bladder,Conventional,General,,2 cc,,,80 Gy,,EQD2,,,,,Jensen RTO '17,https://www.thegreenjournal.com/article/S0167-8140(17)30500-5/pdf,,,
+982,Bladder,Conventional,General,,15%,20%,,80 Gy,,,,"RTOG 0415,RTOG 0815",QUANTEC,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+983,Bladder,Conventional,General,,35%,70%,,45 Gy,,,,"RTOG 1203 (TIME-C),RTOG 0724",,,,,,,
+984,Bladder,Conventional,General,"Rectal,Anal",35%,40%,,40 Gy,,,,"RTOG 0822,RTOG 0529",,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+985,Bladder,Conventional,General,Rectal,15%,,,45 Gy,,,,RTOG 0822,,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+986,Bladder,Conventional,General,Rectal,Max,,,50 Gy,,,,RTOG 0822,,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+987,Bladder,Conventional,General,Anal,50%,,,35 Gy,,,,RTOG 0529,,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+988,Bladder,Conventional,General,Anal,5%,,,50 Gy,,,,RTOG 0529,,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+989,Bladder,20,General,,3%,,,60 Gy,,,,,NRG Prostate,,,,,,
+990,Bladder,20,General,,5%,,,56.8 Gy,,,,,NRG Prostate,,,,,,
+991,Bladder,20,General,,25%,,,48 Gy,,,,,NRG Prostate,,,,,,
+992,Bladder,20,General,,50%,,,40 Gy,,,,,NRG Prostate,,,,,,
+993,Bladder,Conventional,General,,15%,,,70 Gy,,,,,NRG Prostate,,,,,,"Minimize late G3+ toxicity with V80 < 15%, V75 < 25%, V70 < 35%, and V65 < 50%."
+994,Bladder,Conventional,General,Prostate,50%,,,45 Gy,,,,,NRG Prostate,,,,,,
+995,Bladder,28,General,Prostate,10 cc,,,70 Gy,,,,,,,Needs source,,,,
+996,Bladder,28,General,Prostate,15%,,,79 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+997,Bladder,28,General,Prostate,25%,,,74 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+998,Bladder,28,General,Prostate,35%,40%,,69 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+999,Bladder,28,General,Prostate,50%,55%,,64 Gy,,,,"RTOG 0415,NRG GU005",,,,,,,
+1000,Bladder,28,General,Prostate,15%,,,65 Gy,,,,,NRG Prostate,,,,,,
+1001,Bladder,28,General,Prostate,45%,,,45 Gy,,,,,NRG Prostate,,,,,,
+1002,Bladder,28,General,Prostate,25%,,,55 Gy,,,,,NRG Prostate,,,,,,
+1003,Bladder,28,General,Prostate,90%,,,35 Gy,,,,NRG GU005,,,,,,,
+1004,Bladder,28,General,Prostate,35%,,,40 Gy,,,,,,,Needs source,,,,
+1005,Bladder,20,General,Prostate,30%,,,46 Gy,,,,PROFIT,,,,,,,
+1006,Bladder,20,General,Prostate,50%,,,37 Gy,,,,PROFIT,,,,,,,
+1007,Bladder,5,General,Prostate,5 cc,10 cc,,37 Gy,,,,PACE,,,,,,,HyTEC: Rx dose allowed to 5-10 cc
+1008,Bladder,5,General,Prostate,40%,,,18.1 Gy,,,,PACE,,,,,,,HyTEC: Rx dose allowed to 5-10 cc
+1009,Bladder,Conventional,General,Cervix,Max,,,105%,,,,EMBRACE II,,Must,,,,,"No 105% hot spot in bladder (e.g., 47.25 Gy for 45/25), or if node positive, Dmax < 105% in regions 1.0-1.5 cm from PTV-N"
+1010,Bladder,Conventional,General,Cervix,60%,,,40 Gy,,,,EMBRACE II,,Can,,,,,
+1011,Bladder,Conventional,General,Cervix,80%,,,30 Gy,,,,EMBRACE II,,Can,,,,,
+1147,Bladder,5,General,Rectal,40%,,,22.2 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1148,Bladder,5,General,Rectal,15%,,,25 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1149,Bladder,5,General,Rectal,Max,,,27.8 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1158,Bladder,Conventional,General,Anal,30%,,,50 Gy,,,,,,,,,,,Emma Holliday MDACC
+1159,Bladder,Conventional,General,Pediatrics,100%,,,45 Gy,,,,AEWS 1031,,,,,,,
+1170,Bladder,Conventional,General,Pediatrics,100%,,,45 Gy,,,,AEWS 1031,,,,,,,
+1012,Ureter/Urethra,Conventional,General,,Max,,,70 Gy,,,,,,,,,,,Urethra: < 70 Gy with < 5% risk of stricture.
+1013,Ureter/Urethra,1,General,,Max,,,35 Gy,,,,,Timmerman,,,,,,
+1014,Ureter/Urethra,3,General,,Max,,,40 Gy,,,,BR002,"Timmerman,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+1015,Ureter/Urethra,5,General,,Max,,,45 Gy,,,,BR002,"Timmerman,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+1016,Ureter/Urethra,5,General,Prostate,50%,,,42 Gy,,,,PACE,,,,,,,
+1017,Ureter/Urethra,5,General,Prostate,Max,,,38.78 Gy,43.5 Gy,,,NRG GU005,,,,,,,
+1018,Ureter/Urethra,5,General,Prostate,Max,,,38 Gy,42 Gy,,,,HyTEC,,,,,,
+1019,Femoral_Heads,Conventional,General,,Mean,,,45 Gy,,,,,,,Needs source,,,,
+1020,Femoral_Heads,Conventional,General,Anal,50%,,,30 Gy,,,,RTOG 0529,,,,,,,
+1021,Femoral_Heads,1,General,,10 cc,,,14 Gy,,,,,TG-101,,,,,,
+1022,Femoral_Heads,1,General,,10 cc,,,15 Gy,,,,BR002,Timmerman,,,,,,
+1023,Femoral_Heads,3,General,,10 cc,,,21.9 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,Lower vagina
+1024,Femoral_Heads,3,General,,10 cc,,,24 Gy,,,,BR002,Timmerman,,,,,,Lower vagina
+1025,Femoral_Heads,5,General,,10 cc,,,30 Gy,,,,BR002,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy,Timmerman",,,,,,Lower vagina
+1026,Femoral_Heads,10,General,,10 cc,,,39.1 Gy,,,,,,,Needs source,,,,Lower vagina
+1027,Femoral_Heads,Conventional,General,"Anal,Rectal",35%,40%,,40 Gy,,,,"RTOG 0529,RTOG 0822",,,,,,,
+1028,Femoral_Heads,Conventional,General,Anal,5%,,,44 Gy,,,,RTOG 0529,,,,,,,
+1029,Femoral_Heads,Conventional,General,Rectal,25%,,,45 Gy,,,,RTOG 0822,,,,,,,
+1030,Femoral_Heads,Conventional,General,Rectal,Max,,,50 Gy,,,,RTOG 0822,,,Needs source,,,,
+1031,Femoral_Heads,20,General,,Max,,,37 Gy,,,,,NRG Prostate,,,,,,
+1032,Femoral_Heads,20,General,,5%,,,35 Gy,,,,,NRG Prostate,,,,,,
+1033,Femoral_Heads,Conventional,General,Prostate,Max,,,52.5 Gy,,,,,NRG Prostate,,,,,,
+1034,Femoral_Heads,Conventional,General,Prostate,2%,,,50 Gy,,,,,NRG Prostate,,,,,,
+1035,Femoral_Heads,Conventional,General,Rectal,Max,,,50 Gy,,,,RTOG 0822,,,Needs source,,,,
+1036,Femoral_Heads,28,General,Prostate,Max,,,52.5 Gy,,,,,NRG Prostate,,,,,,
+1037,Femoral_Heads,28,General,Prostate,1%,,,50 Gy,,,,,NRG Prostate,,,,,,
+1038,Femoral_Heads,28,General,Prostate,Max,,,40 Gy,,,,NRG GU005,,,,,,,
+1039,Femoral_Heads,20,General,Prostate,0.5%,,,43 Gy,,,,PROFIT,,,,,,,
+1040,Femoral_Heads,5,General,Prostate,10 cc,,,19.9 Gy,,,,NRG GU005,,,,,,,Lower vagina
+1041,Femoral_Heads,5,General,Prostate,1 cc,,,15.6 Gy,,,,NRG GU005,,,,,,,Lower vagina
+1042,Femoral_Heads,5,General,Prostate,5%,,,14.5 Gy,,,,PACE,,,,,,,Lower vagina
+1043,Femoral_Heads,Conventional,General,Sarcoma,5%,,,60 Gy,,,,RTOG 0630,,,Needs source,,,,
+1044,Femoral_Heads,Conventional,General,Sarcoma,Max,,,59 Gy,,,,,,,Dickie IJROBP '09,https://www.sciencedirect.com/science/article/pii/S0360301608038546?via%3Dihub,Casey ASO '20,https://pubmed.ncbi.nlm.nih.gov/33073343/,
+1045,Femoral_Heads,Conventional,General,Sarcoma,Mean,,,37 Gy,,,,,,,Dickie IJROBP '09,https://www.sciencedirect.com/science/article/pii/S0360301608038546?via%3Dihub,Casey ASO '20,https://pubmed.ncbi.nlm.nih.gov/33073343/,
+1046,Femoral_Heads,Conventional,General,Sarcoma,64%,,,40 Gy,,,,,,,Dickie IJROBP '09,https://www.sciencedirect.com/science/article/pii/S0360301608038546?via%3Dihub,Casey ASO '20,https://pubmed.ncbi.nlm.nih.gov/33073343/,
+1047,Femoral_Heads,Conventional,General,Pediatrics,Mean,,,25 Gy,,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,,,At risk for SCFE
+1048,Femoral_Heads,Conventional,General,Pediatrics,Mean,,,30 Gy,40 Gy,,,,,,ILROG Guidelines for Peds,https://www.sciencedirect.com/science/article/pii/S1879850014001179?via%3Dihub,,,At risk for AVN
+1049,Femoral_Heads,Conventional,General,,50%,,,30 Gy,,,,RTOG 0529,,,,,,,
+1050,Femoral_Heads,Conventional,General,Gynecological,15%,,,30 Gy,,,,RTOG 0418,,,,,,,
+1051,Femoral_Heads,Conventional,General,Rectal,40%,,,40 Gy,,,,RTOG 0822,,,,,,,
+1052,Femoral_Heads,Conventional,General,,10%,,,50 Gy,,,,RTOG 0534 (SPPORT),,,,,,,
+1053,Femoral_Heads,Conventional,General,Bladder,50%,,,50 Gy,,,,RAIDER,,Must,,,,,
+1054,Femoral_Heads,20,General,Bladder,50%,,,41.7 Gy,,,,RAIDER,,Must,,,,,
+1150,Femoral_Heads,5,General,Rectal,40%,,,22.2 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1151,Femoral_Heads,5,General,Rectal,15%,,,25 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1152,Femoral_Heads,5,General,Rectal,Max,,,27.8 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1055,Iliac_Crest,Conventional,General,,50%,,,30 Gy,,,,RTOG 0529,,,,,,,Lower vagina
+1056,Iliac_Crest,Conventional,General,Anal,35%,,,40 Gy,,,,RTOG 0529,,,,,,,Lower vagina
+1057,Iliac_Crest,Conventional,General,Anal,5%,,,50 Gy,,,,RTOG 0529,,,,,,,Lower vagina
+1058,Pubic_Bone,Conventional,General,Prostate,25%,,,70 Gy,,,,,NRG Prostate,,,,,,
+1059,Pubic_Bone,28,General,Prostate,30%,,,60 Gy,,,,,NRG Prostate,,,,,,
+1060,Pubic_Bone,20,General,Prostate,20%,,,57 Gy,,,,,NRG Prostate,,,,,,
+1061,Bone_Marrow,Conventional,General,Gynecological,Median,,,34.2 Gy,,,,RTOG 0418,,,Klopp IJROBP '16,https://pubmed.ncbi.nlm.nih.gov/23582248/,,,G2+ heme for BM V40 ± 37% or median BM ± 34.2 Gy of 40→ 75%
+1062,Bone_Marrow,Conventional,General,Gynecological,37%,60%,,40 Gy,,,,"RTOG 0418,RTOG 1203 (TIME-C)",,,,,,,G2+ heme for BM V40 ± 37% or median BM ± 34.2 Gy of 40→ 75%
+1063,Bone_Marrow,Conventional,General,Cervix,75%,,,20 Gy,,,,,,,Mell IJROBP '06,https://pubmed.ncbi.nlm.nih.gov/16757127/,,,G2+ neutropenia for BM V10 ± 90% of 11→ 74% and BM V20 ± 75% of 14→ 25%
+1064,Bone_Marrow,Conventional,General,Gynecological,90%,,,10 Gy,25 Gy,,,"RTOG 0418,RTOG 1203 (TIME-C)",,,Mell IJROBP '06,https://pubmed.ncbi.nlm.nih.gov/16757127/,,,G2+ neutropenia for BM V10 ± 90% of 11→ 74% and BM V20 ± 75% of 14→ 25%
+1065,Bone_Marrow,Conventional,General,Anal,750 cc,,,30 Gy,,,,,,,Lee IJROBP '17,https://pubmed.ncbi.nlm.nih.gov/28068238/,,,
+1066,Bone_Marrow,Conventional,General,Anal,23%,,,40 Gy,,,,,,,Lee IJROBP '17,https://pubmed.ncbi.nlm.nih.gov/28068238/,,,"It makes sense that V40 is a lower value than for anal cancer as cervical cancer, as MMC has significant heme toxicity."
+1067,Joint/Bone,Conventional,General,Sarcoma,50%,,,50 Gy,,,,RTOG 0630,,,Lee IJROBP '17,https://pubmed.ncbi.nlm.nih.gov/28068238/,,,Soft tissue growth and development affected at 25-30 Gy. 
+1068,Penile_Bulb,Conventional,General,,Mean,,,52.5 Gy,,,,"RTOG 0415,RTOG 0815",QUANTEC,,,,,,Mean dose < 52.5 Gy and prostate V50 < 90% is associated with a < 35% incidence of severe ED. 
+1069,Penile_Bulb,Conventional,General,,60%,70%,,70 Gy,,,,,QUANTEC,,,,,,Penile bulb V70 < 60-70% is associated with a < 55% incidence of severe ED.
+1070,Penile_Bulb,Conventional,General,,90%,95%,,50 Gy,,,,,QUANTEC,,,,,,Mean dose < 52.5 Gy and prostate V50 < 90% is associated with a < 35% incidence of severe ED. 
+1071,Penile_Bulb,Conventional,General,Prostate,Mean,,,24 Gy,,,,CHHiP,,,Murray CTRO '19,https://pubmed.ncbi.nlm.nih.gov/32072028/,,,
+1072,Penile_Bulb,1,General,,Max,,,34 Gy,,,,,TG-101,,,,,,
+1073,Penile_Bulb,1,General,,3 cc,,,14 Gy,16 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+1074,Penile_Bulb,3,General,,3 cc,,,21.9 Gy,25 Gy,,,BR002,"TG-101,Timmerman",,,,,,
+1075,Penile_Bulb,3,General,,Max,,,42 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+1076,Penile_Bulb,3,General,,Max,,,40 Gy,,,,,Timmerman,,,,,,
+1077,Penile_Bulb,5,General,,3 cc,,,30 Gy,,,,BR002,"TG-101,Timmerman,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+1078,Penile_Bulb,5,General,,Max,,,50 Gy,,,,,"TG-101,UK Consensus on Normal Tissue Dose Constraints for Stereotactic Radiotherapy",,,,,,
+1079,Penile_Bulb,10,General,,Max,,,67 Gy,,,,,,,Needs source,,,,
+1080,Penile_Bulb,10,General,,3 cc,,,39.1 Gy,,,,,,,Needs source,,,,
+1081,Penile_Bulb,20,General,Prostate,50%,,,22 Gy,,,,,NRG Prostate,,,,,,
+1082,Penile_Bulb,Conventional,General,Prostate,50%,,,50 Gy,,,,,NRG Prostate,,,,,,
+1083,Penile_Bulb,28,General,Prostate,Mean,,,51 Gy,,,,,NRG Prostate,,,,,,
+1084,Penile_Bulb,28,General,Prostate,ALARA,,,ALARA,,,,,NRG Prostate,,,,,,
+1085,Penile_Bulb,5,General,Prostate,Max,,,36.25 Gy,,,,NRG GU005,,,,,,,
+1086,Penile_Bulb,5,General,Prostate,3 cc,,,19.9 Gy,,,,NRG GU005,,,,,,,
+1087,Penile_Bulb,5,General,Prostate,50%,,,29.5 Gy,,,,PACE,,,,,,,
+1088,Vagina,Conventional,General,,Max,,,120 Gy,150 Gy,,,,,,Kirchheiner RTO '16,https://www.sciencedirect.com/science/article/pii/S0167814016000025?via%3Dihub,,,Upper vagina; Vaginal doses >50-60 Gy can cause significant fibrosis. 
+1089,Vagina,Conventional,General,,Max,,,80 Gy,90 Gy,,,,,,Kirchheiner RTO '16,https://www.sciencedirect.com/science/article/pii/S0167814016000025?via%3Dihub,,,Mid vagina; Vaginal doses >50-60 Gy can cause significant fibrosis. 
+1090,Vagina,Conventional,General,,Max,,,60 Gy,70 Gy,,,,,,Kirchheiner RTO '16,https://www.sciencedirect.com/science/article/pii/S0167814016000025?via%3Dihub,,,Lower vagina; Vaginal doses >50-60 Gy can cause significant fibrosis. 
+1091,Vagina,1,General,,10 cc,,,14 Gy,,,,,TG-101,,,,,,
+1092,Vagina,1,General,,10 cc,,,15 Gy,,,,BR002,Timmerman,,,,,,
+1093,Vagina,Conventional,General,,Max,,,60 Gy,70 Gy,,,,,,Kirchheiner RTO '16,https://www.sciencedirect.com/science/article/pii/S0167814016000025?via%3Dihub,,,Lower vagina; Vaginal doses >50-60 Gy can cause significant fibrosis. 
+1094,Vulva,Conventional,General,Sarcoma,50%,,,30 Gy,,,,,,,,,,,
+1095,External_Genitalia,Conventional,General,Anal,50%,67%,,20 Gy,,,,RTOG 0529,,,,,,,
+1096,External_Genitalia,Conventional,General,Anal,20%,35%,,30 Gy,,,,RTOG 0529,,,,,,,
+1097,External_Genitalia,Conventional,General,Anal,5%,,,40 Gy,,,,RTOG 0529,,,,,,,
+1098,Testes,Conventional,General,Sarcoma,50%,,,3 Gy,,,,,,,,,,,
+1099,Gluteal_Folds,Conventional,General,"Rectal,Anal",Max,,,36 Gy,,,,,,Can,,,,,
+1100,Transposed_Ovaries,Conventional,General,Gynecological,Mean,,,5 Gy,8 Gy,,,EMBRACE II,,Must,,,,,
+1101,Transposed_Ovaries,Conventional,General,Gynecological,29.65%,,,5.5 Gy,,,,,,,Yin Rad Onc '19,https://ro-journal.biomedcentral.com/articles/10.1186/s13014-019-1312-2#Sec3,,,
+1102,PTV,5,General,Breast,95%,,,95%,,,,UK FAST-Forward,,,,,,,
+1103,PTV,5,General,Breast,5%,,,105%,,,,UK FAST-Forward,,,,,,,
+1104,PTV,5,General,Breast,2%,,,107%,,,,UK FAST-Forward,,,,,,,
+1105,PTV,5,General,Breast,Max,,,110%,,,,UK FAST-Forward,,,,,,,
+1106,PTV,5,General,Breast,Partial,,,,,,,Florence,,,,,,,"CTV + 1 cm, allowed 4 mm to lung and 3 mm from skin."
+1107,PTV,5,General,Breast,Max,,,105%,110%,,,Florence,,,,,,,
+1108,PTV,5,General,Breast,95%,,,30 Gy,,,,Florence,,,,,,,
+1109,PTV,5,General,Breast,99%,,,28.5 Gy,,,,Florence,,,,,,,
+1110,PTV,10,General,Breast,Partial,,,,,,,,,,MSKCC Braunstein IJROBP '19,https://www.sciencedirect.com/science/article/pii/S0360301619303062?via%3Dihub,,,PTV_40 = CTV + 0.5 - 1.0 cm. Subtract 0.5 cm from skin and CW (PTV volume < 35% of whole breast volume).
+1111,PTV,28,General,Prostate,D0.03,,,77 Gy,80.5 Gy,,,"NRG GU005,RTOG 0415",,,,,,,
+1112,PTV,28,General,Prostate,D99%,,,65.1 Gy,70 Gy,,,"NRG GU005,RTOG 0415",,,,,,,
+1113,PTV,28,General,Prostate,D98%,,,66.5 Gy,70 Gy,,,"NRG GU005,RTOG 0415",,,,,,,
+1114,PTV,20,General,Prostate,D99%,,,57 Gy,,,,PROFIT,,,,,,,
+1115,PTV,20,General,Prostate,D1cc,,,63 Gy,,,,PROFIT,,,,,,,
+1116,PTV,20,General,Prostate,D0.03,,,38.78 Gy,43.5 Gy,,,"PACE,NRG GU005",,,,,,,
+1117,PTV,20,General,Prostate,D99%,,,33.7 Gy,34.4 GY,,,"PACE,NRG GU005",,,,,,,
+1118,PTV,20,General,Prostate,D98%,,,34.4 Gy,36.25 Gy,,,"PACE,NRG GU005",,,,,,,
+1119,PTV,Conventional,General,Cervix,95%,,,42.75 Gy,95%,,,EMBRACE II,,Must,,,,,
+1120,PTV,Conventional,General,Cervix,Max,,,48.15 Gy,107%,,,EMBRACE II,,Must,,,,,"For node positive disease, limit Dmax < 107% to helper structure (PTV45-(PTVn + 1 cm))"
+1121,PTV,Conventional,General,Cervix,90%,,,99%,,,,EMBRACE II,,Must,,,,,UCSD Cervix
+1122,PTV,Conventional,General,Cervix,99%,,,90%,,,,EMBRACE II,,Must,,,,,UCSD Cervix
+1123,PTV,Conventional,General,Cervix,97%,,,97%,,,,EMBRACE II,,Must,,,,,UCSD Cervix
+1124,PTV,Conventional,General,Cervix,1%,,,115%,,,,EMBRACE II,,Must,,,,,UCSD Cervix
+1125,PTV,Conventional,General,Cervix,10%,,,110%,,,,EMBRACE II,,Must,,,,,UCSD Cervix
+1126,PTV,Conventional,General,Bladder,D98%,,,90%,95%,,,RAIDER,,Must,,,,,
+1127,PTV,20,General,Bladder,D98%,,,90%,95%,,,RAIDER,,Must,,,,,
+1153,PTV,5,General,Rectal,93%,100%,,23.25 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1154,PTV,5,General,Rectal,10%,,,26.25 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1155,PTV,5,General,Rectal,5%,,,27.5 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1156,PTV,5,General,Rectal,Max,,,28.75 Gy,,,,,,,Fields ARO '19,https://pubmed.ncbi.nlm.nih.gov/31673654/,,,
+1128,ITV,Conventional,General,Cervix,Min,,,42.75 Gy,95%,,,EMBRACE II,,Must,,,,,
+1129,CTV,5,General,Breast,Partial,,,,,,,Florence,,,,,,,Clips + 1 cm (3 mm cropped from skin)
+1130,CTV,5,General,Breast,98%,,,30 Gy,,,,Florence,,,,,,,
+1131,CTV,10,General,Breast,Partial,,,,,,,,,,MSKCC Braunstein IJROBP '19,https://www.sciencedirect.com/science/article/pii/S0360301619303062?via%3Dihub,,,CTV_40 = Cavity + 1-1.5 cm cropped at anterior surface of pec major.
+1132,CTV,28,General,Prostate,D99%,,,66.5 Gy,70 Gy,,,"NRG GU005,RTOG 0415",,,,,,,
+1133,CTV,20,General,Prostate,D99%,,,60 Gy,,,,PROFIT,,,,,,,
+1134,PTVn,Conventional,General,Cervix,D98%,,,90%,,,,EMBRACE II,,Must,,,,,
+1135,PTVn,Conventional,General,Cervix,Max,,,107%,,,,EMBRACE II,,Must,,,,,
+1136,CTVn,Conventional,General,Cervix,D98%,,,100%,,,,EMBRACE II,,Must,,,,,
+1137,CTVn,Conventional,General,Cervix,D50%,,,102%,,,,EMBRACE II,,Can,,,,,
+1138,Conformality,Conventional,General,Cervix,1.10,,,43 Gy,,,,EMBRACE II,,Can,,,,,V43/Volume of PTV
+1139,Conformality,Conventional,General,Cervix,1.55,,,36 Gy,,,,EMBRACE II,,Can,,,,,V36/Volume of PTV
+1177,PTV_Breast/CW,Conventional,General,Breast,95%,,,45 Gy,47.5 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+1182,PTV_Breast/CW,Conventional,General,Breast,50%,,,54 Gy,56 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT; only applies if boost
+1183,PTV_Breast/CW,Conventional,General,Breast,30%,35%,,60 Gy,,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT; only applies if boost
+1178,PTV_Axilla,Conventional,General,Breast,95%,,,45 Gy,47.5 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+1180,PTV_SCV,Conventional,General,Breast,95%,,,45 Gy,47.5 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
+1181,PTV_IMN,Conventional,General,Breast,90%,,,40 Gy,45 Gy,,,,,,Bazan IJROBP '20,https://www.redjournal.org/article/S0360-3016(20)31446-2/abstract,,,Breast VMAT
