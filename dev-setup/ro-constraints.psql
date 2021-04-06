@@ -23,10 +23,16 @@ CREATE TABLE dose_type (
   description VARCHAR(16)
 );
 
+CREATE TABLE intent (
+  id SERIAL PRIMARY KEY NOT NULL,
+  description VARCHAR(16)
+);
+
 CREATE TABLE region (
   id SERIAL PRIMARY KEY NOT NULL,
   target INTEGER NOT NULL REFERENCES target(id),
   fractionation INTEGER NOT NULL REFERENCES fractionation(id),
+  intent INTEGER DEFAULT NULL REFERENCES intent(id),
   volume INTEGER DEFAULT NULL,
   -- NOTE: volumes are the volumes * 100 to prevent floating point
   --       approximation
@@ -41,7 +47,7 @@ CREATE TABLE region (
   dose_deviation INTEGER DEFAULT NULL,
   dose_deviation_type INTEGER DEFAULT NULL REFERENCES dose_type(id),
   conversion VARCHAR(16) DEFAULT NULL,
-  extrapolation VARCHAR(16) DEFAULT NULL
+  importance VARCHAR(16) DEFAULT NULL
 );
 
 CREATE TABLE disease_site (
@@ -82,6 +88,8 @@ CREATE TABLE region_publications (
 
 CREATE TABLE note (
   id SERIAL PRIMARY KEY NOT NULL,
+  region INTEGER REFERENCES region(id),
   text TEXT NOT NULL,
   parent INTEGER REFERENCES note(id)
 );
+
