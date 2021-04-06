@@ -92,3 +92,4 @@ CREATE TABLE note (
   text TEXT NOT NULL,
   parent INTEGER REFERENCES note(id)
 );
+
