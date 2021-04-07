@@ -293,7 +293,7 @@ def load_regions(conn):
 
 
 
-def main():
+def main_sqlite():
     db = sqlite3.connect(":memory:")
     srcfile = "Treatment Planning-Grid view (3).csv"
     cur = db.cursor()

@@ -10,6 +10,8 @@ const path = require('path')
 const express = require('express')
 const nunjucks = require('nunjucks')
 
+let views = require('views.js')
+
 const app = express()
 const port = 3000
 
@@ -18,7 +20,9 @@ nunjucks.configure(path.join(__dirname, 'templates'), {
   express: app
 })
 
-
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -28,7 +32,4 @@ app.get('/test', (req, res) => {
   res.render('test.html',  { pagename: 'TestPage'})
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
 
