@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <header>
+      {% block header %}
+      <title>{{ title }}</title>
+      <link rel="stylesheet" href="/style.css" />
+      {% endblock %}
+    </header>
+    <body>
+      {% block body %}
+      <div>
+        {% block content %}
+        {% endblock %}
+      </div>
+      {% endblock %}
+    </body>
+</html>
+
