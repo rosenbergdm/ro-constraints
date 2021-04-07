@@ -5,14 +5,27 @@
  * @description : app
  */
 
-let sql = require('sqlite3').verbose();
-let express = require('express');
+const sql = require('sqlite3')
+const path = require('path')
+const express = require('express')
+const nunjucks = require('nunjucks')
 
 const app = express()
 const port = 3000
 
+nunjucks.configure(path.join(__dirname, 'templates'), {
+  autoescape: true,
+  express: app
+})
+
+
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
+})
+
+app.get('/test', (req, res) => {
+  res.render('test.html',  { pagename: 'TestPage'})
 })
 
 app.listen(port, () => {
