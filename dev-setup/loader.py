@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sqlite3
+import psycopg2
 import re
 import sys
 import csv
@@ -234,35 +235,119 @@ def process_line(l):
     return(regions[-1][0])
 
 
-def load_targets(conn):
+def load_targets_pg(conn):
+    global targets
+    cur = conn.cursor()
+    for t in targets:
+        cur.execute("INSERT INTO target (name, alphabeta) VALUES (%s, %s)", (t[1], t[2]))
+    conn.commit()
+
+def load_fractionations_pg(conn):
+    global fractionations
+    cur = conn.cursor()
+    for t in fractionations:
+        cur.execute("INSERT INTO fractionation VALUES (%s, %s, %s, %s)", t)
+    conn.commit()
+
+def load_dose_types_pg(conn):
+    global dose_types
+    cur = conn.cursor()
+    for t in dose_types:
+        cur.execute("INSERT INTO dose_type VALUES (%s, %s)", t)
+    conn.commit()
+
+def load_volume_types_pg(conn):
+    global volume_types
+    cur = conn.cursor()
+    for t in volume_types:
+        cur.execute("INSERT INTO volume_type VALUES (%s, %s)", t)
+    conn.commit()
+
+def load_intents_pg(conn):
+    global intents
+    cur = conn.cursor()
+    for t in intents:
+        cur.execute("INSERT INTO intent VALUES (%s, %s)", t)
+    conn.commit()
+
+def load_disease_sites_pg(conn):
+    global disease_sites
+    cur = conn.cursor()
+    for t in disease_sites:
+        cur.execute("INSERT INTO disease_site VALUES (%s, %s)", t)
+    conn.commit()
+
+def load_regions_pg(conn):
+    global regions
+    cur = conn.cursor()
+    for t in regions:
+        cur.execute("INSERT INTO region VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", t)
+    conn.commit()
+
+def load_region_disease_sites_pg(conn):
+    global region_disease_sites
+    cur = conn.cursor()
+    for t in region_disease_sites:
+        cur.execute("INSERT INTO region_disease_site VALUES (%s, %s, %s)", t)
+    conn.commit()
+
+
+def main_pg():
+    db = psycopg2.connect("dbname=constraints")
+    srcfile = "Treatment Planning-Grid view (3).csv"
+    cur = db.cursor()
+    schemafile = "ro-constraints.pssql"
+    with open(schemafile) as fh:
+        cur.execute(fh.read())
+        db.commit()
+    with open(srcfile, "r") as fh:
+        reader = csv.reader(fh)
+        reader.__next__()
+        for r in reader:
+            process_line(r)
+    load_targets_pg(db)
+    load_fractionations_pg(db)
+    load_dose_types_pg(db)
+    load_volume_types_pg(db)
+    load_intents_pg(db)
+    load_disease_sites_pg(db)
+    load_regions_pg(db)
+    load_region_disease_sites_pg(db)
+    db.close()
+
+
+
+
+
+def load_targets_lite(conn):
     global targets
     cur = conn.cursor()
     for t in targets:
         cur.execute("INSERT INTO target (name, alphabeta) VALUES (?, ?)", (t[1], t[2]))
     conn.commit()
 
-def load_fractionations(conn):
+def load_fractionations_lite(conn):
     global fractionations
     cur = conn.cursor()
     for t in fractionations:
         cur.execute("INSERT INTO fractionation VALUES (?, ?, ?, ?)", t)
     conn.commit()
 
-def load_dose_types(conn):
+def load_dose_types_lite(conn):
     global dose_types
     cur = conn.cursor()
     for t in dose_types:
         cur.execute("INSERT INTO dose_type VALUES (?, ?)", t)
     conn.commit()
 
-def load_volume_types(conn):
+def load_volume_types_lite(conn):
     global volume_types
     cur = conn.cursor()
     for t in volume_types:
         cur.execute("INSERT INTO volume_type VALUES (?, ?)", t)
     conn.commit()
 
-def load_intents(conn):
+def load_intents_lite(conn):
     global intents
     cur = conn.cursor()
     for t in intents:
@@ -270,28 +355,26 @@ def load_intents(conn):
     conn.commit()
 
 
-def load_disease_sites(conn):
+def load_disease_sites_lite(conn):
     global disease_sites
     cur = conn.cursor()
     for t in disease_sites:
         cur.execute("INSERT INTO disease_site VALUES (?, ?)", t)
     conn.commit()
 
-def load_region_disease_sites(conn):
+def load_region_disease_sites_lite(conn):
     global region_disease_sites
     cur = conn.cursor()
     for t in region_disease_sites:
         cur.execute("INSERT INTO region_disease_site VALUES (?, ?, ?)", t)
     conn.commit()
 
-def load_regions(conn):
+def load_regions_lite(conn):
     global regions
     cur = conn.cursor()
     for t in regions:
         cur.execute("INSERT INTO region VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", t)
     conn.commit()
-
-
 
 def main_sqlite():
     db = sqlite3.connect(":memory:")
@@ -306,17 +389,20 @@ def main_sqlite():
         reader.__next__()
         for r in reader:
             process_line(r)
-    load_targets(db)
-    load_fractionations(db)
-    load_dose_types(db)
-    load_volume_types(db)
-    load_intents(db)
-    load_disease_sites(db)
-    load_region_disease_sites(db)
-    load_regions(db)
+    load_targets_lite(db)
+    load_fractionations_lite(db)
+    load_dose_types_lite(db)
+    load_volume_types_lite(db)
+    load_intents_lite(db)
+    load_disease_sites_lite(db)
+    load_region_disease_sites_lite(db)
+    load_regions_lite(db)
     tgtfile = "complete.db"
     with sqlite3.connect(tgtfile) as bkdb:
         db.backup(bkdb)
     bkdb.close()
     db.close()
+    db.close()
+
+
 

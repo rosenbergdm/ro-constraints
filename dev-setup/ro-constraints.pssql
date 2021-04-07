@@ -1,6 +1,6 @@
 CREATE TABLE target (
   id SERIAL PRIMARY KEY NOT NULL,
-  name VARCHAR(16),
+  name VARCHAR(32),
   alphabeta INTEGER
   -- NOTE: alphabeta is the alpha/beta ratio * 100 to prevent
   --       floating point approximation
