@@ -3,11 +3,8 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const sql = require('sqlite3');
 const nunjucks = require('nunjucks');
 
-// var indexRouter = require('./routes/index');
-// var usersRouter = require('./routes/users');
 const routes = require('./routes')
 
 const app = express();
@@ -28,9 +25,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'static')));
 
-// app.get('/', (req, res) => {
-//   res.render('index.html', { pagename: 'TestPage' })
-// })
 app.use('/', routes)
 
 app.use(function(req, res, next) {

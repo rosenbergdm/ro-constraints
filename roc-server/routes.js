@@ -16,8 +16,13 @@ router.get('/', (req, res, next) => {
 
 router.get('/region/:id', async function(req, res) {
   var id = req.params.id
-  var region = db.getRegion(id)
-  res.send(region)
+  var region = await db.getRegion(id)
+  res.json(region)
+})
+
+router.get('/allregions', async function(req, res) {
+  const regions = await db.getAllRegions()
+  res.json(regions)
 })
 
 module.exports = router
