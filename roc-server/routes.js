@@ -9,6 +9,11 @@ const express = require('express')
 const db = require('./db')
 var router = express.Router()
 
+router.get('/test', (req, res, next) => {
+  console.log(req.body)
+  res.json(req.body)
+})
+
 
 router.get('/', (req, res, next) => {
   res.render('index.html', { pagename: 'TestPage' })
