@@ -93,3 +93,4 @@ CREATE TABLE note (
   parent INTEGER REFERENCES note(id)
 );
 
+-- vim: ft=sql :
