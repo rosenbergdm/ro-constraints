@@ -14,7 +14,6 @@ router.get('/test', (req, res, next) => {
   res.json(req.body)
 })
 
-
 router.get('/', (req, res, next) => {
   res.render('index.html', { pagename: 'TestPage' })
 })
@@ -37,10 +36,9 @@ router.get('/search', async function(req, res) {
   const intent = req.body.intent || null
   const importance = req.body.importance || null
 
-  const regions = await db.searchRegions(target, fractionation, intent, importance)
+  const regions = await db.searchRegions(
+    target, fractionation, intent, importance)
   res.json(regions)
 })
 
-
 module.exports = router
-
