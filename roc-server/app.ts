@@ -1,11 +1,13 @@
-const createError = require('http-errors');
-const express = require('express');
-const path = require('path');
-const cookieParser = require('cookie-parser');
-const logger = require('morgan');
-const nunjucks = require('nunjucks');
 
-const routes = require('./routes')
+import express from 'express';
+import * as httpErrors from '@curveball/http-errors';
+import * as path from 'path';
+import cookieParser from 'cookie-parser';
+import logger from 'morgan';
+import * as nunjucks from 'nunjucks';
+
+import * as routes from './routes';
+
 
 const app = express();
 const port = 3000
@@ -18,6 +20,8 @@ nunjucks.configure(path.join(__dirname, 'templates'), {
   express: app
 })
 
+routes.register(app);
+
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -25,14 +29,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'static')));
 
-app.use('/', routes)
 
-app.use(function(req, res, next) {
-  next(createError(404));
+app.use( (req: any, res: any, next: any) => {
+  next(new httpErrors.NotFound());
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use( (err: any, req: any, res: any, next: any) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
@@ -42,4 +45,3 @@ app.use(function(err, req, res, next) {
   res.render('error.html');
 });
 
-module.exports = app;
