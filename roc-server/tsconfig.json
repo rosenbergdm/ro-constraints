@@ -1,12 +1,19 @@
 {
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "esModuleInterop": true,
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "rootDir": "./",
-    "outDir": "./build",
+    "lib": ["DOM"],
+    "rootDir": ".",
+    "outDir": "build",
     "esModuleInterop": true,
-    "strict": true,
     "strictNullChecks": false,
-    "noImplicitThis": false
-  }
+    "noImplicitThis": false,
+    "module": "commonjs",
+    "target": "ES2020"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "baseUrl": "types",
+  "typeRoots": ["types"]
 }
