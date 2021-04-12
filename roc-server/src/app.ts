@@ -1,5 +1,5 @@
 import express from 'express';
-import * as httpErrors from '@curveball/http-errors';
+import createError, {HttpError} from 'http-errors';
 import * as path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
@@ -7,9 +7,9 @@ import * as nunjucks from 'nunjucks';
 
 import * as routes from './routes';
 
-const app = express();
+export const app = express();
 const port = 3000;
-app.listen(port, () => {
+export const server = app.listen(port, () => {
   console.log(`Listening on http://127.0.0.1:${port}`);
 });
 
@@ -37,14 +37,14 @@ routes.register(app);
 
 app.use(
   (req: express.Request, res: express.Response, next: express.NextFunction) => {
-    next(new httpErrors.NotFound());
+    next(createError(404));
   }
 );
 
 // error handler
 app.use(
   (
-    err: any,
+    err: HttpError,
     req: express.Request,
     res: express.Response,
     next: express.NextFunction

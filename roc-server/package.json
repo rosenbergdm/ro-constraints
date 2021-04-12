@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./build/src/app.js",
-    "build": "babel --preset typescript--out-dir build --copy-files ./src/**/*.ts ./src/*.ts",
-    "prebuild": "cp -Rf templates ./build/templates && cp -Rf static ./build/static",
+    "build": "babel --presets @babel/preset-typescript --out-dir build --copy-files src/{app,db/index,routes/index}.ts",
+    "prebuild": "mkdir -p ./build/{src,static,templates} && cp -Rf ./templates/* ./build/templates/ && cp -Rf ./static/* ./build/static/",
+    "formatcheck": "./node_modules/.bin/eslint --fix src/{app,db/index,routes/index}.ts && ./node_modules/.bin/eslint --plugin prettier --fix src/{app,db/index,routes/index}.ts",
     "start:dev": "nodemon build/src/app.js",
     "build:dev": "yarn prebuild && tsc --watch",
     "buildone:dev": "yarn prebuild && tsc",
@@ -30,6 +31,14 @@
           "node/no-extraneous-import": "off",
           "@typescript-eslint/no-explicit-any": 1,
           "@typescript-eslint/no-extraneious/import": "off",
+          "no-unused-vars": "off",
+          "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+              "args": "none",
+              "vars": "local"
+            }
+          ],
           "@typescript-eslint/no-inferrable-types": [
             "warn",
             {
@@ -53,7 +62,6 @@
     "express": "~4.16.1",
     "gts": "^3.1.0",
     "isomorphic-fetch": "^3.0.0",
-    "jade": "^0.29.0",
     "morgan": "~1.9.1",
     "node-fetch": "^2.6.1",
     "nunjucks": "^3.2.3",
@@ -63,6 +71,7 @@
     "tslint-react": "^5.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0-0",
     "@babel/preset-typescript": "^7.13.0",
     "@types/bluebird": "^3.5.33",
     "@types/cookie-parser": "^1.4.2",
@@ -74,7 +83,6 @@
     "@types/pg-promise": "^5.4.3",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
-    "babel-cli": "^6.26.0",
     "eslint": "^7.24.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.23.2",
