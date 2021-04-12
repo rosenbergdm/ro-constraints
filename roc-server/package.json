@@ -3,16 +3,17 @@
   "version": "0.0.3",
   "private": true,
   "scripts": {
-    "start": "node ./build/app.js",
-    "build": "babel --out-dir build --copy-files --ignore \"**/__tests__/**,**/__mocks__/**\" src/**/*.ts",
-    "start:dev": "nodemon build/app.js",
-    "build:dev": "tsc --watch",
-    "buildone:dev": "tsc",
+    "start": "node ./build/src/app.js",
+    "build": "babel --preset typescript--out-dir build --copy-files ./src/**/*.ts ./src/*.ts",
+    "prebuild": "cp -Rf templates ./build/templates && cp -Rf static ./build/static",
+    "start:dev": "nodemon build/src/app.js",
+    "build:dev": "yarn prebuild && tsc --watch",
+    "buildone:dev": "yarn prebuild && tsc",
     "dev": "concurrently \"npm:build:dev\" \"npm:start:dev\"",
     "lint": "gts lint",
     "clean": "gts clean",
     "compile": "tsc",
-    "fix": "gts fix src/**/*.ts",
+    "fix": "gts fix src/*.ts src/**/*.ts",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "posttest": "npm run lint"
@@ -22,6 +23,7 @@
     "overrides": [
       {
         "files": [
+          "src/*.ts",
           "src/**/*.ts"
         ],
         "rules": {
