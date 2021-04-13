@@ -6,11 +6,13 @@ import logger from 'morgan';
 import * as nunjucks from 'nunjucks';
 
 import * as routes from './routes';
+import {dbg} from './utils';
 
 export const app = express();
 const port = 3000;
+
 export const server = app.listen(port, () => {
-  console.log(`Listening on http://127.0.0.1:${port}`);
+  dbg(`Listening on http://127.0.0.1:${port}`);
 });
 
 app.use(logger('dev'));
@@ -26,7 +28,7 @@ nunjucks.configure(path.join(__dirname, '..', 'templates'), {
   express: app,
 });
 
-console.log(
+dbg(
   `Templates configured for 'nunjucks' using path ${path.join(
     __dirname,
     'templates'
@@ -36,7 +38,11 @@ console.log(
 routes.register(app);
 
 app.use(
-  (req: express.Request, res: express.Response, next: express.NextFunction) => {
+  (
+    _req: express.Request,
+    _res: express.Response,
+    next: express.NextFunction
+  ) => {
     next(createError(404));
   }
 );

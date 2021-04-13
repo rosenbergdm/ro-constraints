@@ -5,8 +5,10 @@
  * @description : routes
  */
 
-import {db} from '../db';
 import * as express from 'express';
+
+import {db} from '../db';
+import {dbg} from '../utils';
 
 export const register = (app: express.Application) => {
   // app.use(express.json())
@@ -17,7 +19,7 @@ export const register = (app: express.Application) => {
       res: express.Response,
       next: express.NextFunction
     ) => {
-      console.log(req.body);
+      dbg(req.body);
       res.json(req.body);
     }
   );
@@ -38,7 +40,7 @@ export const register = (app: express.Application) => {
   });
 
   app.get('/search', async (req: express.Request, res: any) => {
-    console.log(req.body);
+    dbg(req.body);
     const target = req.body.target || null;
     const fractionation = req.body.fractionation || null;
     const intent = req.body.intent || null;

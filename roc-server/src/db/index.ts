@@ -9,6 +9,8 @@ import pgPromise from 'pg-promise';
 import * as Bluebird from 'bluebird';
 import {IInitOptions, IDatabase, IMain} from 'pg-promise';
 
+import {dbg} from '../utils';
+
 const Promise2 = Bluebird as any;
 
 type FRange = [number, '-', number];
@@ -113,5 +115,6 @@ const initOptions: IInitOptions<IExtensions> = {
 };
 
 const pgp: IMain = pgPromise(initOptions);
+dbg('Database connected');
 
 export const db: ExtendedProtocol = pgp({database: 'constraints'});
