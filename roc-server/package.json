@@ -62,6 +62,7 @@
     "@types/isomorphic-fetch": "^0.0.35",
     "@types/node-fetch": "^2.5.10",
     "@types/passport": "^1.0.6",
+    "@types/passport-local": "^1.0.33",
     "@types/pg": "^7.14.11",
     "argon2-ffi": "^2.0.0",
     "bcrypt": "^5.0.1",

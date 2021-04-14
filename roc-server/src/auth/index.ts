@@ -5,8 +5,8 @@
  * @description :
  */
 
-// import * as passport from 'passport';
-// import {Strategy} from 'passport-local';
+import * as passport from 'passport';
+import {Strategy} from 'passport-local';
 import * as argon2 from 'argon2';
 
 export const promiseWithTimeout = (
@@ -54,9 +54,9 @@ class RoOptions implements argon2.Options {
 export class User implements Authenticable {
   readonly username: string;
   hashedpw = Buffer.from('00000000000000000000000000000000');
-  _tempval: true | false = true;
-  _argon_opts: RoOptions = new RoOptions();
-
+  private _tempval: true | false = true;
+  private _argon_opts: RoOptions = new RoOptions();
+  static userMap: Map<string, User> = new Map();
   async setPassword(password: string, hashed?: boolean) {
     if (hashed) {
       this.hashedpw = Buffer.from(password, 'utf8');
@@ -95,13 +95,35 @@ export class User implements Authenticable {
     } else {
       this.setPassword(password);
     }
+    this.userMap.set(username, this);
   }
+  static findUser(username: string, cb?: (err: Error) => void) => User | null {
+    let u = User.userMap.get(username);
+    if (u) {
+      return u;
+    } else {
+      if (cb) {
+        cb(new Error(`User ${username} not found`))
+      }
+      return;
+    }
+  
 }
 
+/* 
+passport.use(new Strategy( (usrname, password, done) => {
+    return done("OK");
+  }
+));
+*/
+
+
+// For testing purposed
 export const users = [
   new User('dmr', 'dmr5669', false),
   new User('test', 'dmr5669', false),
 ];
+
 
 // passport.use(new Strategy( (username, password, done) => {
 //   return done(null, "OK");
