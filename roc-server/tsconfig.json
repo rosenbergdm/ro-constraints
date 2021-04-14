@@ -15,7 +15,8 @@
   "include": [
     "src/*.ts",
     "src/**/*.ts",
-    "templates/*.html"
+    "templates/*.html",
+    "./static/*"
   ],
   "baseUrl": "types",
   "typeRoots": ["types"]

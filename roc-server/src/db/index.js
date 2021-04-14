@@ -45,7 +45,7 @@ exports.__esModule = true;
 exports.db = void 0;
 var pg_promise_1 = require("pg-promise");
 var Bluebird = require("bluebird");
-var app_js_1 = require("../app.js");
+var utils_1 = require("../utils");
 var Promise2 = Bluebird;
 function isDefined(value) {
     return value !== undefined && value !== null;
@@ -114,8 +114,8 @@ var initOptions = {
     extend: function (obj, dc) {
         obj.promiseLib = Promise2;
         obj.dbquery = new DbQueryInterface(obj, pgp, { database: 'constraints' });
-        app_js_1.dbg("Database connected");
     }
 };
 var pgp = pg_promise_1["default"](initOptions);
+utils_1.dbg('Database connected');
 exports.db = pgp({ database: 'constraints' });

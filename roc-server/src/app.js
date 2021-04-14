@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.server = exports.dbg = exports.app = void 0;
+exports.server = exports.app = void 0;
 var express_1 = require("express");
 var http_errors_1 = require("http-errors");
 var path = require("path");
@@ -8,17 +8,11 @@ var cookie_parser_1 = require("cookie-parser");
 var morgan_1 = require("morgan");
 var nunjucks = require("nunjucks");
 var routes = require("./routes");
+var utils_1 = require("./utils");
 exports.app = express_1["default"]();
 var port = 3000;
-var dbg = function (msg) {
-    if (process.env.DEBUG_ROC_SERVER !== undefined &&
-        Number(process.env.DEBUG_ROC_SERVER) > 0) {
-        console.log(msg);
-    }
-};
-exports.dbg = dbg;
 exports.server = exports.app.listen(port, function () {
-    exports.dbg("Listening on http://127.0.0.1:" + port);
+    utils_1.dbg("Listening on http://127.0.0.1:" + port);
 });
 exports.app.use(morgan_1["default"]('dev'));
 exports.app.use(express_1["default"].json());
@@ -31,7 +25,7 @@ nunjucks.configure(path.join(__dirname, '..', 'templates'), {
     autoescape: true,
     express: exports.app
 });
-exports.dbg("Templates configured for 'nunjucks' using path " + path.join(__dirname, 'templates'));
+utils_1.dbg("Templates configured for 'nunjucks' using path " + path.join(__dirname, 'templates'));
 routes.register(exports.app);
 exports.app.use(function (_req, _res, next) {
     next(http_errors_1["default"](404));

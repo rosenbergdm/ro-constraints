@@ -44,10 +44,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 exports.__esModule = true;
 exports.register = void 0;
 var db_1 = require("../db");
+var utils_1 = require("../utils");
 var register = function (app) {
     // app.use(express.json())
     app.get('/test', function (req, res, next) {
-        console.log(req.body);
+        utils_1.dbg(req.body);
         res.json(req.body);
     });
     app.get('/', function (req, res, next) {
@@ -84,7 +85,7 @@ var register = function (app) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    console.log(req.body);
+                    utils_1.dbg(req.body);
                     target = req.body.target || null;
                     fractionation = req.body.fractionation || null;
                     intent = req.body.intent || null;
