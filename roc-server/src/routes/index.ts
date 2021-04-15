@@ -9,6 +9,7 @@ import * as express from 'express';
 
 import {db} from '../db';
 import {dbg} from '../utils';
+import * as auth from '../auth';
 
 export const register = (app: express.Application) => {
   // app.use(express.json())
@@ -21,6 +22,21 @@ export const register = (app: express.Application) => {
     ) => {
       dbg(req.body);
       res.json(req.body);
+    }
+  );
+
+  app.post(
+    '/authTest',
+    auth.passport.authenticate('local', {session: false}),
+    (req: express.Request, res: express.Response) => {
+      res.send('SUCCESSFUL AUTH');
+    }
+  );
+  app.get(
+    '/authTest',
+    auth.passport.authenticate('local', {session: false}),
+    (req: express.Request, res: express.Response) => {
+      res.send('SUCCESSFUL AUTH');
     }
   );
 

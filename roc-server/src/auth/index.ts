@@ -5,7 +5,9 @@
  * @description :
  */
 
-import * as passport from 'passport';
+import 'express';
+
+import passport from 'passport';
 import {Strategy} from 'passport-local';
 import * as argon2 from 'argon2';
 
@@ -31,11 +33,11 @@ export interface Authenticable {
   checkPassword: (
     password: string,
     cb: (err: Error) => void
-  ) => Promise<string | void>;
+  ) => Promise<string | false>;
   setPassword: (password: string, hashed?: boolean) => void;
 }
 
-class RoOptions implements argon2.Options {
+export class RoOptions implements argon2.Options {
   timeCost: number;
   memoryCost: number;
   type: 0 | 1 | 2;
@@ -51,12 +53,22 @@ class RoOptions implements argon2.Options {
   }
 }
 
-export class User implements Authenticable {
+export class ROUser implements Authenticable {
   readonly username: string;
   hashedpw = Buffer.from('00000000000000000000000000000000');
-  private _tempval: true | false = true;
   private _argon_opts: RoOptions = new RoOptions();
-  static userMap: Map<string, User> = new Map();
+  private static userMap: Map<string, ROUser> = new Map();
+  public static findUser(username: string, cb?: (err: Error) => ROUser | null) {
+    const u = ROUser.userMap.get(username);
+    if (u) {
+      return u;
+    } else {
+      if (cb) {
+        cb(new Error(`User ${username} not found`));
+      }
+      return null;
+    }
+  }
   async setPassword(password: string, hashed?: boolean) {
     if (hashed) {
       this.hashedpw = Buffer.from(password, 'utf8');
@@ -70,22 +82,19 @@ export class User implements Authenticable {
   async checkPassword(
     password: string,
     cb?: (err: Error) => void
-  ): Promise<string | void> {
-    if (
-      await argon2.verify(
-        this.hashedpw.toString('utf8'),
-        password,
-        this._argon_opts
-      )
-    ) {
+  ): Promise<string | false> {
+    const pwcheck = await argon2.verify(
+      this.hashedpw.toString('utf-8'),
+      password,
+      this._argon_opts
+    );
+    if (pwcheck) {
       return this.username;
     } else {
       if (cb) {
         cb(new Error('Password mismatch'));
-        return;
-      } else {
-        return;
       }
+      return false;
     }
   }
   constructor(username: string, password?: string, hashed?: boolean) {
@@ -95,36 +104,41 @@ export class User implements Authenticable {
     } else {
       this.setPassword(password);
     }
-    this.userMap.set(username, this);
+    ROUser.userMap.set(username, this);
   }
-  static findUser(username: string, cb?: (err: Error) => void) => User | null {
-    let u = User.userMap.get(username);
-    if (u) {
-      return u;
-    } else {
-      if (cb) {
-        cb(new Error(`User ${username} not found`))
-      }
-      return;
-    }
-  
 }
-
-/* 
-passport.use(new Strategy( (usrname, password, done) => {
-    return done("OK");
-  }
-));
-*/
-
-
 // For testing purposed
 export const users = [
-  new User('dmr', 'dmr5669', false),
-  new User('test', 'dmr5669', false),
+  new ROUser('dmr', 'dmr5669', false),
+  new ROUser('test', 'dmr5669', false),
 ];
 
+passport.use(
+  new Strategy(async (username, password, done) => {
+    const authUser: ROUser | null = ROUser.findUser(username);
+    if (!authUser) {
+      return done(null, false, {message: 'User does not exist'});
+    }
+    const match = await authUser.checkPassword(password);
+    // console.log(`match = '${match}'`);
+    if (match) {
+      return done(null, authUser);
+    } else {
+      return done(null, false, {message: 'Incorrect password'});
+    }
+  })
+);
 
-// passport.use(new Strategy( (username, password, done) => {
-//   return done(null, "OK");
-// }));
+passport.serializeUser((user, cb: any) => {
+  cb(null, user);
+});
+
+passport.deserializeUser(async (username: string, done: any) => {
+  const user = await ROUser.findUser(username);
+  if (!user) {
+    return done(new Error('User not found'));
+  }
+  return done(null, user);
+});
+
+export {passport};

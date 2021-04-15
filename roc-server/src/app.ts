@@ -6,6 +6,7 @@ import logger from 'morgan';
 import * as nunjucks from 'nunjucks';
 
 import * as routes from './routes';
+import * as auth from './auth';
 import {dbg} from './utils';
 
 export const app = express();
@@ -34,6 +35,8 @@ dbg(
     'templates'
   )}`
 );
+
+app.use(auth.passport.initialize());
 
 routes.register(app);
 
