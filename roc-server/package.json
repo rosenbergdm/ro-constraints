@@ -84,6 +84,8 @@
     "node-fetch": "^2.6.1",
     "nunjucks": "^3.2.3",
     "passport": "^0.4.1",
+    "passport-json": "^1.2.0",
+    "passport-local": "^1.0.0",
     "pg-promise": "^10.10.1",
     "prettier": "^2.2.1",
     "tslint-config-prettier": "^1.18.0",

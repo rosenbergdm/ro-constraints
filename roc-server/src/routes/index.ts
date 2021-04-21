@@ -18,7 +18,7 @@ export const register = (app: express.Application) => {
     (
       req: express.Request,
       res: express.Response,
-      next: express.NextFunction
+      _next: express.NextFunction
     ) => {
       dbg(req.body);
       res.json(req.body);
@@ -29,45 +29,67 @@ export const register = (app: express.Application) => {
     '/authTest',
     auth.passport.authenticate('local', {session: false}),
     (req: express.Request, res: express.Response) => {
+      dbg(req.body);
       res.send('SUCCESSFUL AUTH');
     }
   );
+
   app.get(
     '/authTest',
     auth.passport.authenticate('local', {session: false}),
     (req: express.Request, res: express.Response) => {
+      dbg(req.body);
       res.send('SUCCESSFUL AUTH');
     }
   );
 
-  app.get('/', (req: any, res: any, next: any) => {
-    res.render('index.html', {pagename: 'TestPage'});
-  });
+  app.get(
+    '/',
+    (
+      _req: express.Request,
+      res: express.Response,
+      _next: express.NextFunction
+    ) => {
+      res.render('index.html', {pagename: 'TestPage'});
+    }
+  );
 
-  app.get('/region/:id', async (req: any, res: any) => {
-    const id = Number(req.params.id);
-    const region = await db.dbquery.getRegion(id);
-    res.json(region);
-  });
+  app.get(
+    '/region/:id',
+    auth.passport.authenticate('local', {session: false}),
+    async (req: express.Request, res: express.Response) => {
+      const id = Number(req.params.id);
+      const region = await db.dbquery.getRegion(id);
+      res.json(region);
+    }
+  );
 
-  app.get('/allregions', async (req: any, res: any) => {
-    const regions = await db.dbquery.getAllRegions();
-    res.json(regions);
-  });
+  app.get(
+    '/allregions',
+    auth.passport.authenticate('local', {session: false}),
+    async (_req: express.Request, res: express.Response) => {
+      const regions = await db.dbquery.getAllRegions();
+      res.json(regions);
+    }
+  );
 
-  app.get('/search', async (req: express.Request, res: any) => {
-    dbg(req.body);
-    const target = req.body.target || null;
-    const fractionation = req.body.fractionation || null;
-    const intent = req.body.intent || null;
-    const importance = req.body.importance || null;
+  app.get(
+    '/search',
+    auth.passport.authenticate('local', {session: false}),
+    async (req: express.Request, res: express.Response) => {
+      dbg(req.body);
+      const target = req.body.target || null;
+      const fractionation = req.body.fractionation || null;
+      const intent = req.body.intent || null;
+      const importance = req.body.importance || null;
 
-    const regions = await db.dbquery.searchRegions(
-      target,
-      fractionation,
-      intent,
-      importance
-    );
-    res.json(regions);
-  });
+      const regions = await db.dbquery.searchRegions(
+        target,
+        fractionation,
+        intent,
+        importance
+      );
+      res.json(regions);
+    }
+  );
 };
