@@ -1,18 +1,24 @@
 import express from 'express';
 import createError, {HttpError} from 'http-errors';
+import * as https from 'https';
 import * as path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import * as nunjucks from 'nunjucks';
+import * as fs from 'fs';
 
 import * as routes from './routes';
 import * as auth from './auth';
 import {dbg} from './utils';
 
 export const app = express();
+
+const key = fs.readFileSync('./key.pem');
+const cert = fs.readFileSync('./cert.pem');
 const port = 3000;
 
-export const server = app.listen(port, () => {
+export const server = https.createServer({key: key, cert: cert}, app);
+server.listen(port, () => {
   dbg(`Listening on http://127.0.0.1:${port}`);
 });
 
