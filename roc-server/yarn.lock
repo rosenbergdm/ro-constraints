@@ -1654,6 +1654,11 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
+bluefish@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/bluefish/-/bluefish-0.0.1-security.tgz#3d06c329c286bd66cf80c787b695fa9fd567c965"
+  integrity sha512-LR65HCkDKc9q3GPdJuMhduauRno+9gdoGYCP+49u33eh5mzvhoRy9d8zg+d2Y2SQTB881yHBxN43DYh3gec10Q==
+
 body-parser@1.18.3:
   version "1.18.3"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.3.tgz#5b292198ffdd553b3a0f20ded0592b956955c8b4"

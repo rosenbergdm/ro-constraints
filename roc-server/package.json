@@ -68,6 +68,7 @@
     "@types/pg": "^7.14.11",
     "argon2-ffi": "^2.0.0",
     "bcrypt": "^5.0.1",
+    "bluefish": "^0.0.1-security",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",

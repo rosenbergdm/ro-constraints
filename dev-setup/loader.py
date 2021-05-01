@@ -292,8 +292,8 @@ def load_region_disease_sites_pg(conn):
     conn.commit()
 
 
-def main_pg():
-    db = psycopg2.connect("dbname=constraints")
+def main_pg(dbname='constraints'):
+    db = psycopg2.connect(f"dbname={dbname}")
     srcfile = "Treatment Planning-Grid view (3).csv"
     cur = db.cursor()
     schemafile = "ro-constraints.pssql"
@@ -376,7 +376,7 @@ def load_regions_lite(conn):
         cur.execute("INSERT INTO region VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", t)
     conn.commit()
 
-def main_sqlite():
+def main_sqlite(dbfile='ro-constraints.sql'):
     db = sqlite3.connect(":memory:")
     srcfile = "Treatment Planning-Grid view (3).csv"
     cur = db.cursor()
@@ -397,7 +397,7 @@ def main_sqlite():
     load_disease_sites_lite(db)
     load_region_disease_sites_lite(db)
     load_regions_lite(db)
-    tgtfile = "complete.db"
+    tgtfile = dbfile
     with sqlite3.connect(tgtfile) as bkdb:
         db.backup(bkdb)
     bkdb.close()
