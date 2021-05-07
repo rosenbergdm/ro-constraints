@@ -1,15 +1,40 @@
+import 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
+
+const RocStack = createStackNavigator();
+
+export function ResultsScreen({ navigation }): JSX.Element {
+  return (
+    <View style={styles.container}>
+      <Text>Results Screen</Text>
+      <Button title="Back to search" onPress={() => navigation.navigate('Search')} />
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+export function SearchScreen({ navigation }): JSX.Element {
+  return (
+    <View style={styles.container}>
+      <Text>Search Screen</Text>
+      <Button title="Search" onPress={() => navigation.navigate('Results')} />
+      <StatusBar style="auto" />
+    </View>
+  );
+}
 
 export default function App(): JSX.Element {
   return (
-    <View style={styles.container}>
-      <Text>
-        Open up {"'"}src/App.tsx{"'"} to start working on your app!
-      </Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <RocStack.Navigator>
+        <RocStack.Screen name="Search" component={SearchScreen} options={{ title: 'Search' }} />
+        <RocStack.Screen name="Results" component={ResultsScreen} options={{ title: 'Results' }} />
+      </RocStack.Navigator>
+    </NavigationContainer>
   );
 }
 
