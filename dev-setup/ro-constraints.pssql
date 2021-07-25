@@ -28,20 +28,54 @@ CREATE TABLE intent (
   description VARCHAR(16)
 );
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Record
+-- OARorTarget
+-- Fractions
+-- Intent
+-- PrimarySite
+-- Volume
+-- VolumeDeviation
+-- PRV
+-- Dose
+-- DoseDeviation
+-- Conversion
+-- α/β
+-- Protocol
+-- LandmarkPub
+-- Importance
+-- Paper#1Title
+-- Paper#1Link
+-- Paper#2Title
+-- Paper#2Link
+-- Notes
+
+
+
+
 CREATE TABLE region (
   id SERIAL PRIMARY KEY NOT NULL,
   target INTEGER NOT NULL REFERENCES target(id),
+  oncprimary INTEGER NOT NULL REFERENCES target(id),
   fractionation INTEGER NOT NULL REFERENCES fractionation(id),
   intent INTEGER DEFAULT NULL REFERENCES intent(id),
   volume INTEGER DEFAULT NULL,
-  -- NOTE: volumes are the volumes * 100 to prevent floating point
-  --       approximation
   volume_type INTEGER DEFAULT NULL REFERENCES volume_type(id),
   volume_deviation INTEGER DEFAULT NULL,
   volume_deviation_type INTEGER DEFAULT NULL REFERENCES volume_type(id),
   prv INTEGER DEFAULT NULL,
-  -- NOTE: dose are the dose * 100 to prevent floating point
-  --       approximation
   dose INTEGER DEFAULT NULL,
   dose_type INTEGER DEFAULT NULL REFERENCES dose_type(id),
   dose_deviation INTEGER DEFAULT NULL,
@@ -49,6 +83,10 @@ CREATE TABLE region (
   conversion VARCHAR(16) DEFAULT NULL,
   importance VARCHAR(16) DEFAULT NULL
 );
+-- NOTE: volumes are the volumes * 100 to prevent floating point
+--       approximation
+-- NOTE: dose are the dose * 100 to prevent floating point
+--       approximation
 
 CREATE TABLE disease_site (
   id SERIAL PRIMARY KEY NOT NULL,

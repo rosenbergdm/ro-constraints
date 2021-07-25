@@ -114,7 +114,7 @@ if [[ ${ARGS[--sqlite]} == true ]]; then
   fi
 else
   if ! echo "select 1" | psql ${ARGS[<database>]} >/dev/null 2>&1; then
-    echo "create database ${ARGS[<database>]}"| psql
+    echo "drop database ${ARGS[<database>]}; create database ${ARGS[<database>]}"| psql
     echo python3 -c "import loader; loader.main_pg('${ARGS[<database>]}')"
   fi
 fi

@@ -40,14 +40,20 @@ class DbQueryInterface {
 
   async searchRegions(
     target: string[] | null = null,
+    oncprimary: string[] | null = null,
     fractionation: FractionScheme[] = null,
     intent: string[] | null = null,
     importance: string[] | null = null
   ) {
     let whereClause = 'WHERE region.id > 0 ';
-    if (isDefined(target)) {
+    if (isDefined(target) && oncprimary !== null) {
       whereClause += `AND target.name in ( ${
         "'" + target.join("', '") + "'"
+      } ) `;
+    }
+    if (isDefined(oncprimary) && oncprimary !== null) {
+      whereClause += `AND onctarget.name in ( ${
+        "'" + oncprimary.join(", '") + "'"
       } ) `;
     }
     if (fractionation !== null) {
@@ -79,7 +85,8 @@ class DbQueryInterface {
     const query = `
     SELECT
         region.id,
-        target.name,
+        target.name targetname,
+        oncprimary.name oncprimaryname,
         coalesce(fractionation.description, '') || coalesce(fractions_min::text, '') || coalesce('-' || fractions_max::text, '') as fractionation,
         intent.description,
         volume::float / 100 || ' ' || vtype.description as volume,
@@ -91,19 +98,22 @@ class DbQueryInterface {
         importance
       FROM
         region
-        LEFT JOIN target on region.target = target.id
+        INNER JOIN target on region.target = target.id
+        INNER JOIN target oncprimary on region.oncprimary = oncprimary.id
         LEFT JOIN fractionation on region.fractionation = fractionation.id
         LEFT JOIN volume_type vtype on region.volume_type = vtype.id
         LEFT JOIN intent on region.intent = intent.id
         LEFT JOIN volume_type vtype2 on region.volume_deviation_type = vtype2.id
         LEFT JOIN dose_type dtype on region.dose_type = dtype.id
-        LEFT JOIN dose_type dtype2 on region.dose_deviation_type = dtype.id
+        LEFT JOIN dose_type dtype2 on region.dose_deviation_type = dtype2.id
+
       ${whereClause};`;
+    console.log(query);
     return this.db.multi(query, []);
   }
 
   async getAllRegions(): Promise<any> {
-    return this.searchRegions();
+    return this.searchRegions(null, null, null, null, null);
   }
 }
 

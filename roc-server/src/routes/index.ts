@@ -79,12 +79,14 @@ export const register = (app: express.Application) => {
     async (req: express.Request, res: express.Response) => {
       dbg(req.body);
       const target = req.body.target || null;
+      const oncprimary = req.body.oncprimary || null;
       const fractionation = req.body.fractionation || null;
       const intent = req.body.intent || null;
       const importance = req.body.importance || null;
 
       const regions = await db.dbquery.searchRegions(
         target,
+        oncprimary,
         fractionation,
         intent,
         importance

@@ -31,6 +31,7 @@ CREATE TABLE intent (
 CREATE TABLE region (
   id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
   target INTEGER NOT NULL REFERENCES target(id),
+  oncprimary INTEGER NOT NULL REFERENCES target(id),
   fractionation INTEGER NOT NULL REFERENCES fractionation(id),
   intent INTEGER DEFAULT NULL REFERENCES intent(id),
   volume INTEGER DEFAULT NULL,
