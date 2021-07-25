@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "start": "node ./build/src/app.js",
-    "prebuild": "mkdir -p ./build/{src,static,templates} && cp -Rf ./templates/* ./build/templates/ && cp -Rf ./static/* ./build/static/ && yarn formatcheck",
+    "prebuild": "mkdir -p ./build/src ./build/static ./build/templates && cp -Rf ./templates/* ./build/templates/ && cp -Rf ./static/* ./build/static/ && yarn formatcheck",
     "build": "yarn prebuild && tsc --incremental",
     "formatcheck": "./node_modules/.bin/eslint --plugin prettier --fix src/{app,db/index,utils/index,auth/index,routes/index,user/index}.ts",
     "start:dev": "nodemon build/src/app.js",

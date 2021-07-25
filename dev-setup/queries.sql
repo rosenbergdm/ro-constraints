@@ -20,7 +20,7 @@ FROM
   LEFT JOIN intent on region.intent = intent.id
   LEFT JOIN volume_type vtype2 on region.volume_deviation_type = vtype2.id
   LEFT JOIN dose_type dtype on region.dose_type = dtype.id
-  LEFT JOIN dose_type dtype2 on region.dose_deviation_type = dtype.id;
+  LEFT JOIN dose_type dtype2 on region.dose_deviation_type = dtype2.id;
 
 
 -- select */
