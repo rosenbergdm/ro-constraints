@@ -74,6 +74,32 @@ export const register = (app: express.Application) => {
   );
 
   app.get(
+    '/targetnames', 
+    auth.passport.authenticate('local', {session: false}),
+    async (_req: express.Request, res: express.Response) => {
+      const targets = await db.dbquery.getRegionNames();
+      res.json(targets);
+    }
+  );
+
+  app.get(
+    '/primarynames', 
+    auth.passport.authenticate('local', {session: false}),
+    async (_req: express.Request, res: express.Response) => {
+      const primaries = await db.dbquery.getRegionNames();
+      res.json(primaries);
+    }
+  );
+
+  app.get('/fractionations',
+    auth.passport.authenticate('local', {session: false}),
+    async (_req: express.Request, res: express.Response) => {
+      const fractionations = await db.dbquery(getFractionations();
+      res.json(fractionations);
+    }
+  }
+
+  app.get(
     '/search',
     auth.passport.authenticate('local', {session: false}),
     async (req: express.Request, res: express.Response) => {
