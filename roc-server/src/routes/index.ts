@@ -83,6 +83,16 @@ export const register = (app: express.Application) => {
   );
 
   app.get(
+    '/target/:id',
+    auth.passport.authenticate('local', {session: false}),
+    async (req: express.Request, res: express.Response) => {
+      const id = Number(req.params.id);
+      const target = await db.dbquery.getRegion(id);
+      res.json(target);
+    }
+  )};
+
+  app.get(
     '/primarynames', 
     auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
@@ -91,13 +101,14 @@ export const register = (app: express.Application) => {
     }
   );
 
-  app.get('/fractionations',
+  app.get(
+    '/fractionations',
     auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
-      const fractionations = await db.dbquery(getFractionations();
+      const fractionations = await db.dbquery.getFractionations();
       res.json(fractionations);
     }
-  }
+  );
 
   app.get(
     '/search',
@@ -120,4 +131,4 @@ export const register = (app: express.Application) => {
       res.json(regions);
     }
   );
-};
+ )

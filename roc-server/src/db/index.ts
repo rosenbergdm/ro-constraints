@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * @class       : db
  * @author      : David M. Rosenberg (dmr@davidrosenberg.me)
@@ -11,6 +12,7 @@ import {IInitOptions, IDatabase, IMain} from 'pg-promise';
 
 import {dbg} from '../utils';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Promise2 = Bluebird as any;
 
 type FRange = [number, '-', number];
@@ -28,16 +30,28 @@ interface IExtensions {
 type ExtendedProtocol = IDatabase<IExtensions> & IExtensions;
 
 class DbQueryInterface {
-  params: any = null;
+  params: any;
 
   constructor(private db: IDatabase<any>, private pgp: IMain, params: any) {
     this.params = params;
   }
-
   async getRegion(regionId: number) {
     return this.db.one(`SELECT * from region where id = ${regionId}`);
   }
+  // concat(fractionation.description, '') || \
+  // concat(fractions_min, '') || concat('-' || fractions_max, '')
 
+  async getFractionations() {
+    const query = ('SELECT id, concat(description, ``) || ' +
+      'concat(fractions_min, ``) || concat(`-`) || fractions_max, ``)' +
+      ' FROM fractionation ORDER BY id ASC');
+    return this.db.multi(query, []);
+  }
+
+  async getRegionNames() {
+    const query = 'SELECT id, name FROM target ORDER BY name ASC;'
+    return this.db.multi(query, []);
+  }
   async searchRegions(
     target: string[] | null = null,
     oncprimary: string[] | null = null,
