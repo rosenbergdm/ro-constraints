@@ -74,7 +74,7 @@ export const register = (app: express.Application) => {
   );
 
   app.get(
-    '/targetnames', 
+    '/targetnames',
     auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
       const targets = await db.dbquery.getRegionNames();
@@ -83,6 +83,7 @@ export const register = (app: express.Application) => {
   );
 
   app.get(
+    //TODO: This is wrong
     '/target/:id',
     auth.passport.authenticate('local', {session: false}),
     async (req: express.Request, res: express.Response) => {
@@ -90,10 +91,10 @@ export const register = (app: express.Application) => {
       const target = await db.dbquery.getRegion(id);
       res.json(target);
     }
-  )};
+  );
 
   app.get(
-    '/primarynames', 
+    '/primarynames',
     auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
       const primaries = await db.dbquery.getRegionNames();
@@ -131,4 +132,4 @@ export const register = (app: express.Application) => {
       res.json(regions);
     }
   );
- )
+};

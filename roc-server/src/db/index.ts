@@ -36,6 +36,7 @@ class DbQueryInterface {
     this.params = params;
   }
   async getRegion(regionId: number) {
+    console.log(`SELECT * from region where id = ${regionId}`);
     return this.db.one(`SELECT * from region where id = ${regionId}`);
   }
   // concat(fractionation.description, '') || \
@@ -122,7 +123,6 @@ class DbQueryInterface {
         LEFT JOIN dose_type dtype2 on region.dose_deviation_type = dtype2.id
 
       ${whereClause};`;
-    console.log(query);
     return this.db.multi(query, []);
   }
 
