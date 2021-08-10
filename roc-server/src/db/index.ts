@@ -134,11 +134,15 @@ class DbQueryInterface {
 const initOptions: IInitOptions<IExtensions> = {
   extend(obj: ExtendedProtocol, dc: any) {
     obj.promiseLib = Promise2;
-    obj.dbquery = new DbQueryInterface(obj, pgp, {database: 'constraints'});
+    obj.dbquery = new DbQueryInterface(obj, pgp, {
+      database: 'constraints',
+      username: 'dmr',
+      password: 'dmr5669',
+    });
   },
 };
 
 const pgp: IMain = pgPromise(initOptions);
 dbg('Database connected');
 
-export const db: ExtendedProtocol = pgp({database: 'constraints'});
+export const db: ExtendedProtocol = pgp;

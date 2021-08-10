@@ -210,7 +210,8 @@ def process_line(l):
     result = []
     result.append(add_target(l[1])) # target
     result.append(add_target(l[4])) # oncprimary
-    if mt := re.match(r"(\d+)-?(\d*)", l[2]):
+    mt = re.match(r"(\d+)-?(\d*)", l[2])
+    if mt:
         dmin = int(mt.groups()[0])
         dmax = None if mt.groups()[1] == "" else int(mt.groups()[1])
         result.append(add_fractionation(fractions_min=dmin, fractions_max=dmax))
@@ -227,7 +228,8 @@ def process_line(l):
         result.append(None)
         result.append(None)
     else:
-        if mt := re.match(r"^(\d+\.?\d*) ?(.*)$", l[5]):
+        mt = re.match(r"^(\d+\.?\d*) ?(.*)$", l[5])
+        if mt:
             (v, vtype) = mt.groups()
             result.append(int(100 * float(v)))
             result.append(add_volume_type(vtype))
@@ -241,7 +243,8 @@ def process_line(l):
         result.append(None)
         result.append(None)
     else:
-        if mt := re.match(r"^(\d+) ?(.*)$", l[6]):
+        mt = re.match(r"^(\d+) ?(.*)$", l[6])
+        if mt:
             (v, vtype) = mt.groups()
             result.append(int(100 * float(v)))
             result.append(add_volume_type(vtype))
@@ -354,7 +357,7 @@ def load_region_disease_sites_pg(conn):
 
 
 def main_pg(dbname="constraints"):
-    db = psycopg2.connect(f"dbname={dbname}")
+    db = psycopg2.connect(dbname=dbname, user='dmr', password='dmr5669')
     db.autocommit = True
     srcfile = "Treatment Planning-Grid view (3).csv"
     cur = db.cursor()
