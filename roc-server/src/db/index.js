@@ -116,6 +116,6 @@ var initOptions = {
         obj.dbquery = new DbQueryInterface(obj, pgp, { database: 'constraints' });
     }
 };
-var pgp = pg_promise_1["default"](initOptions);
+var pgp = pg_promise_1(initOptions);
 utils_1.dbg('Database connected');
 exports.db = pgp({ database: 'constraints' });

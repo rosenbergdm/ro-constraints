@@ -145,4 +145,4 @@ const initOptions: IInitOptions<IExtensions> = {
 const pgp: IMain = pgPromise(initOptions);
 dbg('Database connected');
 
-export const db: ExtendedProtocol = pgp;
+// export const db: ExtendedProtocol = pgp;
