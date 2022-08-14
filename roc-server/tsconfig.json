@@ -10,8 +10,9 @@
     "esModuleInterop": true,
     "strictNullChecks": false,
     "noImplicitThis": false,
-    "module": "commonjs",
     "target": "ESNext",
+    "sourceMap": true,
+    "preserveConstEnums": true,
     "strict": false,
     "types": [
       "node",

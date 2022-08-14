@@ -145,5 +145,5 @@ var initOptions = {
 };
 var pgp = pgPromise(initOptions);
 // dbg('Database connected');
-var db = pgp({ database: "constraints" });
+var db = pgp({ database: 'constraints' });
 exports["default"] = db;

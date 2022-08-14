@@ -43,24 +43,33 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 exports.__esModule = true;
 exports.register = void 0;
-var db_1 = require("../db");
+var db = require("../db");
 var utils_1 = require("../utils");
+var auth = require("../auth");
 var register = function (app) {
     // app.use(express.json())
-    app.get('/test', function (req, res, next) {
-        utils_1.dbg(req.body);
+    app.get('/test', function (req, res, _next) {
+        (0, utils_1.dbg)(req.body);
         res.json(req.body);
     });
-    app.get('/', function (req, res, next) {
+    app.post('/authTest', auth.passport.authenticate('local', { session: false }), function (req, res) {
+        (0, utils_1.dbg)(req.body);
+        res.send('SUCCESSFUL AUTH');
+    });
+    app.get('/authTest', auth.passport.authenticate('local', { session: false }), function (req, res) {
+        (0, utils_1.dbg)(req.body);
+        res.send('SUCCESSFUL AUTH');
+    });
+    app.get('/', function (_req, res, _next) {
         res.render('index.html', { pagename: 'TestPage' });
     });
-    app.get('/region/:id', function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
+    app.get('/region/:id', auth.passport.authenticate('local', { session: false }), function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
         var id, region;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
                     id = Number(req.params.id);
-                    return [4 /*yield*/, db_1.db.dbquery.getRegion(id)];
+                    return [4 /*yield*/, db["default"].dbquery.getRegion(id)];
                 case 1:
                     region = _a.sent();
                     res.json(region);
@@ -68,11 +77,11 @@ var register = function (app) {
             }
         });
     }); });
-    app.get('/allregions', function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
+    app.get('/allregions', auth.passport.authenticate('local', { session: false }), function (_req, res) { return __awaiter(void 0, void 0, void 0, function () {
         var regions;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, db_1.db.dbquery.getAllRegions()];
+                case 0: return [4 /*yield*/, db["default"].dbquery.getAllRegions()];
                 case 1:
                     regions = _a.sent();
                     res.json(regions);
@@ -80,17 +89,70 @@ var register = function (app) {
             }
         });
     }); });
-    app.get('/search', function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
-        var target, fractionation, intent, importance, regions;
+    app.get('/targetnames', auth.passport.authenticate('local', { session: false }), function (_req, res) { return __awaiter(void 0, void 0, void 0, function () {
+        var targets;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db["default"].dbquery.getRegionNames()];
+                case 1:
+                    targets = _a.sent();
+                    res.json(targets);
+                    return [2 /*return*/];
+            }
+        });
+    }); });
+    app.get(
+    //TODO: This is wrong
+    '/target/:id', auth.passport.authenticate('local', { session: false }), function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
+        var id, target;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    utils_1.dbg(req.body);
+                    id = Number(req.params.id);
+                    return [4 /*yield*/, db["default"].dbquery.getRegion(id)];
+                case 1:
+                    target = _a.sent();
+                    res.json(target);
+                    return [2 /*return*/];
+            }
+        });
+    }); });
+    app.get('/primarynames', auth.passport.authenticate('local', { session: false }), function (_req, res) { return __awaiter(void 0, void 0, void 0, function () {
+        var primaries;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db["default"].dbquery.getRegionNames()];
+                case 1:
+                    primaries = _a.sent();
+                    res.json(primaries);
+                    return [2 /*return*/];
+            }
+        });
+    }); });
+    app.get('/fractionations', auth.passport.authenticate('local', { session: false }), function (_req, res) { return __awaiter(void 0, void 0, void 0, function () {
+        var fractionations;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db["default"].dbquery.getFractionations()];
+                case 1:
+                    fractionations = _a.sent();
+                    res.json(fractionations);
+                    return [2 /*return*/];
+            }
+        });
+    }); });
+    app.get('/search', auth.passport.authenticate('local', { session: false }), function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
+        var target, oncprimary, fractionation, intent, importance, regions;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    (0, utils_1.dbg)(req.body);
                     target = req.body.target || null;
+                    oncprimary = req.body.oncprimary || null;
                     fractionation = req.body.fractionation || null;
                     intent = req.body.intent || null;
                     importance = req.body.importance || null;
-                    return [4 /*yield*/, db_1.db.dbquery.searchRegions(target, fractionation, intent, importance)];
+                    return [4 /*yield*/, db["default"].dbquery.searchRegions(target, oncprimary, fractionation, intent, importance)];
                 case 1:
                     regions = _a.sent();
                     res.json(regions);

@@ -59,16 +59,16 @@ export const register = (app: express.Application) => {
     auth.passport.authenticate('local', {session: false}),
     async (req: express.Request, res: express.Response) => {
       const id = Number(req.params.id);
-      const region = await db.dbquery.getRegion(id);
+      const region = await db.default.dbquery.getRegion(id);
       res.json(region);
     }
   );
 
   app.get(
     '/allregions',
-    auth.passport.authenticate('local', {session: false}),
+    // auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
-      const regions = await db.dbquery.getAllRegions();
+      const regions = await db.default.dbquery.getAllRegions();
       res.json(regions);
     }
   );
@@ -77,7 +77,7 @@ export const register = (app: express.Application) => {
     '/targetnames',
     auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
-      const targets = await db.dbquery.getRegionNames();
+      const targets = await db.default.dbquery.getRegionNames();
       res.json(targets);
     }
   );
@@ -88,7 +88,7 @@ export const register = (app: express.Application) => {
     auth.passport.authenticate('local', {session: false}),
     async (req: express.Request, res: express.Response) => {
       const id = Number(req.params.id);
-      const target = await db.dbquery.getRegion(id);
+      const target = await db.default.dbquery.getRegion(id);
       res.json(target);
     }
   );
@@ -97,7 +97,7 @@ export const register = (app: express.Application) => {
     '/primarynames',
     auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
-      const primaries = await db.dbquery.getRegionNames();
+      const primaries = await db.default.dbquery.getRegionNames();
       res.json(primaries);
     }
   );
@@ -106,7 +106,7 @@ export const register = (app: express.Application) => {
     '/fractionations',
     auth.passport.authenticate('local', {session: false}),
     async (_req: express.Request, res: express.Response) => {
-      const fractionations = await db.dbquery.getFractionations();
+      const fractionations = await db.default.dbquery.getFractionations();
       res.json(fractionations);
     }
   );
@@ -122,7 +122,7 @@ export const register = (app: express.Application) => {
       const intent = req.body.intent || null;
       const importance = req.body.importance || null;
 
-      const regions = await db.dbquery.searchRegions(
+      const regions = await db.default.dbquery.searchRegions(
         target,
         oncprimary,
         fractionation,

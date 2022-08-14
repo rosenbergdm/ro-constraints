@@ -8,7 +8,8 @@
 import 'express';
 
 import * as user from '../user';
-import * as passport from 'passport';
+import {default as passport} from 'passport';
+
 import {Strategy} from 'passport-local';
 
 export const users = [

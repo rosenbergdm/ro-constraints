@@ -1,15 +1,22 @@
 {
   "name": "roc-server",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "private": true,
+  "license": "GPL-3.0",
   "tsfiles": [
-    "src/index.ts",
+    "src/app.ts",
     "src/db/index.ts",
     "src/auth/index.ts",
     "src/utils/index.ts",
     "src/routes/index.ts",
     "src/user/index.ts"
   ],
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "avoid"
+  },
   "scripts": {
     "start": "node ./build/src/app.js",
     "prebuild": "mkdir -p ./build/src ./build/static ./build/templates && cp -Rf ./templates/* ./build/templates/ && cp -Rf ./static/* ./build/static/ && yarn formatcheck",
@@ -62,6 +69,7 @@
     "argon2": "^0.28.2",
     "bluebird": "^3.7.2",
     "bluefish": "^0.0.1-security",
+    "build": "^0.1.4",
     "cli": "^1.0.1",
     "cli-color": "^2.0.3",
     "commander": "^9.4.0",
@@ -73,7 +81,7 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.19",
     "nunjucks": "^3.2.3",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-json": "^1.2.0",
     "passport-local": "^1.0.0",
     "pg-promise": "^10.11.1",
