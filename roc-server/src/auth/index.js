@@ -42,97 +42,50 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 exports.__esModule = true;
-exports.users = exports.User = exports.promiseWithTimeout = void 0;
-// import * as passport from 'passport';
-// import {Strategy} from 'passport-local';
-var argon2 = require("argon2");
-var promiseWithTimeout = function (timeoutMs, 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-promise) {
-    var timeoutHandle;
-    var timeoutPromise = new Promise(function (_resolve, reject) {
-        timeoutHandle = setTimeout(function () { return reject(); }, timeoutMs);
-    });
-    return Promise.race([promise, timeoutPromise]).then(function (result) {
-        clearTimeout(timeoutHandle);
-        return result;
-    });
-};
-exports.promiseWithTimeout = promiseWithTimeout;
-var RoOptions = /** @class */ (function () {
-    function RoOptions() {
-        this.timeCost = 15;
-        this.memoryCost = 32768;
-        this.type = 2;
-        this.saltLength = 32;
-        this.raw = false;
-    }
-    return RoOptions;
-}());
-var User = /** @class */ (function () {
-    function User(username, password, hashed) {
-        this.hashedpw = Buffer.from('00000000000000000000000000000000');
-        this._tempval = true;
-        this._argon_opts = new RoOptions();
-        this.username = username;
-        if (hashed) {
-            this.setPassword(password, hashed);
-        }
-        else {
-            this.setPassword(password);
-        }
-    }
-    User.prototype.setPassword = function (password, hashed) {
-        return __awaiter(this, void 0, void 0, function () {
-            var _a, _b, _c;
-            return __generator(this, function (_d) {
-                switch (_d.label) {
-                    case 0:
-                        if (!hashed) return [3 /*break*/, 1];
-                        this.hashedpw = Buffer.from(password, 'utf8');
-                        return [3 /*break*/, 3];
-                    case 1:
-                        _a = this;
-                        _c = (_b = Buffer).from;
-                        return [4 /*yield*/, argon2.hash(password, this._argon_opts)];
-                    case 2:
-                        _a.hashedpw = _c.apply(_b, [_d.sent()]);
-                        _d.label = 3;
-                    case 3: return [2 /*return*/];
-                }
-            });
-        });
-    };
-    User.prototype.checkPassword = function (password, cb) {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0: return [4 /*yield*/, argon2.verify(this.hashedpw.toString('utf8'), password, this._argon_opts)];
-                    case 1:
-                        if (_a.sent()) {
-                            return [2 /*return*/, this.username];
-                        }
-                        else {
-                            if (cb) {
-                                cb(new Error('Password mismatch'));
-                                return [2 /*return*/];
-                            }
-                            else {
-                                return [2 /*return*/];
-                            }
-                        }
-                        return [2 /*return*/];
-                }
-            });
-        });
-    };
-    return User;
-}());
-exports.User = User;
+exports.passport = exports.users = void 0;
+require("express");
+var user = require("../user");
+var passport = require("passport");
+exports.passport = passport;
+var passport_local_1 = require("passport-local");
 exports.users = [
-    new User('dmr', 'dmr5669', false),
-    new User('test', 'dmr5669', false),
+    new user.User('dmr', 'dmr5669', false),
+    new user.User('test', 'dmr5669', false),
 ];
-// passport.use(new Strategy( (username, password, done) => {
-//   return done(null, "OK");
-// }));
+passport.use(new passport_local_1.Strategy(function (username, password, done) { return __awaiter(void 0, void 0, void 0, function () {
+    var authUser, match;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                authUser = user.User.findUser(username);
+                if (!authUser) {
+                    return [2 /*return*/, done(null, false, { message: 'User does not exist' })];
+                }
+                return [4 /*yield*/, authUser.checkPassword(password)];
+            case 1:
+                match = _a.sent();
+                if (match) {
+                    return [2 /*return*/, done(null, authUser)];
+                }
+                else {
+                    return [2 /*return*/, done(null, false, { message: 'Incorrect password' })];
+                }
+                return [2 /*return*/];
+        }
+    });
+}); }));
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+passport.serializeUser(function (u, cb) {
+    cb(null, u.username);
+});
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+passport.deserializeUser(function (username, done) { return __awaiter(void 0, void 0, void 0, function () {
+    var u;
+    return __generator(this, function (_a) {
+        u = user.User.findUser(username);
+        if (!u) {
+            return [2 /*return*/, done(new Error('User not found'))];
+        }
+        return [2 /*return*/, done(null, u)];
+    });
+}); });

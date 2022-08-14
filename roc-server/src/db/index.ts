@@ -6,14 +6,15 @@
  * @description : db
  */
 
-import pgPromise = require('pg-promise')
-import * as Bluebird from 'bluebird';
+import pgPromise = require('pg-promise');
+import 'bluebird';
 
-import { IDatabase, IMain, IInitOptions } from 'pg-promise';
+import {IDatabase, IMain, IInitOptions} from 'pg-promise';
 // export {dbg} from './../utils'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const Promise2 = Bluebird as any;
+// const Promise2 = Bluebird as any;
+// Promise = Bluebird.Promise
 
 type FRange = [number, '-', number];
 type FractionScheme = FRange | number;
@@ -43,14 +44,15 @@ class DbQueryInterface {
   // concat(fractions_min, '') || concat('-' || fractions_max, '')
 
   async getFractionations() {
-    const query = ('SELECT id, concat(description, ``) || ' +
+    const query =
+      'SELECT id, concat(description, ``) || ' +
       'concat(fractions_min, ``) || concat(`-`) || fractions_max, ``)' +
-      ' FROM fractionation ORDER BY id ASC');
+      ' FROM fractionation ORDER BY id ASC';
     return this.db.multi(query, []);
   }
 
   async getRegionNames() {
-    const query = 'SELECT id, name FROM target ORDER BY name ASC;'
+    const query = 'SELECT id, name FROM target ORDER BY name ASC;';
     return this.db.multi(query, []);
   }
   async searchRegions(
@@ -62,22 +64,15 @@ class DbQueryInterface {
   ) {
     let whereClause = 'WHERE region.id > 0 ';
     if (isDefined(target) && oncprimary !== null) {
-      whereClause += `AND target.name in ( ${
-        "'" + target.join("', '") + "'"
-      } ) `;
+      whereClause += `AND target.name in ( ${"'" + target.join("', '") + "'"} ) `;
     }
     if (isDefined(oncprimary) && oncprimary !== null) {
-      whereClause += `AND onctarget.name in ( ${
-        "'" + oncprimary.join(", '") + "'"
-      } ) `;
+      whereClause += `AND onctarget.name in ( ${"'" + oncprimary.join(", '") + "'"} ) `;
     }
     if (fractionation !== null) {
       if (fractionation.every((x: any) => typeof x === 'number')) {
         whereClause += `AND fractions_min in (${fractionation}) `;
-      } else if (
-        fractionation.length === 3 &&
-        typeof fractionation[1] === 'string'
-      ) {
+      } else if (fractionation.length === 3 && typeof fractionation[1] === 'string') {
         whereClause +=
           `AND fractions_min >= ${fractionation[0]} ` +
           ` and (fractions_max <= ${fractionation[2]} OR fractions_max is null) `;
@@ -88,14 +83,10 @@ class DbQueryInterface {
       }
     }
     if (intent !== null) {
-      whereClause += ` AND intent.description in ( ${
-        "'" + intent.join("', '") + "'"
-      } ) `;
+      whereClause += ` AND intent.description in ( ${"'" + intent.join("', '") + "'"} ) `;
     }
     if (importance !== null) {
-      whereClause += ` AND region.importance in ( ${
-        "'" + importance.join("', '") + "'"
-      } ) `;
+      whereClause += ` AND region.importance in ( ${"'" + importance.join("', '") + "'"} ) `;
     }
     const query = `
     SELECT
@@ -133,7 +124,7 @@ class DbQueryInterface {
 
 const initOptions: IInitOptions<IExtensions> = {
   extend(obj: ExtendedProtocol, dc: any) {
-    obj.promiseLib = Promise2;
+    // obj.promiseLib = Bluebird.Promise
     obj.dbquery = new DbQueryInterface(obj, pgp, {
       database: 'constraints',
       username: 'dmr',
@@ -146,4 +137,3 @@ const pgp = pgPromise(initOptions);
 // dbg('Database connected');
 
 export default pgp;
-

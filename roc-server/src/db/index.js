@@ -6,17 +6,6 @@
  * @created     : Wednesday Apr 07, 2021 13:37:35 EDT
  * @description : db
  */
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -54,14 +43,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 exports.__esModule = true;
-exports.db = exports.dbg = void 0;
 var pgPromise = require("pg-promise");
-var Bluebird = require("bluebird");
-var utils_1 = require("../utils");
-var utils_2 = require("../utils");
-__createBinding(exports, utils_2, "dbg");
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-var Promise2 = Bluebird;
 function isDefined(value) {
     return value !== undefined && value !== null;
 }
@@ -85,9 +67,9 @@ var DbQueryInterface = /** @class */ (function () {
         return __awaiter(this, void 0, void 0, function () {
             var query;
             return __generator(this, function (_a) {
-                query = ('SELECT id, concat(description, ``) || ' +
+                query = 'SELECT id, concat(description, ``) || ' +
                     'concat(fractions_min, ``) || concat(`-`) || fractions_max, ``)' +
-                    ' FROM fractionation ORDER BY id ASC');
+                    ' FROM fractionation ORDER BY id ASC';
                 return [2 /*return*/, this.db.multi(query, [])];
             });
         });
@@ -121,8 +103,7 @@ var DbQueryInterface = /** @class */ (function () {
                     if (fractionation.every(function (x) { return typeof x === 'number'; })) {
                         whereClause += "AND fractions_min in (".concat(fractionation, ") ");
                     }
-                    else if (fractionation.length === 3 &&
-                        typeof fractionation[1] === 'string') {
+                    else if (fractionation.length === 3 && typeof fractionation[1] === 'string') {
                         whereClause +=
                             "AND fractions_min >= ".concat(fractionation[0], " ") +
                                 " and (fractions_max <= ".concat(fractionation[2], " OR fractions_max is null) ");
@@ -153,7 +134,7 @@ var DbQueryInterface = /** @class */ (function () {
 }());
 var initOptions = {
     extend: function (obj, dc) {
-        obj.promiseLib = Promise2;
+        // obj.promiseLib = Bluebird.Promise
         obj.dbquery = new DbQueryInterface(obj, pgp, {
             database: 'constraints',
             username: 'dmr',
@@ -162,5 +143,5 @@ var initOptions = {
     }
 };
 var pgp = pgPromise(initOptions);
-(0, utils_1.dbg)('Database connected');
-exports.db = pgp;
+// dbg('Database connected');
+exports["default"] = pgp;

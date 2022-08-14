@@ -100,7 +100,7 @@ var User = /** @class */ (function () {
         }
         else {
             if (done) {
-                done(new Error("User identified by " + identifier + " not found"), null);
+                done(new Error("User identified by ".concat(identifier, " not found")), null);
             }
             return null;
         }

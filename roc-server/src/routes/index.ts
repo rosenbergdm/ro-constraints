@@ -7,7 +7,7 @@
 
 import * as express from 'express';
 
-import {db} from '../db';
+import * as db from '../db';
 import {dbg} from '../utils';
 import * as auth from '../auth';
 
