@@ -44,6 +44,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 exports.__esModule = true;
 var pgPromise = require("pg-promise");
+require("bluebird");
 function isDefined(value) {
     return value !== undefined && value !== null;
 }
@@ -144,4 +145,5 @@ var initOptions = {
 };
 var pgp = pgPromise(initOptions);
 // dbg('Database connected');
-exports["default"] = pgp;
+var db = pgp({ database: "constraints" });
+exports["default"] = db;

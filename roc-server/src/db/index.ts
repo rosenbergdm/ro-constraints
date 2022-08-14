@@ -136,4 +136,5 @@ const initOptions: IInitOptions<IExtensions> = {
 const pgp = pgPromise(initOptions);
 // dbg('Database connected');
 
-export default pgp;
+const db: ExtendedProtocol = pgp ({database: "constraints"})
+export default db
