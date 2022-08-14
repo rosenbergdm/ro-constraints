@@ -6,11 +6,11 @@
  * @description : db
  */
 
-import pgPromise from 'pg-promise';
+import pgPromise = require('pg-promise')
 import * as Bluebird from 'bluebird';
-import {IInitOptions, IDatabase, IMain} from 'pg-promise';
 
-import {dbg} from '../utils';
+import { IDatabase, IMain, IInitOptions } from 'pg-promise';
+// export {dbg} from './../utils'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Promise2 = Bluebird as any;
@@ -142,7 +142,8 @@ const initOptions: IInitOptions<IExtensions> = {
   },
 };
 
-const pgp: IMain = pgPromise(initOptions);
-dbg('Database connected');
+const pgp = pgPromise(initOptions);
+// dbg('Database connected');
 
-// export const db: ExtendedProtocol = pgp;
+export default pgp;
+

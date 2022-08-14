@@ -6,17 +6,6 @@
  * @created     : Wednesday Apr 07, 2021 13:37:35 EDT
  * @description : db
  */
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -54,12 +43,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 exports.__esModule = true;
-exports.db = exports.dbg = void 0;
+exports.db = void 0;
 var pgPromise = require("pg-promise");
 var Bluebird = require("bluebird");
 var utils_1 = require("../utils");
-var utils_2 = require("../utils");
-__createBinding(exports, utils_2, "dbg");
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 var Promise2 = Bluebird;
 function isDefined(value) {
