@@ -27,7 +27,7 @@ export const register = (app: express.Application) => {
 
   app.post(
     '/authTest',
-    auth.passport.authenticate('local', {session: false}),
+    auth.default.authenticate('local', {session: false}),
     (req: express.Request, res: express.Response) => {
       dbg(req.body);
       res.send('SUCCESSFUL AUTH');
@@ -36,7 +36,7 @@ export const register = (app: express.Application) => {
 
   app.get(
     '/authTest',
-    auth.passport.authenticate('local', {session: false}),
+    auth.default.authenticate('local', {session: false}),
     (req: express.Request, res: express.Response) => {
       dbg(req.body);
       res.send('SUCCESSFUL AUTH');

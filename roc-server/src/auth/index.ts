@@ -7,19 +7,19 @@
 
 import 'express';
 
-import * as user from '../user';
-import {default as passport} from 'passport';
+import {User} from './../user';
+import * as passport from 'passport';
 
 import {Strategy} from 'passport-local';
 
 export const users = [
-  new user.User('dmr', 'dmr5669', false),
-  new user.User('test', 'dmr5669', false),
+  new User('dmr', 'dmr5669', false),
+  new User('test', 'dmr5669', false),
 ];
 
 passport.use(
   new Strategy(async (username, password, done) => {
-    const authUser: user.User | null = user.User.findUser(username);
+    const authUser = User.findUser(username);
     if (!authUser) {
       return done(null, false, {message: 'User does not exist'});
     }
@@ -41,11 +41,11 @@ passport.serializeUser(
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 passport.deserializeUser(async (username: string, done: any) => {
-  const u: user.User = user.User.findUser(username);
+  const u: User = User.findUser(username);
   if (!u) {
     return done(new Error('User not found'));
   }
   return done(null, u);
 });
 
-export {passport};
+export default passport;

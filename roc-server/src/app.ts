@@ -42,7 +42,7 @@ dbg(
   )}`
 );
 
-app.use(auth.passport.initialize());
+app.use(auth.default.initialize());
 
 routes.register(app);
 
